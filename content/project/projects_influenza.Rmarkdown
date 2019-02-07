@@ -1,0 +1,24 @@
+---
+layout: page
+sidebar: right
+show_meta: false
+title: "Influenza research projects"
+permalink: "/projects_influenza/"
+---
+
+
+
+<div>
+	<img class="TextWrap" src="{{ site.url }}/images/projects/influenza.png">
+</div>
+
+<div>
+
+	We are interested in the dynamics of influenza, both on the within-host level and the between-host level. On the within-host level, we try to gain a better and more quantitative understanding as to what drives the infection dynamics and leads to virus clearance. On the between-host levels, we study the spread and potential control of the virus. Current specific projects we work on are:
+		<ul class="list">
+		<li>Persistence of avian influenza in the environment</li>
+		<li>Adaptive immune responses to influenza</li>
+		<li>Dose-dependent influenza infection outcomes</li>
+		</ul>
+
+</div>

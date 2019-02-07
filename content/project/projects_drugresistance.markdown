@@ -1,0 +1,17 @@
+---
+layout: page
+sidebar: right
+show_meta: false
+title: "Drug treatment and resistance research projects"
+permalink: "/projects_drugresistance/"
+---
+
+
+<div>
+	<img class="TextWrap" src="{{ site.url }}/images/projects/drugresistance.png">
+</div>
+<div>
+	We are interested in the impact of drug treatment on infection outcomes. We currently work on a project to better understand the dynamics of drug treatment during TB infections of individual patients.<br>
+	In another project, we are studying the population-level impact of anti-influenza drugs such as tamiflu.
+
+</div>

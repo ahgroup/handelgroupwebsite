@@ -49,8 +49,8 @@ email = ""
 
 
 [header]
-  image = "headerimage.png"
-  caption = "Handel Research Group Logo"
+  image = "coffeecuplogo.png"
+  caption = "Logo"
 
 +++
 

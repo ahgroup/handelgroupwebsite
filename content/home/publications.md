@@ -24,13 +24,15 @@ list_format = 4
 
 # Filter by publication type.
 # -1: Any
-#  0: Uncategorized
-#  1: Conference proceedings
-#  2: Journal
-#  3: Work in progress
-#  4: Technical report
-#  5: Book
-#  6: Book chapter
+#  0: Influenza
+#  1: Tuberculosis
+#  2: Norovirus
+#  3: Drugs and Vaccines
+#  4: Multi-scale Modeling
+#  5: Evolutionary Dynamics
+#  6: Immunology
+#  7: Epidemiological Control
+#  8: Other topics
 publication_type = "-1"
 
 # Exclude publications that are shown in the Featured Publications widget?
