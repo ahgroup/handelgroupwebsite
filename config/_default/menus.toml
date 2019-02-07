@@ -1,0 +1,153 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[main]]
+    name = "People"
+    identifier = "people"
+    url = "/pages/people/"
+    weight = 2
+
+[[main]]
+    name = "Current Members"
+    parent = "people"
+    url = "/pages/currentmembers/"
+    weight = 1
+
+[[main]]
+    name = "Former Members"
+    parent = "people"
+    url = "/pages/formermembers/"
+    weight = 2
+
+[[main]]
+    name = "Current Projects"
+    identifier = "projects"
+    url = "/pages/projects/"
+    weight = 3
+
+[[main]]
+    name = "Influenza"
+    parent = "projects"
+    url = "/pages/projects_influenza/"
+    weight = 1
+
+[[main]]
+    name = "Tuberculosis"
+    parent = "projects"
+    url = "/pages/projects_tuberculosis/"
+    weight = 2
+
+[[main]]
+    name = "Norovirus"
+    parent = "projects"
+    url = "/pages/projects_norovirus/"
+    weight = 3
+
+[[main]]
+    name = "Immunology"
+    parent = "projects"
+    url = "/pages/projects_immunology/"
+    weight = 4
+
+[[main]]
+    name = "Multi-scale Analysis"
+    parent = "projects"
+    url = "/pages/projects_multiscale/"
+    weight = 5
+
+[[main]]
+    name = "Drug Treatment and Resistance"
+    parent = "projects"
+    url = "/pages/projects_drugresistance/"
+    weight = 6
+
+[[main]]
+    name = "Publications"
+    identifier = "publications"
+    url = "/pages/publications/"
+    weight = 4
+
+[[main]]
+    name = "Influenza"
+    parent = "publications"
+    url = "/pages/publications_influenza/"
+    weight = 1
+
+[[main]]
+    name = "Tuberculosis"
+    parent = "publications"
+    url = "/pages/publications_tuberculosis/"
+    weight = 2
+
+[[main]]
+    name = "Norovirus"
+    parent = "publications"
+    url = "/pages/publications_norovirus/"
+    weight = 3
+
+[[main]]
+    name = "Drug resistance"
+    parent = "publications"
+    url = "/pages/publications_drugs/"
+    weight = 4
+
+[[main]]
+    name = "Multi-scale modeling"
+    parent = "publications"
+    url = "/pages/publications_multiscale/"
+    weight = 5
+
+[[main]]
+    name = "Evolutionary dynamics"
+    parent = "publications"
+    url = "/pages/publications_evolution/"
+    weight = 6
+
+[[main]]
+    name = "Immune system analysis"
+    parent = "publications"
+    url = "/pages/publications_control/"
+    weight = 7
+
+[[main]]
+    name = "Epidemiological control"
+    parent = "publications"
+    url = "/pages/publications_other/"
+    weight = 8
+
+[[main]]
+    name = "Other topics"
+    parent = "publications"
+    url = "/pages/publications_norovirus/"
+    weight = 9
+
+[[main]]
+    name = "Resources"
+    identifier = "resources"
+    url = "/pages/resources/"
+    weight = 5
+
+[[main]]
+    name = "Opportunities"
+    url = "/pages/opportunities/"
+    weight = 6
+
+[[main]]
+    name = "Affiliations"
+    url = "/pages/affiliations/"
+    weight = 7
+
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# [[main]]
+#    name = "CV"
+#    url = "files/cv.pdf"
+#    weight = 7

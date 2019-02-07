@@ -1,0 +1,19 @@
+---
+layout: page
+sidebar: right
+show_meta: false
+title: "Tuberculosis research projects"
+permalink: "/projects_tuberculosis/"
+---
+
+
+<div>
+	<img class="TextWrap" src="{{ site.url }}/images/projects/tuberculosis.png">
+</div>
+
+<div>
+	
+	In collaboration with our departmental colleague Chris Whalen, we use a combination of mathematical models and data to better understand the spread of and potential interventions against tuberculosis, with a focus on African settings. <br>
+	We are also working on a model to better understand the dynamics of drug treatment during TB infections of individual patients.
+
+</div>

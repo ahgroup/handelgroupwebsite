@@ -1,0 +1,17 @@
+---
+layout: page
+sidebar: right
+show_meta: false
+title: "Norovirus research projects"
+permalink: "/projects_norovirus/"
+---
+
+
+<div>
+	<img class="TextWrap" src="{{ site.url }}/images/projects/noroviurs.png">
+</div>
+
+<div>
+	Together with collaborators at Emory and Duke University and elsewhere, we are working on better understanding aspects of norovirus within-host and epidemiological dynamics and potential control.
+	Currently, we are collaborating with Dr. Lopman and his group at the Emory and Dr. Koelle and her group at Duke to study the potential impact of a future norovirus vaccine.
+</div>
