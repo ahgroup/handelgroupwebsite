@@ -23,8 +23,6 @@ user_groups = ["Current Members"]
 # Short bio (displayed in user profile at end of posts)
 bio = ""
 
-interests = [
-]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]

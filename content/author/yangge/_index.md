@@ -29,4 +29,5 @@ bio = ""
 
 +++
 
-Research Projects: Norovirus Infections
+* Time in group: 2018 - present
+* Research Projects: Norovirus Infections

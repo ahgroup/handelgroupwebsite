@@ -31,4 +31,5 @@ bio = ""
 
 +++
 
-Research Projects: Influenza Epidemiology
+* Time in group: 2018 - present
+* Research Projects: Influenza Epidemiology
