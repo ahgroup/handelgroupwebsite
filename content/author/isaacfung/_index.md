@@ -18,7 +18,7 @@ user_groups = ["Former Members"]
 
 [[social]]
   icon = "globe"
-  icon_pack = "fab"
+  icon_pack = "fas"
   link = "https://sites.google.com/a/georgiasouthern.edu/fung/"
 
 
