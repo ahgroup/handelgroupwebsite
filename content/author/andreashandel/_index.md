@@ -59,11 +59,16 @@ bio = ""
   icon_pack = "fab"
   link = "https://twitter.com/andreashandel"
 
-
 [[social]]
   icon = "github"
   icon_pack = "fab"
   link = "https://github.com/andreashandel"
+
+[[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "www.linkedin.com/in/andreashandel"
+
 
 +++
 
