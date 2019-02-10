@@ -12,7 +12,7 @@ subtitle = ""
 weight = 50
 
 # Number of publications to list.
-count = 10
+count = 5
 
 # List format.
 # see here: https://sourcethemes.com/academic/updates/v4.0.0/
