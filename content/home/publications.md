@@ -3,7 +3,7 @@
 # This widget displays recent publications from `content/publication/`.
 widget = "publications"
 active = true
-date = 2016-04-20T00:00:00
+date = 2019-02-10
 
 title = "Recent Publications"
 subtitle = ""
@@ -12,7 +12,7 @@ subtitle = ""
 weight = 50
 
 # Number of publications to list.
-count = 5
+count = 3
 
 # List format.
 # see here: https://sourcethemes.com/academic/updates/v4.0.0/
@@ -27,11 +27,11 @@ view = 2
 #  4: Multi-scale Modeling
 #  5: Evolutionary Dynamics
 #  6: Immunology
-#  7: Epidemiological Control
-#  8: Other topics
+#  7: Epidemiology
+#  8: Software Development
+#  9: Other topics
 publication_type = "-1"
 
 # Exclude publications that are shown in the Featured Publications widget?
 exclude_featured = false
 +++
-

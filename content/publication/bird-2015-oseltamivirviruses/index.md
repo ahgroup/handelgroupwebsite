@@ -2,7 +2,7 @@
 title = "Oseltamivir Prophylaxis Reduces Inflammation and Facilitates Establishment of Cross-Strain Protective T Cell Memory to Influenza Viruses"
 date = 2015-06-01
 authors = ["NL Bird", "MR Olson", "AC Hurt", "CM Oshansky", "DY Oh", "PC Reading", "BY Chua", "Y Sun", "L Tang", "A Handel", "DC Jackson", "SJ Turner", "PG Thomas", "K Kedzierska"]
-publication_types = ["2"]
+publication_types = ["0","6"]
 abstract = ""
 featured = false
 publication = "*PLOS ONE*"
