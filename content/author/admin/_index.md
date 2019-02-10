@@ -1,23 +1,9 @@
 +++
 # Display name
-name = "Handel research group"
+name = ""
 
 # Is this the primary user of the site?
 superuser = true
-
-# Role/position
-role = ""
-
-# Organizations/Affiliations
-#   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "University of Georgia", url = "www.uga.edu" } ]
-
-# Short bio (displayed in user profile at end of posts)
-bio = ""
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email = ""
-
 
 # Social/Academic Networking
 #
@@ -36,21 +22,6 @@ email = ""
 #   cv, google-scholar, arxiv, orcid, researchgate, mendeley
 #
 #   Full list: https://jpswalsh.github.io/academicons/
-
-[[social]]
-  icon = "envelope"
-  icon_pack = "fas"
-  link = "#contact"  # For a direct email link, use "mailto:ahandel@uga.edu".
-
-[[social]]
-  icon = "github"
-  icon_pack = "fab"
-  link = "https://github.com/ahgroup"
-
-
-[header]
-  image = "coffeecuplogo.png"
-  caption = "Logo"
 
 +++
 

@@ -4,7 +4,7 @@ widget = "projects"
 active = true
 date = 2019-02-05
 
-title = "Current Projects"
+title = "Projects"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -16,9 +16,8 @@ weight = 50
 folder = "project"
 
 # View.
-# Customize how projects are displayed.
-# Legend: 0 = list, 1 = cards, 2 = showcase.
-view = 1
+# see here: https://sourcethemes.com/academic/updates/v4.0.0/
+view = 3
 
 # Widget layout
 # Legend: 0 = two columns (default), 1 = single column

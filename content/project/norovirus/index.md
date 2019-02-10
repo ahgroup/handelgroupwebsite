@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "Norovirus Modeling"
+title = "Norovirus Research"
 
 # Date this page was created.
 date = 2019-02-07

@@ -11,53 +11,40 @@
 [[main]]
     name = "People"
     identifier = "people"
-    url = "/pages/people/"
-    weight = 2
+    url = "#people"
+    weight = 45
 
 [[main]]
-    name = "Current Members"
-    parent = "people"
-    url = "/pages/currentmembers/"
-    weight = 1
-
-[[main]]
-    name = "Former Members"
-    parent = "people"
-    url = "/pages/formermembers/"
-    weight = 2
-
-[[main]]
-    name = "Current Projects"
+    name = "Projects"
     identifier = "projects"
     url = "#projects"
-    weight = 3
+    weight = 30
 
 [[main]]
     name = "Publications"
     identifier = "publications"
     url = "#publications"
-    weight = 4
+    weight = 40
+
+[[main]]
+    name = "News"
+    identifier = "posts"
+    url = "#posts"
+    weight = 10
 
 [[main]]
     name = "Resources"
     identifier = "resources"
     url = "/pages/resources/"
-    weight = 5
+    weight = 60
 
 [[main]]
     name = "Opportunities"
     url = "/pages/opportunities/"
-    weight = 6
+    weight = 70
 
 [[main]]
     name = "Affiliations"
     url = "/pages/affiliations/"
-    weight = 7
+    weight = 80
 
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 7
