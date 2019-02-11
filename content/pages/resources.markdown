@@ -2,168 +2,80 @@
 layout: page
 title:  "Resources"
 summary: "Various research and teaching resources"
-breadcrumb: true
 permalink: "/resources/"
 show_meta: false
+date: 2019-02-10
 ---
 
-<style>
-    p {
-        text-align: justify;
-    } 
-</style>
+### Research Resources
 
-This is a collection of programs, scripts and descriptions to produce results in various publications. You can get 
-the publications from the publication section of this webpage. Some of the code is relatively well documented, some 
-isn't. Feel free to use and modify the programs any way you want. If you need help understanding certain programs, I 
+This is a collection of programs, scripts and descriptions to produce results in various publications. You can get the publications from the publication section of this webpage. Some of the code is relatively well documented, some isn't. Feel free to use and modify the programs any way you want. If you need help understanding certain programs, I 
 will try to help. But my time is limited, and for a lot of the old programs, I might not even remember anymore what 
 exactly I did. That's especially true for anything Matlab or Fortran since I haven't used either in years.
 
-<hr/>
 
-[TB Superspreader analysis]({{ site.url }}/files/software/Superspreader_Code.zip) - A file containing the R code performing analysis of various 
-datasets looking for signatures of superspreading/supercoughing in TB patients. The manuscript describing this work is currently under review."
+[TB Superspreader analysis](/files/software/Superspreader_Code.zip) - A file containing the R code performing analysis of various 
+datasets looking for signatures of superspreading/supercoughing in TB patients. The manuscript describing this work is currently under review.
 
 
-<hr/>
+[TB-MAC UGA Model](/files/software/TB_MAC_UGA.zip) - A file containing the R code and description of the model that was used by us to produce the results described in a multi-model project on TB intervention analysis. 
+The results are described in Houben et al. [(2016) Lancet Global Health](/files/publications/houben16lancetgh.pdf).
 
-[TB-MAC UGA Model]({{ site.url }}/files/software/TB_MAC_UGA.zip) - A file containing the R code and description of 
-the model that was used by us to produce the results described in a multi-model project on TB intervention analysis. 
-The results are described in Houben et al. [(2016) Lancet Global Health]({{ site.url }}/files/publications/houben16lancetgh.pdf)."
 
-<hr/>
+[TB Persistence](/files/software/TBpersistenceCode.zip) - A collection of R scripts to run the simulations described in our 2014 PLoS One publication ["Modeling the potential impact of host population survival on 
+the evolution of M. tuberculosis latency."](/files/publications/zheng14plosone.pdf)
 
-[TB Persistence]({{ site.url }}/files/software/TBpersistenceCode.zip) - A collection of R scripts to run the 
-simulations described in our 2014 PLoS One publication ["Modeling the potential impact of host population survival on 
-the evolution of M. tuberculosis latency."]({{ site.url }}/files/publications/zheng14plosone.pdf)
+[Avian flu](/files/software/AIVstudy.zip) - a collection of R scripts and accompanying data to do the 
+various analyses described in Handel et al. [(2013) PLoS Comp Bio](/files/publications/handel13ploscompbio.pdf).
 
-<hr/>
-
-[script1.r]({{ site.url }}/files/software/script1.r), [script2.r]({{ site.url }}/files/software/script2.r), 
-[script3.r]({{ site.url }}/files/software/script3.r), [script4.r]({{ site.url }}/files/software/script4.r), 
-[script5.r]({{ site.url }}/files/software/script5.r), [decaydata.csv]({{ site.url }}/files/software/decaydata.csv), 
-[duckdata.csv]({{ site.url }}/files/software/duckdata.csv) - A collection of R scripts and accompanying data to do the 
-various analyses described in Handel et al. [(2013) PLoS Comp Bio]({{ site.url }}/files/publications/handel13ploscompbio.pdf).
-
-<hr/>
-
-[resimmcode.m]({{ site.url }}/files/software/resimmcode.m) - A short Matlab program that simulates the dynamics 
+[resimmcode.m](/files/software/resimmcode.m) - A short Matlab program that simulates the dynamics 
 of bacteria and drugs during emergence of resistance. A version of this code was used in 
-[Handel et al. (2009) JTB]({{ site.url }}/files/publications/handel09jtb2.pdf).
+[Handel et al. (2009) JTB](/files/publications/handel09jtb2.pdf).
 
-<hr/>
+[gapjunction.nlogo](/files/software/gapjunction.nlogo) - An agent-based simulation, written for the freely available [Netlogo platform](http://ccl.northwestern.edu/netlogo/). The code simulates gap junction mediated antigen transport during the local spread of virus and clearance by CTL. The simulation is described and used in 
+[Handel et al. 2009 JRSI](/files/publications/handel09jrsi.pdf).
 
-[gapjunction.nlogo]({{ site.url }}/files/software/gapjunction.nlogo) - An agent-based simulation, written for the 
-freely available [Netlogo platform](http://ccl.northwestern.edu/netlogo/). The code simulates gap junction mediated 
-antigen transport during the local spread of virus and clearance by CTL. The simulation is described and used in 
-[Handel et al. 2009 JRSI]({{ site.url }}/files/publications/handel09jrsi.pdf).
+[populationmodel.m](/files/software/populationmodel.m) - A Matlab program that simulates the evolution of a bacterial population in repeated exponential growth and serial dilution cycles. A version of this code was used in [Handel and Rozen 2009 BMC Evo Bio](/files/publications/handel09bmcevolbio.pdf). Note that this uses the [lightspeed collection of Matlab functions](https://github.com/tminka/lightspeed).
 
-<hr/>
 
-[populationmodel.m]({{ site.url }}/files/software/populationmodel.m) - A Matlab program that simulates the evolution 
-of a bacterial population in repeated exponential growth and serial dilution cycles. A version of this code was used in 
-[Handel and Rozen 2009 BMC Evo Bio]({{ site.url }}/files/publications/handel09bmcevolbio.pdf). Note that to run the 
-program, you will need to also install the freely available 
-[lightspeed collection of Matlab functions](http://research.microsoft.com/~minka/software/lightspeed/).
-
-<hr/>
-
-[compensatorymutation.m]({{ site.url }}/files/software/compensatorymutation.m), 
-[SIS3strainsteady_prob.f90]({{ site.url }}/files/software/SIS3strainsteady_prob.f90), 
-[SIS3strainsteady_time.f90]({{ site.url }}/files/software/SIS3strainsteady_time.f90) - (sparsely documented) Matlab 
-and Fortran programs to simulate the evolution and spread of drug resistance through compensatory mutations. Details 
+[Compensatory Mutations](/files/software/compensatorymutation.zip) - (sparsely documented) Matlab and Fortran programs to simulate the evolution and spread of drug resistance through compensatory mutations. Details 
 about the mathematical model can be found in 
-[Handel et al (2006) PLoS Comp Bio]({{ site.url }}/files/publications/handel06ploscomp.pdf).
-
-<hr/>
+[Handel et al (2006) PLoS Comp Bio](/files/publications/handel06ploscomp.pdf).
 
 
-<style>
-    p {
-        text-align: justify;
-    } 
-</style>
+### Teaching Resources
+
 
 I use the materials in this section for several of the classes and workshops I teach. You are of course free to use 
 them independently from any of my courses.
 
-***
+[__DSAIDE__](https://ahgroup.github.io/DSAIDE/) - Dynamical Systems Approaches to Infectious Disease Epidemiology. This is an R package containing multiple Infectious Disease Epidemiology models that the user/student can run through a graphical user interface. 
 
-__DSAIDE__ - Dynamical Systems Approaches to Infectious Disease Epidemiology. This is an R package containing multiple Infectious Disease Epidemiology models that the user/student can run through a graphical user interface. The package currently lives on github, [you can find it here](https://github.com/ahgroup/DSAIDE).
 
-***
+[__DSAIRM__](https://ahgroup.github.io/DSAIRM/) - Dynamical Systems Approach to Immune Response Modeling. This R package consists of a set of simulations (refered to here as apps) that teach within-host infection dynamics and immune response modeling from a dynamical system perspective. By manipulating the models through a graphical (Shiny) user interface and working through the provided instructions, you can learn about some important concepts of within-host and immmune response modeling.
 
-[YaRI]({{ site.url }}/files/software/yari.pdf) = Yet another R Introduction - I always wanted to give something 
-[a name like that](http://en.wikipedia.org/wiki/Yet_another)! This is a short introduction to R that I compiled and 
-use for various courses I teach that are based on R. The R-scripts 
-[yariexample1.r]({{ site.url }}/files/software/yariexample1.r) and [yariexample2.r]({{ site.url }}/files/software/yariexample2.r) 
-are also needed if you want to work through the whole tutorial. And if you want to mix your own tutorial, here is the 
-[source code]({{ site.url }}/files/software/yari.tex). (While I don't insist on it, it would be nice if you shared your 
-remix with me and the rest of the world.)
 
-_Note 1:_ I have solutions to all exercises in YaRI. If you can give me a valid reason why you should be allowed to have these files, email me and I'll send them. If you are one of my students who has been assigned the YaRI exercises as homework, you'll have to wait to get the solutions until after the homework deadline :) 
+[YaRI](/files/software/yari.zip) = Yet another R Introduction - I always wanted to give something 
+[a name like that](http://en.wikipedia.org/wiki/Yet_another)! This is a short introduction to R that I compiled and used for various courses I teach that are based on R. I wrote the YaRI tutorial several years ago. Since then, a lot of good R tutorials and teaching resources have become available. At this point, I don't use YaRI much in my teaching anymore. The 2 I currently use and recommend  are [Datacamp](https://www.datacamp.com) and the [Swirl R Package](http://swirlstats.com/). Datacamp is more polished, feature rich and overall nicer, but requires you to pay a monthly fee to get full access (some content is free). Swirl is completely free. For further links to R (and other) resources, see the compilation of github lists mentioned below.
 
-_Note 2:_ I wrote the YaRI tutorial several years ago. Since then, a lot of good R tutorials and teaching resources have become available. The 2 I currently recommend you look at first are [Datacamp](https://www.datacamp.com) and the [Swirl R Package](http://swirlstats.com/). Datacamp is more polished, feature rich and overall nicer, but requires you to pay a monthly fee to get full access (some content is free). Swirl is completely free. For further links to R (and other) resources, see the compilation of github lists mentioned below.
+[Lists with further resources, pertaining to learning R, Data Analysis, and other topics.](https://github.com/ahgroup/research-and-teaching-resource-lists) - I maintain a compilation of links and bits of information related to my research and teaching on Github. Mainly as a quick look-up and reminder for myself, though others might find it useful too.
 
-***
 
-[I maintain a compilation of lists with further resources, pertaining to learning R, Data Analysis, and other topics on github.](https://github.com/ahgroup/research-and-teaching-resource-lists)
+### Group Tools
 
-***
-
-This set of papers is useful introductory reading material to start learning about infectious disease modeling: [IDpapers.zip]({{ site.url }}/files/software/IDpapers.zip).
-
-***
-
-<style>
-    p {
-        text-align: justify;
-    } 
-</style>
 
 This section is mainly intended for potential group members so they know what they might be getting themselves into. If others profit from some of the information, even better.
 
-__Computation/Simulation software__
 
-<hr/>
+Our current programming environment of choice is the free and Open Source software [R](https://www.r-project.org/). We use it for almost all of our projects. While not required, using R through [R Studio](https://www.rstudio.com/) makes working in R more user/beginner friendly. R Studio is also free. Almost all of our current writing is also done in the R ecosystem using Rmarkdown/bookdown/blogdown, etc.
 
-Our current programming environment of choice is the free and Open Source software [R](https://www.r-project.org/). We use it for almost all of our projects. An R tutorial can be found [on our teaching resources page]({{ site.url }}/resources_teaching/). While not required, using R through [R Studio](https://www.rstudio.com/) makes working in R more user/beginner friendly. R Studio is also free.
-
-<hr/>
-
-Some of our research involves spatially explicit, agent based simulations. We currently write those simulations in NetLogo, a free agent based simulation platform. [Netlogo](http://ccl.northwestern.edu/netlogo/) is very easy to program, and quite powerful and flexible. Speed is not great, but decent.
-
-<hr/>
+In the past, we have used [Netlogo](http://ccl.northwestern.edu/netlogo/), a free agent based simulation platform, for both teaching and research. It is fairly easy to program, has lots of examples and is quite flexible. The main disadvantage is that it's not that fast.
 
 Sometimes we need to do a bit of analytics. While [Mathematica](http://www.wolfram.com/products/mathematica/index.html) and [Maple](http://www.maplesoft.com/) are the two main programs for analytical calculations, they are expensive. We have found that for our purpose, the freely available [Maxima](http://maxima.sourceforge.net/) suffices.
 
-<hr/>
-
-__Writing/Presentation software__
-
-If you need to write articles with equations, properly embedded figures and tables, etc., word processors such as MS Word are not too great. Use [LaTeX](http://www.latex-project.org/) instead. It usually comes pre-installed with most Linux distributions, a very good [Windows implementation](http://miktex.org/) also exists. LaTeX needs getting used to. Instead of writing in a visual style, you write commands that tell the program what to do. But once you figured it out, it's easy and fast.
-
-<hr/>
-
-You will also want a good reference manager. LaTeX uses [BibTeX](http://www.bibtex.org/). A bibtex file is basically one long text file that contains all your references. A number of programs allow you to easily manage that file. A good open-source/cross-platform reference manager is [JabRef](http://jabref.sourceforge.net/). It has a nice GUI, can automatically import references from places such as PubMed, you can do fulltext search, etc. It runs on any machine that has Java installed. We also use [Zotero](http://www.zotero.org/) and [Mendeley](https//www.mendeley.com/), both of which have functionality beyond that provided by JabRef.
-
-<hr/>
-
-Another good way of writing quick reports is using Markdown. It's nicely integrated with R through R Studio's R Markdown extension. One can quickly produce good looking results. The nice thing is that one can convert it through pandoc into many useful formats, such as HTML, LaTeX or Word. Check out [R Studio's R Markdown introduction](http://rmarkdown.rstudio.com/) to learn more. 
-
-<hr/>
+We do all our reference management using the BibTeX format with either [JabRef](http://jabref.sourceforge.net/) or [Zotero](http://www.zotero.org/) as front end reference manager. Both are free.
 
 
-__Other useful tools__
-
-Sometimes you don't want big brother and others to see your data. That applies to personal data, as well as potentially sensitive public health data. You can use [GnuPG](http://www.gnupg.org/) to encrypt files/emails and [VeraCrypt](https://veracrypt.codeplex.com/) for things like flashdrives or hard disk partitions. To securely transfer files between computers over the internet, use ssh/scp. It's pre-installed on Linux, [WinSCP](http://winscp.net/eng/index.php) is good for Windows machines.
-
-<hr/>
-
-If you need to regularly synchronzie files between different machines, [Dropbox](https://www.dropbox.com/), [Google Drive](https://drive.google.com/) or similar services are very useful. Dropbox even works nicely with large files, such as encrypted VeraCrypt containers.
-
-<hr/>
+If you need to regularly synchronzie files between different machines, [Dropbox](https://www.dropbox.com/), is very useful. Dropbox even works nicely with large files, such as encrypted [VeraCrypt](https://www.veracrypt.fr/) containers. For more structured work and syncing between computers and users, [Github](https://github.com) is our preferred mode of work.
 
 If you can get people to send you their data, great! But often, that fails, even if the data is already published. A great tool to extract data from figures is the free program [Engauge Digitizer](http://digitizer.sourceforge.net/). The program [Data Thief](http://www.datathief.org/) provides similar functionality.
-
-<hr/>

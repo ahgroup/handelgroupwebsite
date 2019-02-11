@@ -1,36 +1,25 @@
 ---
 layout: page
-sidebar: right
 show_meta: false
 permalink: "/funding/"
+sidebar: right
+date: 2019-02-10
 ---
 
-<style type="text/css">
-    p {
-        text-align: justify;
-    }
- 
-    a {
-        text-decoration: none;
-    } 
-</style>
-
-<br/>
 
 ### FUNDING SOURCES###
 
 Sometimes I have funding for students and postdocs, sometimes I don't. In either case, it is very useful for you to apply for your own funding. Getting a good grant or fellowship looks very good on your CV. It also gives you more flexibility and security. 
 Below is a list of external funding sources for students and postdocs. Entries are listed in no particular order. This list is by no means complete, if you know of any good sources I omitted, or if you find outdated information, please let me know.
 
-<hr/>
 
-### Undergraduate Funding###
+### Undergraduate Funding
 
 [UGA's Center for Undergraduate Research Opportunities](https://curo.uga.edu/)
 
-<hr/>
 
-### Graduate Funding###
+
+### Graduate Funding
 
 [A rather comprehensive list of different fellowships available for graduate students](http://www.gradschools.com/Article/Graduate-Fellowships/1676.html)
 
@@ -52,9 +41,9 @@ Below is a list of external funding sources for students and postdocs. Entries a
 
 [Big list of links hosted by UC Berkeley](http://grad.berkeley.edu/financial/fellowships_resources.shtml)
 
-<hr/>
 
-### Postdoctoral Funding###
+
+### Postdoctoral Funding
 
 [NSF Postdoctoral Research Fellowships in Biology](http://www.nsf.gov/pubs/2009/nsf09573/nsf09573.htm) (US citizens/residents)
 
@@ -74,9 +63,8 @@ Below is a list of external funding sources for students and postdocs. Entries a
 
 [A long list of opportunities listed hosted by UC Berkeley](http://www.spo.berkeley.edu/fund/biopostdoc.html)
 
-<hr/>
 
-### Student and Postdoctoral Funding Opportunities###
+### Student and Postdoctoral Funding Opportunities
 
 [NIH Training Awards (F31, F32, etc.)](http://grants.nih.gov/training/nrsa.htm) (most are US citizens/residents only)
 
