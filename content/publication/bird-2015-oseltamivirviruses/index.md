@@ -6,7 +6,7 @@ publication_types = ["0","6"]
 abstract = ""
 featured = false
 publication = "*PLOS ONE*"
-url_pdf = "http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=PARTNER_APP&SrcAuth=LinksAMR&KeyUT=WOS:000356567500061&DestLinkType=FullRecord&DestApp=ALL_WOS&UsrCustomerID=bccb20a1f2d949998a887c45eb30dd98"
+url_pdf = "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0129768"
 doi = "10.1371/journal.pone.0129768"
 +++
 

@@ -6,7 +6,7 @@ publication_types = ["0"]
 abstract = ""
 featured = false
 publication = "*BMC PUBLIC HEALTH*"
-url_pdf = "http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=PARTNER_APP&SrcAuth=LinksAMR&KeyUT=WOS:000290279700007&DestLinkType=FullRecord&DestApp=ALL_WOS&UsrCustomerID=bccb20a1f2d949998a887c45eb30dd98"
+url_pdf = "https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-11-S1-S7"
 doi = "10.1186/1471-2458-11-S1-S7"
 +++
 

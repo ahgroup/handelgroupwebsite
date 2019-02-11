@@ -16,7 +16,7 @@ count = 3
 
 # List format.
 # see here: https://sourcethemes.com/academic/updates/v4.0.0/
-view = 2
+view = 4
 
 # Filter by publication type.
 # -1: Any
