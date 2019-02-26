@@ -3,7 +3,7 @@
 title = "Immunology Research"
 
 # Date this page was created.
-date = 2019-02-07
+date = 2019-02-02
 
 # Project summary to display on homepage.
 summary = "Analysis and modeling of the immune response following infection."
