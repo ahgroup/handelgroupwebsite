@@ -12,12 +12,10 @@ superuser = false
 role = "PhD Student"
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups = ["Current Members"]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
-
 
 [[social]]
   icon = "github"
@@ -29,9 +27,7 @@ bio = ""
   icon_pack = "fab"
   link = "https://twitter.com/racemercaldo"
 
-
-
 +++
 
 * Time in group: 2018 - present
-* Research Projects: Tuberculosis 
+* Research Projects: Tuberculosis
