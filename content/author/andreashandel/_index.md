@@ -79,7 +79,7 @@ I am currently an Associate Professor in the [Department of Epidemiology and Bio
 I also have adjunct appointments in UGA's [Department of Infectious Diseases in the College of Veterinary Medicine](http://www.vet.uga.edu/id/people)
 and in the [Department of Epidemiology, Rollins School of Public Health](http://sph.emory.edu/faculty/profile/# AHANDEL) 
 at Emory University. I am a Member of UGA's [Institute of Bioinformatics](http://iob.uga.edu/faculty/) and 
-[Faculty of Infectious Diseases](https://fid.ovpr.uga.edu/umdf/?c=directory).
+[Faculty of Infectious Diseases](https://fid.uga.edu).
 
 Before joining UGA, I was a Postdoctoral Fellow in the [Department of Biology](http://www.emory.edu/BIOLOGY/) 
 at [Emory University](http://www.emory.edu/) in the group of [Rustom Antia](http://www.biology.emory.edu/Antia/). 
@@ -92,8 +92,7 @@ I obtained a Ph.D. in physics from the [Center for Nonlinear Science](http://cns
 I worked with [Roman Grigoriev](http://www.cns.gatech.edu/~roman/) on the topic of localized control of spatially 
 extended, nonlinear dynamical systems. My research combined elements from [fluid mechanics](http://en.wikipedia.org/wiki/Fluid_mechanics), 
 [applied mathematics](http://en.wikipedia.org/wiki/Applied_mathematics), [dynamical systems theory](http://en.wikipedia.org/wiki/Dynamical_system) 
-and [control theory](http://en.wikipedia.org/wiki/Control_theory). If you want to learn more, you can read the introduction of 
-[my thesis](http://handelgroup.uga.edu/publications/handel04thesis.pdf), which should be understandable to non-experts.
+and [control theory](http://en.wikipedia.org/wiki/Control_theory). 
 
 I received my B.S. (or what could be considered the German equivalent) from the [Department of Physics](http://www.physik.uni-stuttgart.de/index.en.html), 
 [University of Stuttgart](http://www.uni-stuttgart.de/en/) in Germany. My focus areas were 
