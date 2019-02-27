@@ -67,7 +67,7 @@ bio = ""
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "www.linkedin.com/in/andreashandel"
+  link = "https://www.linkedin.com/in/andreashandel/"
 
 
 +++
