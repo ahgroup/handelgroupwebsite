@@ -47,11 +47,7 @@ Below is a list of external funding sources for students and postdocs. Entries a
 
 [NSF Postdoctoral Research Fellowships in Biology](http://www.nsf.gov/pubs/2009/nsf09573/nsf09573.htm) (US citizens/residents)
 
-[David H. Smith Conservation Research Fellowship Program](http://www.conbio.org/smithfellows/) (conservation biology)
-
 [Helen Hay Whitney Foundation Research Fellowships](http://www.hhwf.org/)
-
-[Infectious Disease Society of America](http://www.idsociety.org/Content.aspx?id=1970)
 
 [NIH Career Development Awards](http://grants.nih.gov/training/careerdevelopmentawards.htm)
 
@@ -69,8 +65,6 @@ Below is a list of external funding sources for students and postdocs. Entries a
 [NIH Training Awards (F31, F32, etc.)](http://grants.nih.gov/training/nrsa.htm) (most are US citizens/residents only)
 
 [ORISE - Funding to perform research at the CDC](http://www.orau.gov/cdc/default.htm)
-
-[American Society of Microbiology - various funding opportunities](http://www.asm.org/index.php?option=com_content&view=article&id=460&Itemid=322)
 
 [Association of Schools of Public Health - various funding opportunities](http://www.aspph.org/study/#fellowships-and-internships)
 
