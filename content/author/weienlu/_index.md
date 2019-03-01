@@ -16,7 +16,10 @@ role = "REU Student"
 user_groups = ["Former Members"]
 
 
-
+[[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/weienlu/"
 
 
 +++
