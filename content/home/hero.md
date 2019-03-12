@@ -1,35 +1,38 @@
 +++
-# Hero widget.
-widget = "hero"
-active = false
-date = 2019-02-06
+# Hero or custom widget.
+widget = "hero"  # Do not modify this line!
+#widget = "custom"
+active = true  # Activate this widget? true/false
+weight = 1  # Order that this section will appear.
+date = 2019-02-10
 
-title = ""
+#title = "Academic"
 
-# Order that this section will appear in.
-weight = 1
+# Hero image (optional). Enter filename of an image in the `static/img/` folder.
+hero_media = "headerimage.png"
 
-# Overlay a color or image (optional).
-#   Deactivate an option by commenting out the line, prefixing it with `#`.
-[header]
-  overlay_img = "headerimage.png"  # Image path relative to your `static/img/` folder.
+[design.background]
+  # Apply a background color, gradient, or image.
+  #   Uncomment (by removing `#`) an option to apply it.
+  #   Choose a light or dark text color by setting `text_color_light`.
+  #   Any HTML color name or Hex value is valid.
 
-# overlay_color = "#666"  # An HTML color value.
-# overlay_filter = 0  # Darken the image. Value in range 0-1.
+  # Background color.
+  # color = "navy"
+  
+  # Background gradient.
+  gradient_start = "#4bb4e3"
+  gradient_end = "#2b94c3"
+  
+  # Background image.
+  # image = ""  # Name of image in `static/img/`.
+  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
-# Call to action button (optional).
-#   Activate the button by specifying a URL and button label below.
-#   Deactivate by commenting out parameters, prefixing lines with `#`.
-#[cta]
-#  url = "./post/getting-started/"
-#  label = '<i class="fas fa-download"></i> Install Now'
-
-#for image placement, see here
-# https://github.com/gcushen/hugo-academic/issues/640
+  # Text color (true=light or false=dark).
+  # text_color_light = true
 
 +++
 
-<div style="width: auto"></div>
 
 Welcome to the Handel Research Group website.
 

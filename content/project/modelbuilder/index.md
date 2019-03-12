@@ -26,4 +26,4 @@ url_custom = [{icon_pack = "fab", icon="github", name="Project Site", url = "htt
   focal_point = "Smart"
 +++
 
-We developed an R package that allows users to build and analyze compartmental, dynamical, mechanistic models (implemented as differential equations, discrete-time or stochastic), without the need to write computer code.
+We developed an R package that allows users to build and analyze compartmental, dynamical, mechanistic models (implemented as differential equations, discrete-time or stochastic), without the need to write computer code. 
