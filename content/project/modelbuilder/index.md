@@ -6,7 +6,7 @@ title = "modelbuilder - Building and analysis of compartmental mechanistic model
 date = 2019-02-15
 
 # Project summary to display on homepage.
-summary = "R package that allows building and analysis of dynamical models without the need to write coed."
+summary = "R package that allows building and analysis of dynamical models without the need to write code."
 
 # Tags: can be used for filtering projects.
 tags = ["Mechanistic Models", "R Package", "Teaching Resource"]
