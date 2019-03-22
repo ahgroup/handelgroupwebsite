@@ -26,4 +26,4 @@ url_custom = [{icon_pack = "fab", icon="github", name="Project Site", url = "htt
   focal_point = "Smart"
 +++
 
-We developed an R package that teaches students a modern, model-based approach to infectious disease epidemiolgy without the need to write computer code.
+We developed an R package that teaches a modern, model-based approach to infectious disease epidemiolgy without the need to write computer code. Learn more about it [on the package website](https://ahgroup.github.io/DSAIDE/).
