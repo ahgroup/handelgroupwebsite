@@ -1,9 +1,9 @@
 +++
 # Display name
-name = "Annaliese Wiens"
+name = "Annaliese Wieler"
 
 # Username (this should match the folder name)
-authors = ["annaliesewiens"]
+authors = ["annaliesewieler"]
 
 # Is this the primary user of the site?
 superuser = false
@@ -23,5 +23,5 @@ user_groups = ["Former Members"]
 
 
 * Time in group: 2017
-* Research projects: Inoculum Dose modeling
+* Research projects: Influenza inoculum dose modeling
 

@@ -7,10 +7,9 @@ date: 2019-02-10
 ---
 
 
-### FUNDING SOURCES###
+## FUNDING SOURCES
 
-Sometimes I have funding for students and postdocs, sometimes I don't. In either case, it is very useful for you to apply for your own funding. Getting a good grant or fellowship looks very good on your CV. It also gives you more flexibility and security. 
-Below is a list of external funding sources for students and postdocs. Entries are listed in no particular order. This list is by no means complete, if you know of any good sources I omitted, or if you find outdated information, please let me know.
+Sometimes I have funding for students and postdocs, sometimes I don't. In either case, it is very useful for you to apply for your own funding. Getting a good grant or fellowship looks very good on your CV. It also gives you more flexibility and security. Below is a list of external funding sources for students and postdocs. Entries are listed in no particular order. This list is by no means complete, if you know of any good sources I omitted, or if you find outdated information, please let me know.
 
 
 ### Undergraduate Funding
@@ -22,6 +21,8 @@ Below is a list of external funding sources for students and postdocs. Entries a
 ### Graduate Funding
 
 [A rather comprehensive list of different fellowships available for graduate students](http://www.gradschools.com/Article/Graduate-Fellowships/1676.html)
+
+[A list for different types of federal STEM funding opportunities](https://stemgradstudents.science.gov/)
 
 [Graduate Women in Science Fellowships Program](http://www.gwis.org/?page=fellowship_program) (relatively small awards)
 
