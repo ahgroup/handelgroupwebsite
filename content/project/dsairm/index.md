@@ -25,6 +25,6 @@ url_custom = [{icon_pack = "fab", icon="github", name="Project Site", url = "htt
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
 +++
-
+  
 We developed an R package that provides immunologists and other bench scientists a user-friendly introduction to dynamical modeling of within-host infection, without the need to write computer code.  Learn more about it [on the package website](https://ahgroup.github.io/DSAIRM/).
 
