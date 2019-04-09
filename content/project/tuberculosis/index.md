@@ -21,4 +21,4 @@ tags = ["Tuberculosis", "Epidemiology"]
   focal_point = "Smart"
 +++
 
-In collaboration with our departmental colleague Chris Whalen, we use a combination of mathematical models and data to better understand the spread of and potential interventions against tuberculosis, with a focus on African settings. 
+In collaboration with our departmental colleague Chris Whalen and others, we use a combination of mathematical models and data to better understand the spread of and potential interventions against tuberculosis, with a focus on African settings. 

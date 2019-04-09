@@ -43,4 +43,4 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-Together with collaborators at Emory and Duke University and elsewhere, we are working on better understanding aspects of norovirus within-host and epidemiological dynamics and potential control. Currently, we are collaborating with Dr. Lopman and his group at the Emory and Dr. Koelle and her group at Duke to study the potential impact of a future norovirus vaccine.
+Together with collaborators at Emory and elsewhere, we are working on better understanding aspects of norovirus within-host and epidemiological dynamics and potential control. Currently, we are collaborating with Ben Lopman, Katia Koelle and Juan Leon at Emory, as well as colleagues from other universities, the CDC and Takeda, to analyze and model data that can inform the development and deployment of a future norovirus vaccine.

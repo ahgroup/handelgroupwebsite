@@ -3,6 +3,7 @@
 widget = "projects"
 active = true
 date = 2019-02-05
+headless = true  # Homepage is headless, other widget pages are not.
 
 title = "Projects"
 subtitle = ""

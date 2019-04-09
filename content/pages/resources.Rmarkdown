@@ -28,14 +28,14 @@ the evolution of M. tuberculosis latency."](/files/publications/zheng14plosone.p
 [Avian flu](/files/software/AIVstudy.zip) - a collection of R scripts and accompanying data to do the 
 various analyses described in Handel et al. [(2013) PLoS Comp Bio](/files/publications/handel13ploscompbio.pdf).
 
-[resimmcode.m](/files/software/resimmcode.m) - A short Matlab program that simulates the dynamics 
+[resimmcode.m](/files/software/resimmcode.zip) - A short Matlab program that simulates the dynamics 
 of bacteria and drugs during emergence of resistance. A version of this code was used in 
 [Handel et al. (2009) JTB](/files/publications/handel09jtb2.pdf).
 
-[gapjunction.nlogo](/files/software/gapjunction.nlogo) - An agent-based simulation, written for the freely available [Netlogo platform](http://ccl.northwestern.edu/netlogo/). The code simulates gap junction mediated antigen transport during the local spread of virus and clearance by CTL. The simulation is described and used in 
+[Gapjunction ABM](/files/software/gapjunction.zip) - An agent-based simulation, written for the freely available [Netlogo platform](http://ccl.northwestern.edu/netlogo/). The code simulates gap junction mediated antigen transport during the local spread of virus and clearance by CTL. The simulation is described and used in 
 [Handel et al. 2009 JRSI](/files/publications/handel09jrsi.pdf).
 
-[populationmodel.m](/files/software/populationmodel.m) - A Matlab program that simulates the evolution of a bacterial population in repeated exponential growth and serial dilution cycles. A version of this code was used in [Handel and Rozen 2009 BMC Evo Bio](/files/publications/handel09bmcevolbio.pdf). Note that this uses the [lightspeed collection of Matlab functions](https://github.com/tminka/lightspeed).
+[Bacteria evolution simulation](/files/software/populationmodel.zip) - A Matlab program that simulates the evolution of a bacterial population in repeated exponential growth and serial dilution cycles. A version of this code was used in [Handel and Rozen 2009 BMC Evo Bio](/files/publications/handel09bmcevolbio.pdf). Note that this uses the [lightspeed collection of Matlab functions](https://github.com/tminka/lightspeed).
 
 
 [Compensatory Mutations](/files/software/compensatorymutation.zip) - (sparsely documented) Matlab and Fortran programs to simulate the evolution and spread of drug resistance through compensatory mutations. Details 

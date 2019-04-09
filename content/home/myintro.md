@@ -1,7 +1,7 @@
 +++
 # Custom widget.
 widget = "blank"  # Do not modify this line!
-headless = true  # This file represents a page section.
+headless = true  # Homepage is headless, other widget pages are not.
 active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
 date = 2019-02-10
@@ -44,7 +44,7 @@ date = 2019-02-10
 
 +++
 
-![Handel Research Group](/static/img/headerimage.png)
+![Handel Research Group](./img/headerimage.png)
 
 
 Welcome to the Handel Research Group website.
