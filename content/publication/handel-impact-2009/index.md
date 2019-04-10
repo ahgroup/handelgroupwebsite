@@ -1,0 +1,12 @@
++++
+title = "The impact of population size on the evolution of asexual microbes on smooth versus rugged fitness landscapes."
+date = 2009-09-01
+authors = ["Andreas Handel", "Daniel E. Rozen"]
+publication_types = ["2"]
+abstract = "BACKGROUND: It is commonly thought that large asexual populations evolve more rapidly than smaller ones, due to their increased rate of beneficial mutations. Less clear is how population size influences the level of fitness an asexual population can attain. Here, we simulate the evolution of bacteria in repeated serial passage experiments to explore how features such as fitness landscape ruggedness, the size of the mutational target under selection, and the mutation supply rate, interact to affect the evolution of microbial populations of different sizes. RESULTS: We find that if the fitness landscape has many local peaks, there can be a trade-off between the rate of adaptation and the potential  to reach high fitness peaks. This result derives from the fact that whereas large populations evolve mostly deterministically and often become trapped on local fitness peaks, smaller populations can follow more stochastic evolutionary paths  and thus locate higher fitness peaks. We also find that the target size of adaptation and the mutation rate interact with population size to influence the trade-off between rate of adaptation and final fitness. CONCLUSION: Our study suggests that the optimal population size for adaptation depends on the details of the environment and on the importance of either the ability to evolve rapidly  or to reach high fitness levels."
+featured = false
+publication = "*BMC evolutionary biology*"
+tags = ["*Biological Evolution", "*Genetics", "Population", "Adaptation", "Biological/genetics", "Bacteria/*genetics", "Computer Simulation", "Models", "Genetic", "Mutation", "Population Density", "Reproduction", "Asexual/genetics"]
+doi = "10.1186/1471-2148-9-236"
++++
+

@@ -1,0 +1,12 @@
++++
+title = "A multi-scale analysis of influenza A virus fitness trade-offs due to temperature-dependent virus persistence."
+date = 2013-01-01
+authors = ["Andreas Handel", "Justin Brown", "David Stallknecht", "Pejman Rohani"]
+publication_types = ["2"]
+abstract = "Successful replication within an infected host and successful transmission between hosts are key to the continued spread of most pathogens. Competing selection pressures exerted at these different scales can lead to evolutionary trade-offs between the determinants of fitness within and between hosts. Here, we examine such a trade-off in the context of influenza A viruses and the differential pressures exerted by temperature-dependent virus persistence. For a  panel of avian influenza A virus strains, we find evidence for a trade-off between the persistence at high versus low temperatures. Combining a within-host  model of influenza infection dynamics with a between-host transmission model, we  study how such a trade-off affects virus fitness on the host population level. We show that conclusions regarding overall fitness are affected by the type of link  assumed between the within- and between-host levels and the main route of transmission (direct or environmental). The relative importance of virulence and  immune response mediated virus clearance are also found to influence the fitness  impacts of virus persistence at low versus high temperatures. Based on our results, we predict that if transmission occurs mainly directly and scales linearly with virus load, and virulence or immune responses are negligible, the evolutionary pressure for influenza viruses to evolve toward good persistence at  high within-host temperatures dominates. For all other scenarios, influenza viruses with good environmental persistence at low temperatures seem to be favored."
+featured = false
+publication = "*PLoS computational biology*"
+tags = ["Animals", "Birds", "Computational Biology", "Feces/virology", "Genetic Fitness/*physiology", "Host-Pathogen Interactions", "Humans", "Influenza A virus/pathogenicity/*physiology", "Influenza", "Human/transmission/virology", "Models", "Biological", "Orthomyxoviridae Infections/transmission/*virology", "Temperature"]
+doi = "10.1371/journal.pcbi.1002989"
++++
+
