@@ -15,6 +15,10 @@ role = "REU Student"
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups = ["Former Members"]
 
+[[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/annaliese-wieler-203a11aa/"
 
 
 

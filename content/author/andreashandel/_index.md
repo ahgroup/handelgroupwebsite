@@ -69,6 +69,10 @@ bio = ""
   icon_pack = "fab"
   link = "https://www.linkedin.com/in/andreashandel/"
 
+[[social]]
+  icon = "globe"
+  icon_pack = "fas"
+  link = "http://handelgroup.uga.edu/authors/andreashandel/"
 
 +++
 
