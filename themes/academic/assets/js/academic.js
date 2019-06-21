@@ -60,8 +60,8 @@
     // Store requested URL hash.
     let hash = this.hash;
 
-    // If we are on the homepage and the navigation bar link is to a homepage section.
-    if ( hash && $(hash).length && ($("#homepage").length > 0)) {
+    // If we are on a widget page and the navbar link is to a section on the same page.
+    if ( this.pathname === window.location.pathname && hash && $(hash).length && ($(".js-widget-page").length > 0)) {
       // Prevent default click behavior.
       event.preventDefault();
 
@@ -280,7 +280,7 @@
   function printLatestRelease(selector, repo) {
     $.getJSON('https://api.github.com/repos/' + repo + '/tags').done(function (json) {
       let release = json[0];
-      $(selector).append(release.name);
+      $(selector).append(' '+release.name);
     }).fail(function( jqxhr, textStatus, error ) {
       let err = textStatus + ", " + error;
       console.log( "Request Failed: " + err );
@@ -306,24 +306,50 @@
   * Toggle day/night mode.
   * --------------------------------------------------------------------------- */
 
-  function toggleDarkMode() {
+  function toggleDarkMode(codeHlEnabled, codeHlLight, codeHlDark, diagramEnabled) {
     if ($('body').hasClass('dark')) {
       $('body').css({opacity: 0, visibility: 'visible'}).animate({opacity: 1}, 500);
       $('body').removeClass('dark');
-      $('link[title=hl-light]')[0].disabled = false;
-      $('link[title=hl-dark]')[0].disabled = true;
-      $('.js-dark-toggle i').removeClass('fa-sun');
-      $('.js-dark-toggle i').addClass('fa-moon');
+      if (codeHlEnabled) {
+        codeHlLight.disabled = false;
+        codeHlDark.disabled = true;
+      }
+      $('.js-dark-toggle i').removeClass('fa-sun').addClass('fa-moon');
       localStorage.setItem('dark_mode', '0');
+      if (diagramEnabled) {
+        // TODO: Investigate Mermaid.js approach to re-render diagrams with new theme without reloading.
+        location.reload();
+      }
     } else {
       $('body').css({opacity: 0, visibility: 'visible'}).animate({opacity: 1}, 500);
       $('body').addClass('dark');
-      $('link[title=hl-light]')[0].disabled = true;
-      $('link[title=hl-dark]')[0].disabled = false;
-      $('.js-dark-toggle i').removeClass('fa-moon');
-      $('.js-dark-toggle i').addClass('fa-sun');
+      if (codeHlEnabled) {
+        codeHlLight.disabled = true;
+        codeHlDark.disabled = false;
+      }
+      $('.js-dark-toggle i').removeClass('fa-moon').addClass('fa-sun');
       localStorage.setItem('dark_mode', '1');
+      if (diagramEnabled) {
+        // TODO: Investigate Mermaid.js approach to re-render diagrams with new theme without reloading.
+        location.reload();
+      }
     }
+  }
+
+  /* ---------------------------------------------------------------------------
+  * Normalize Bootstrap Carousel Slide Heights.
+  * --------------------------------------------------------------------------- */
+
+  function normalizeCarouselSlideHeights() {
+    $('.carousel').each(function(){
+      // Get carousel slides.
+      let items = $('.carousel-item', this);
+      // Reset all slide heights.
+      items.css('min-height', 0);
+      // Normalize all slide heights.
+      let maxHeight = Math.max.apply(null, items.map(function(){return $(this).outerHeight()}).get());
+      items.css('min-height', maxHeight + 'px');
+    })
   }
 
   /* ---------------------------------------------------------------------------
@@ -331,25 +357,53 @@
    * --------------------------------------------------------------------------- */
 
   $(document).ready(function() {
+    // Fix Hugo's auto-generated Table of Contents.
+    //   Must be performed prior to initializing ScrollSpy.
+    $('#TableOfContents > ul > li > ul').unwrap().unwrap();
+    $('#TableOfContents').addClass('nav flex-column');
+    $('#TableOfContents li').addClass('nav-item');
+    $('#TableOfContents li a').addClass('nav-link');
+
     // Set dark mode if user chose it.
     let default_mode = 0;
     if ($('body').hasClass('dark')) {
       default_mode = 1;
     }
     let dark_mode = parseInt(localStorage.getItem('dark_mode') || default_mode);
+
+    // Is code highlighting enabled in site config?
+    const codeHlEnabled = $('link[title=hl-light]').length > 0;
+    const codeHlLight = $('link[title=hl-light]')[0];
+    const codeHlDark = $('link[title=hl-dark]')[0];
+    const diagramEnabled = $('script[title=mermaid]').length > 0;
+
     if (dark_mode) {
       $('body').addClass('dark');
-      $('link[title=hl-light]')[0].disabled = true;
-      $('link[title=hl-dark]')[0].disabled = false;
-      $('.js-dark-toggle i').removeClass('fa-moon');
-      $('.js-dark-toggle i').addClass('fa-sun');
+      if (codeHlEnabled) {
+        codeHlLight.disabled = true;
+        codeHlDark.disabled = false;
+      }
+      if (diagramEnabled) {
+        mermaid.initialize({ theme: 'dark' });
+      }
+      $('.js-dark-toggle i').removeClass('fa-moon').addClass('fa-sun');
     } else {
       $('body').removeClass('dark');
-      $('link[title=hl-light]')[0].disabled = false;
-      $('link[title=hl-dark]')[0].disabled = true;
-      $('.js-dark-toggle i').removeClass('fa-sun');
-      $('.js-dark-toggle i').addClass('fa-moon');
+      if (codeHlEnabled) {
+        codeHlLight.disabled = false;
+        codeHlDark.disabled = true;
+      }
+      if (diagramEnabled) {
+        mermaid.initialize({ theme: 'default' });
+      }
+      $('.js-dark-toggle i').removeClass('fa-sun').addClass('fa-moon');
     }
+
+    // Toggle day/night mode.
+    $('.js-dark-toggle').click(function(e) {
+      e.preventDefault();
+      toggleDarkMode(codeHlEnabled, codeHlLight, codeHlDark, diagramEnabled);
+    });
   });
 
   /* ---------------------------------------------------------------------------
@@ -466,12 +520,10 @@
     // Initialise Google Maps if necessary.
     initMap();
 
-    // Fix Hugo's inbuilt Table of Contents.
-    $('#TableOfContents > ul > li > ul').unwrap().unwrap();
-
-    // Print latest Academic version if necessary.
-    if ($('#academic-release').length > 0)
-      printLatestRelease('#academic-release', $('#academic-release').data('repo'));
+    // Print latest version of GitHub projects.
+    let githubReleaseSelector = '.js-github-release';
+    if ($(githubReleaseSelector).length > 0)
+      printLatestRelease(githubReleaseSelector, $(githubReleaseSelector).data('repo'));
 
     // On search icon click toggle search dialog.
     $('.js-search').click(function(e) {
@@ -491,12 +543,9 @@
       }
     });
 
-    // Toggle day/night mode.
-    $('.js-dark-toggle').click(function(e) {
-      e.preventDefault();
-      toggleDarkMode();
-    });
-
   });
+
+  // Normalize Bootstrap carousel slide heights.
+  $(window).on('load resize orientationchange', normalizeCarouselSlideHeights);
 
 })(jQuery);

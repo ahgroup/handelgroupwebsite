@@ -21,10 +21,17 @@
     weight = 20
 
 [[main]]
+    name = "Presentations"
+    identifier = "talks"
+    url = "#talks"
+    weight = 25
+
+[[main]]
     name = "Projects"
     identifier = "projects"
     url = "#projects"
     weight = 30
+
 
 [[main]]
     name = "People"

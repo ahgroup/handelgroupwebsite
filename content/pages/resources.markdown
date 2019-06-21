@@ -14,8 +14,7 @@ will try to help. But my time is limited, and for a lot of the old programs, I m
 exactly I did. That's especially true for anything Matlab or Fortran since I haven't used either in years.
 
 
-[TB Superspreader analysis](/files/software/Superspreader_Code.zip) - A file containing the R code performing analysis of various 
-datasets looking for signatures of superspreading/supercoughing in TB patients. The manuscript describing this work is currently under review.
+[TB Cough duration analysis](/files/software/Supercougher_Supplements.zip) - A zip file containing various supplementary R scripts and codebooks for a superspreading/supercoughing study in TB patients. The manuscript describing this work is currently under review.
 
 
 [TB-MAC UGA Model](/files/software/TB_MAC_UGA.zip) - A file containing the R code and description of the model that was used by us to produce the results described in a multi-model project on TB intervention analysis. 

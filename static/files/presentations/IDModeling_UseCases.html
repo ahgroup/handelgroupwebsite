@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>How to use simulation models</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Andreas Handel" />
+    <meta name="date" content="2019-06-20" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="media\handelslides.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, title-slide, title-slide
+
+# How to use simulation models
+### Andreas Handel
+### University of Georgia
+### 2019-06-20
+
+---
+
+
+
+# Why model (infectious diseases)?
+
+&lt;img src="./media/dilbert_flupandemic.gif" style="display: block; margin: auto;" /&gt;
+
+* Why use simulation models to study infectious diseases? 
+* What can we do with models? 
+* What questions can they help answer?
+
+---
+
+
+# Model uses
+* __Understanding/Exploration:__ We can build and analyze models to gain insights into the complex dynamics of infectious diseases.
+* __Prediction &amp; What-if scenarios:__ We can perform virtual experiments and make predictions.
+* __Hypothesis testing &amp; Parameter Estimation:__ We can fit models to data (inference) to test mechanisms/hypotheses and to estimate parameters.
+
+
+&lt;img src="./media/schematicfigure.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+# Understanding - Example
+* Use a simple model to understand/explore intervention strategies for multi-outbreak settings.
+* Details:  Handel et al _"What is the best control strategy for multiple infectious disease outbreaks?"_ Proceedings of the Royal Society B 2007. 
+
+
+---
+
+
+# The question
+* For a single outbreak, more intervention/control (through e.g. drugs or social distancing) is generally better.
+* If multiple outbreaks are likely and no control is possible beyond the first outbreak (e.g. because of drug resistance or resource limitation) how does the best control strategy change?
+
+
+---
+
+
+# Using a model to answer the question
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/multioutbreakfigv2.png" alt="Basic SIR model with control." width="100%" /&gt;
+&lt;p class="caption"&gt;Basic SIR model with control.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;img src="./media/multioutbreakmodelfigure.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+
+
+# The overshoot concept
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/overshootfig.png" alt="The overshoot concept." width="90%" /&gt;
+&lt;p class="caption"&gt;The overshoot concept.&lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+
+# Control during multiple outbreaks
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/multicontrol.png" alt="Control during multiple outbreaks" width="90%" /&gt;
+&lt;p class="caption"&gt;Control during multiple outbreaks&lt;/p&gt;
+&lt;/div&gt;
+
+
+---
+
+# Ways to implement optimal control
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/multicontroltypes.png" alt="Ways to implement optimal control" width="90%" /&gt;
+&lt;p class="caption"&gt;Ways to implement optimal control&lt;/p&gt;
+&lt;/div&gt;
+
+
+---
+
+# Understanding - summary
+* If we know little about our system and its behavior, building and exploring simple models is often a useful first step.
+* If the system/question is very simple, we might not need a model (e.g. for a single outbreak, all things equal we know more control is better).
+* Infectious disease systems are often complex enough that intuition doesn't work too well and a model can be helpful - even if after the fact the result is "obvious".
+* Once we built up our understanding and have a model that we think is reasonable, we can potentially move on to making **predictions**. 
+
+
+
+---
+
+# Predictions
+* If we believe our model approximates reality well enough, we can use it to predict future outcomes, e.g. due to interventions.
+* Those predictions can be of different type:
+  * __Qualitative:__ Try to predict shape/direction of an outcome (similar to the 'understanding' model use).
+  * __Semi-quantitative:__ Try to predict the approximate or relative size of an outcome.
+  * __Quantitative:__ Try to predict (with confidence intervals) the magnitude of an outcome.
+
+
+
+---
+
+
+# Prediction - Semi-quantitative use case
+* Multi-group effort to use computer models to predict the how different interventions affect TB incidence and prevalence in 2025.
+
+&lt;img src="./media/TBMAClogos.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+* More details:
+  * Houben et al _"Feasibility of achieving the 2025 WHO global tuberculosis targets in South Africa, China, and India: a combined analysis of 11 mathematical models."_ Lancet Global Health, 2016.
+  * Menzies et al _"Cost-effectiveness and resource implications of aggressive action on tuberculosis in China, India, and South Africa: a combined analysis of nine models."_ Lancet Global Health, 2016.
+
+---
+
+
+# UGA model
+* Ordinary differential equation model
+* Total of 72 compartments/equations
+
+&lt;img src="./media/tbmacmodel.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+
+# Model calibration
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/tbmaccalibration.jpg" alt="Each model (lines) was calibrated to known data (vertical circle/line)" width="80%" /&gt;
+&lt;p class="caption"&gt;Each model (lines) was calibrated to known data (vertical circle/line)&lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+
+# Model predictions
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/tbmacprediction.jpg" alt="Predictions of models for different interventions" width="65%" /&gt;
+&lt;p class="caption"&gt;Predictions of models for different interventions&lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+
+# Quantitative prediction example
+* Trying to predict the 2014 Ebola outbreak.
+* Many different groups built models to try and predict the outbreak dynamics and impact of interventions.
+
+---
+
+
+# Prediction model 1 
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/cdcebola.png" alt="[Meltzer at al 2014 MMWR](https://www.cdc.gov/mmwr/preview/mmwrhtml/su6303a1.htm)" width="90%" /&gt;
+&lt;p class="caption"&gt;[Meltzer at al 2014 MMWR](https://www.cdc.gov/mmwr/preview/mmwrhtml/su6303a1.htm)&lt;/p&gt;
+&lt;/div&gt;
+
+"CDC model predicts 1.4 million cases of Ebola by January!"
+
+---
+
+# Prediction model 2 
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/nejmebola.png" alt="[Predictions from a WHO model](https://www.nejm.org/doi/full/10.1056/NEJMoa1411100)" width="90%" /&gt;
+&lt;p class="caption"&gt;[Predictions from a WHO model](https://www.nejm.org/doi/full/10.1056/NEJMoa1411100)&lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+
+# Prediction - comments
+* Simple models are best for qualitative and semi-quantitative predictions. 
+  * If we increase vaccination, does incidence/prevalence drop faster or slower than linear? 
+  * What fraction do we approximately need to vaccinate to reduce prevalence by roughly 50%?
+* If we want to make precise and detailed predictions, we generally need very detailed (complex) models. 
+  * Detailed models are 'data hungry' and often the data are not available.
+  * Detailed models are difficult to write and analyze. They are usually implemented as agent-based models.
+  * All models makes simplifying assumptions. Thus, predictions, including confidence intevals, make the inherent assumption that the model is 'correct' (which it never is, but it might be close).
+* I think in infectious diseases, our models are currently worse than those predicting the weather (or most other hard science/engineering systems) but better than those predicting the economy (or other complex human/social systems). 
+
+---
+
+
+# Fitting models to data 
+
+&lt;img src="./media/phd_whocaresaboutexperiments.gif" width="100%" style="display: block; margin: auto;" /&gt;
+
+* The previous two model uses do not require statistical fitting of models to data.
+* If we have the right kind of data, we can fit models in a statistically rigorous way.
+
+
+---
+# Hypothesis testing &amp; parameter estimation 
+* If we can fit to data, we can use models in additional ways. 
+* We can formulate different models, each representing a set of hypotheses/mechanisms, and evaluate the quality of fit of each model to see which is better supported by the data.
+* We can estimate biologically potentially meaningful parameters from a well-fitting model.
+
+
+---
+# Model fitting example
+
+&lt;img src="./media/ikeastoolsample.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+
+* Norovirus can cause infection through a common source (e.g. food), or transmit person-to-person. 
+
+* The Question: For a given Norovirus outbreak, is transmission purely person-person, or is there a common environmental source? 
+
+* The approach: build 2 models for each hypothesis, fit to data and evaluate.
+
+
+
+---
+# Model/Hypothesis 1
+
+Person-person transmission is the only transmission mechanism
+
+&lt;img src="./media/basicSIRmodelscheme.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+$$
+`\begin{aligned}
+\dot S &amp; = -bSI \\
+\dot I &amp;  = bSI - gI \\
+\dot R &amp;  = gI \\
+\end{aligned}`
+$$
+
+
+
+---
+# Model/Hypothesis 2
+
+Environmental transmission is __also__ an important transmission mechanism
+
+
+&lt;img src="./media/foodsourceSIRmodelfigure.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+$$
+`\begin{aligned}
+\dot S &amp; = {\bf - nS}  - bSI \\
+\dot I &amp;  = {\bf nS} + bSI - gI \\
+\dot R &amp;  = gI \\
+\end{aligned}`
+$$
+
+
+
+---
+# Model fits
+&lt;img src="./media/norofit.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+* Model with constant source (n&gt;0 for duration of outbreak) did not perform better than the no source model (n=0).
+* Model with extra source between Dec 10-12 (n&gt;0 between 12/10-12/12, 0 otherwise) did best (AIC comparison). 
+
+
+
+
+---
+# Parameter estimates
+* Fitting also returns estimates for the best-fit parameter values
+* If we believe the model is a decent representation of the real system, we might consider the estimated parameter to be reliable
+* Simulation models usually have parameters that are of biological interest
+* In the previous example, an estimate of g=0.5/day means the estimated duration of the infectious period is 2 days.
+
+$$
+`\begin{aligned}
+\dot S &amp; =   - bSI \\
+\dot I &amp;  = bSI - {\bf g} I \\
+\dot R &amp;  = {\bf g} I \\
+\end{aligned}`
+$$
+
+---
+# Fitting comments
+* All the standard statistical tools can be applied, but fitting dynamical mechanistic models is technically more challenging.
+* For fitting especially, it is important that models are kept simple.
+* Simple, reasonable models that do not fit are often as informative as models that do.
+
+---
+# Model uses - summary
+* Simulation models can be built and analyzed without fitting to data.
+* 'Data-free' model use allows exploration and potentially prediction.
+* Hypothesis/mechanism testing and parameter estimation are possibe if models are combined with data.
+* A single project often uses models for several of the described approaches
+
+&lt;img src="./media/schematicfigure.png" width="60%" style="display: block; margin: auto;" /&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

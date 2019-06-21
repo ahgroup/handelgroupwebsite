@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Introduction to Infectious Disease Modeling</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Andreas Handel" />
+    <meta name="date" content="2019-06-20" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="media\handelslides.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, title-slide, title-slide
+
+# Introduction to Infectious Disease Modeling
+### Andreas Handel
+### University of Georgia
+### 2019-06-20
+
+---
+
+
+
+# How do we do science?
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/dilbert-debunking-science.gif" alt="Source: dilbert.com" width="100%" /&gt;
+&lt;p class="caption"&gt;Source: dilbert.com&lt;/p&gt;
+&lt;/div&gt;
+
+
+---
+
+# How do we get data?
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/dilbert-datamining.gif" alt="Source: dilbert.com" width="100%" /&gt;
+&lt;p class="caption"&gt;Source: dilbert.com&lt;/p&gt;
+&lt;/div&gt;
+
+
+---
+
+# Experimental studies
+
+.pull-left[
+* The approach used in almost all bench/lab sciences.
+* Clinical Trials in Public Health and Medicine.
+* Potentially most powerful because we have most control.
+* Not always possible.
+]
+
+.pull-right[
+&lt;img src="./media/randomization.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# Observational studies
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/studies-produce-random-results.png" alt="(c) Jim Borgman" width="60%" /&gt;
+&lt;p class="caption"&gt;(c) Jim Borgman&lt;/p&gt;
+&lt;/div&gt;
+
+* Widely used in Public Health, also used in other areas (e.g. Sociology, Geology, Atmospheric Sciences).
+* Not as powerful as experimental studies.
+* Often the only option.
+
+---
+
+# Simulation/modeling studies
+
+&lt;img src="./media/phd_simulationresults.gif" width="100%" style="display: block; margin: auto;" /&gt;
+
+* __Computer/simulation models__ can represent a real system.
+* Simlulated data is not as good as real data.
+* Often the only option.
+
+---
+
+
+# Modeling definition
+
+.pull-left[
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/modelingcouple.jpg" alt="Not this" width="60%" /&gt;
+&lt;p class="caption"&gt;Not this&lt;/p&gt;
+&lt;/div&gt;
+]
+
+.pull-right[
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/SIRmodelsketch.png" alt="This one" width="70%" /&gt;
+&lt;p class="caption"&gt;This one&lt;/p&gt;
+&lt;/div&gt;
+]
+
+* The term __modeling__ usually means (in science) the description and analysis of a system with the help of mathematical or computational models. 
+* Many different types of modeling approaches exist. Simulation models are one type (with many subtypes).
+
+---
+
+# Modeling examples
+.pull-left[
+
+* Simulations of a power plant or other man-made system.
+* Weather forecasting.
+* Predicting the economy.
+* Infectious disease transmission.
+* ...
+]
+
+.pull-right[
+
+&lt;img src="./media/weatherforecast.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# A real-world example
+* Ira Longini on flu modeling
+
+
+&lt;video width="320" height="240"&gt;
+&lt;source src="./media/Longini-CNN-flu.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+
+---
+
+
+
+
+# Literature 
+*  Vynnycky and White (2010) "An Introduction to Infectious Disease Modelling": The most introductory level book.
+* Keeling and Rohani (2008) "Modeling Infectious Diseases": Introductory but at a higher level.  
+* Bjornstadt (2018) "Epidemics - Models and Data using R": Shows how to do it in R. Some topics are basic, others fairly advanced and theoretical.
+* Anderson and May (1992) "Infectious Diseases of Humans - Dynamics and Control": The "classic". Lots of material, but the math can be somewhat challenging. 
+* Daley and Gani (2001) "Epidemic modeling: an introduction": Thorough mathematical treatment, not too intuitive/easy.
+* Diekmann &amp; Heesterbeek (2000) "Mathematical Epidemiology of Infectious Diseases: Model Building, Analysis and Interpretation": Relatively advanced math level.
+* Dynamical Systems Approach to Infectious Disease Epidemiology - book I'm working on (uses models, but doesn't really teach modeling): https://ahgroup.github.io/DSAIDEbook/
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
