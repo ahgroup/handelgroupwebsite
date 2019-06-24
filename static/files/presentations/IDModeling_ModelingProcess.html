@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>How to do (good) modeling</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Andreas Handel" />
+    <meta name="date" content="2019-06-24" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="media\handelslides.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, title-slide, title-slide
+
+# How to do (good) modeling
+### Andreas Handel
+### University of Georgia
+### 2019-06-24
+
+---
+
+
+
+
+# Modeling workflow overview
+* Have a scenario/question for which a model can provide useful insight (hardest part!).
+* Translate your scenario/question into a suitable model (hard).
+* Implement the model on a computer, analyze it, produce results such as figures and tables (fairly easy).
+* Write it all up and try to publish (easy to hard, depends on journal).
+
+
+---
+# Step 1 - Should I? 
+
+__Coming up with an important/relevant question where a model can be useful is the most important component.__
+
+* What do I want to accomplish and can a model help?
+
+
+
+---
+# Step 2 - Decide what matters 
+
+* Reality is so complicated, we can never (and don’t want to) include every detail into a model. Therefore, models are always approximations of the real world.
+* The type of model and detail needed depends on the question.
+* Good modeling means having a model that includes details that matter, and ignores details that do not matter.
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/mapfigure.png" alt="Maps as an analogy for models." width="100%" /&gt;
+&lt;p class="caption"&gt;Maps as an analogy for models.&lt;/p&gt;
+&lt;/div&gt;
+
+
+---
+# Step 3 - Choose model type &amp; details
+
+* I recommend starting with a simple ODE model as default. 
+  * Only include the most essential components and processes you know you need.
+  * You can always increase model size/complexity later.
+  
+* Next, ask yourself if you might need a different model type:
+  * If you want to have a very detailed model to make predictions, you might need an individual based model.
+  * If it's a question that has a probabilistic answer (e.g. how likely is it that there is a new outbreak), you might need a stochastic model.
+
+
+
+
+---
+# Step 4 - Sketch the model 
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/SIRmodelsketch.png" alt="Source: https://bit.ly/2WYiMJt" width="50%" /&gt;
+&lt;p class="caption"&gt;Source: https://bit.ly/2WYiMJt&lt;/p&gt;
+&lt;/div&gt;
+
+
+* Draw diagrams of the model components and interactions.
+* If you do an ODE model, write down the equations.
+* Writing down the ODEs might be a good exercise even if you will use a more complicated model eventually.
+
+---
+## Step 5 - Implement the model 
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/xkcd_compiling.png" alt="Source: xkcd.com" width="70%" /&gt;
+&lt;p class="caption"&gt;Source: xkcd.com&lt;/p&gt;
+&lt;/div&gt;
+
+* Write computer code for the model
+
+
+---
+## Step 6-666 - Debug code, fix model 
+
+* Run your model code. It will likely not run and/or produce weird results.
+* Find all the bugs in your code and in your conceptual/mathematical model until everything seems to work. 
+* As you test your model, it is a good idea to make sure every part behaves right.
+* Trying extreme scenarios is often a good quick test.
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/xkcd_goto.png
+" alt="Source: xkcd.com" width="100%" /&gt;
+&lt;p class="caption"&gt;Source: xkcd.com&lt;/p&gt;
+&lt;/div&gt;
+
+
+---
+## Step 667 - Analyze model 
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/dilbert_flupandemic.gif" alt="Source: dilbert.com" width="100%" /&gt;
+&lt;p class="caption"&gt;Source: dilbert.com&lt;/p&gt;
+&lt;/div&gt;
+
+* Once your model works, run simulations, analyze results.
+
+
+---
+## Step 668-N - Reality check &amp; model adjustment
+
+&lt;img src="./media/phd_whocaresaboutexperiments.gif" width="100%" style="display: block; margin: auto;" /&gt;
+
+* Compare your model results with whatever data you have/know about.
+* As needed (very likely) adjust model to reality.
+* __Note the model "failures":__ If you built a reasonable model and it wasn't able to reproduce reality, you/we have learned something.
+* Keep iterating until the model "works".
+
+
+
+---
+## Step N+1 - Write up and publish
+
+&lt;img src="./media/phd-realimpactfactor.gif" width="100%" style="display: block; margin: auto;" /&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

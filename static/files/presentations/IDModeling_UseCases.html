@@ -4,7 +4,7 @@
     <title>How to use simulation models</title>
     <meta charset="utf-8" />
     <meta name="author" content="Andreas Handel" />
-    <meta name="date" content="2019-06-20" />
+    <meta name="date" content="2019-06-24" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
     <link rel="stylesheet" href="media\handelslides.css" type="text/css" />
@@ -16,7 +16,7 @@ class: center, middle, title-slide, title-slide
 # How to use simulation models
 ### Andreas Handel
 ### University of Georgia
-### 2019-06-20
+### 2019-06-24
 
 ---
 
@@ -44,17 +44,11 @@ class: center, middle, title-slide, title-slide
 
 ---
 
-# Understanding - Example
-* Use a simple model to understand/explore intervention strategies for multi-outbreak settings.
-* Details:  Handel et al _"What is the best control strategy for multiple infectious disease outbreaks?"_ Proceedings of the Royal Society B 2007. 
-
-
----
-
-
-# The question
+# Example of model-aided understanding
 * For a single outbreak, more intervention/control (through e.g. drugs or social distancing) is generally better.
 * If multiple outbreaks are likely and no control is possible beyond the first outbreak (e.g. because of drug resistance or resource limitation) how does the best control strategy change?
+* Use a simple model to understand/explore optimal intervention strategies for multi-outbreak settings.
+* Details:  Handel et al _"What is the best control strategy for multiple infectious disease outbreaks?"_ Proceedings of the Royal Society B 2007. 
 
 
 ---
@@ -63,13 +57,20 @@ class: center, middle, title-slide, title-slide
 # Using a model to answer the question
 
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="./media/multioutbreakfigv2.png" alt="Basic SIR model with control." width="100%" /&gt;
+&lt;img src="./media/multioutbreakfigv2.png" alt="Basic SIR model with control." width="80%" /&gt;
 &lt;p class="caption"&gt;Basic SIR model with control.&lt;/p&gt;
 &lt;/div&gt;
 
 
-&lt;img src="./media/multioutbreakmodelfigure.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="./media/multioutbreakmodelfigure.png" width="80%" style="display: block; margin: auto;" /&gt;
 
+$$
+`\begin{aligned}
+\dot S &amp; = -(1-f)bSI \\
+\dot I &amp;  = (1-f)bSI - gI \\
+\dot R &amp;  = gI \\
+\end{aligned}`
+$$
 
 
 ---
@@ -128,7 +129,7 @@ class: center, middle, title-slide, title-slide
 ---
 
 
-# Prediction - Semi-quantitative use case
+# Semi-quantitative prediction example
 * Multi-group effort to use computer models to predict the how different interventions affect TB incidence and prevalence in 2025.
 
 &lt;img src="./media/TBMAClogos.png" width="100%" style="display: block; margin: auto;" /&gt;
@@ -179,8 +180,8 @@ class: center, middle, title-slide, title-slide
 # Prediction model 1 
 
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="./media/cdcebola.png" alt="[Meltzer at al 2014 MMWR](https://www.cdc.gov/mmwr/preview/mmwrhtml/su6303a1.htm)" width="90%" /&gt;
-&lt;p class="caption"&gt;[Meltzer at al 2014 MMWR](https://www.cdc.gov/mmwr/preview/mmwrhtml/su6303a1.htm)&lt;/p&gt;
+&lt;img src="./media/cdcebola.png" alt="Meltzer at al 2014 MMWR (https://www.cdc.gov/mmwr/preview/mmwrhtml/su6303a1.htm)" width="90%" /&gt;
+&lt;p class="caption"&gt;Meltzer at al 2014 MMWR (https://www.cdc.gov/mmwr/preview/mmwrhtml/su6303a1.htm)&lt;/p&gt;
 &lt;/div&gt;
 
 "CDC model predicts 1.4 million cases of Ebola by January!"
@@ -191,8 +192,8 @@ class: center, middle, title-slide, title-slide
 
 
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="./media/nejmebola.png" alt="[Predictions from a WHO model](https://www.nejm.org/doi/full/10.1056/NEJMoa1411100)" width="90%" /&gt;
-&lt;p class="caption"&gt;[Predictions from a WHO model](https://www.nejm.org/doi/full/10.1056/NEJMoa1411100)&lt;/p&gt;
+&lt;img src="./media/nejmebola.png" alt="WHO Ebola Response Team, NEJM 2016 (https://www.nejm.org/doi/full/10.1056/NEJMoa1411100)" width="90%" /&gt;
+&lt;p class="caption"&gt;WHO Ebola Response Team, NEJM 2016 (https://www.nejm.org/doi/full/10.1056/NEJMoa1411100)&lt;/p&gt;
 &lt;/div&gt;
 
 ---
@@ -206,7 +207,7 @@ class: center, middle, title-slide, title-slide
   * Detailed models are 'data hungry' and often the data are not available.
   * Detailed models are difficult to write and analyze. They are usually implemented as agent-based models.
   * All models makes simplifying assumptions. Thus, predictions, including confidence intevals, make the inherent assumption that the model is 'correct' (which it never is, but it might be close).
-* I think in infectious diseases, our models are currently worse than those predicting the weather (or most other hard science/engineering systems) but better than those predicting the economy (or other complex human/social systems). 
+* _I think infectious disease models are currently worse than those predicting the weather (or most other hard science/engineering systems) but better than those predicting the economy (or other complex human/social systems)._ 
 
 ---
 
@@ -221,7 +222,6 @@ class: center, middle, title-slide, title-slide
 
 ---
 # Hypothesis testing &amp; parameter estimation 
-* If we can fit to data, we can use models in additional ways. 
 * We can formulate different models, each representing a set of hypotheses/mechanisms, and evaluate the quality of fit of each model to see which is better supported by the data.
 * We can estimate biologically potentially meaningful parameters from a well-fitting model.
 
@@ -276,7 +276,7 @@ $$
 
 ---
 # Model fits
-&lt;img src="./media/norofit.png" width="60%" style="display: block; margin: auto;" /&gt;
+&lt;img src="./media/norofit.png" width="50%" style="display: block; margin: auto;" /&gt;
 
 * Model with constant source (n&gt;0 for duration of outbreak) did not perform better than the no source model (n=0).
 * Model with extra source between Dec 10-12 (n&gt;0 between 12/10-12/12, 0 otherwise) did best (AIC comparison). 
@@ -293,9 +293,9 @@ $$
 
 $$
 `\begin{aligned}
-\dot S &amp; =   - bSI \\
-\dot I &amp;  = bSI - {\bf g} I \\
-\dot R &amp;  = {\bf g} I \\
+\dot S &amp; =  - nS  - bSI \\
+\dot I &amp;  =  nS + bSI -{\bf g}I \\
+\dot R &amp;  = {\bf g}I \\
 \end{aligned}`
 $$
 

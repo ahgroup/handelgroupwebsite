@@ -1,5 +1,0 @@
-To adjust labels/categories for publications, edit a layout file, then adjust numbers in publications:
-
-https://github.com/gcushen/hugo-academic/issues/906
-
-To add new publications: 
