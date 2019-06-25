@@ -10,8 +10,6 @@ date: "2019-07-17"
 date_end: "2019-07-19"
 all_day: true
 
-# Schedule page publish date (NOT talk date).
-#publishDate: "2017-01-01T00:00:00Z"
 
 authors: ["andreashandel"]
 tags: []
@@ -47,7 +45,15 @@ url_video: ""
 math: true
 ---
 
+## Preparation
+
+* Install R and Rstudio.
+* Install the DSAIRM R package and take a brief look. [This website provides instructions.](https://ahgroup.github.io/DSAIRM/)
+
+
 ## Presentation Slides 
 
 To come
+
+
 

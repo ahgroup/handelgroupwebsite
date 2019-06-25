@@ -1,0 +1,13 @@
+# Publication types.
+# Each item in the list corresponds to an item in the language packs.
+types = [ "pub_flu",
+          "pub_TB",
+          "pub_noro",
+          "pub_drugs",
+          "pub_multi",
+          "pub_evolution",
+          "pub_immunology",
+          "pub_epi",
+          "pub_software",
+          "pub_other"
+        ]
