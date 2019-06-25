@@ -1,13 +1,13 @@
 ---
 title: Website update
-author: Andreas Handel
-date: '2019-02-09'
-slug: website-update
-categories: []
+authors:
+- andreashandel
 tags: []
-image:
-  caption: ''
-  focal_point: ''
+categories: []
+date: '2019-02-09'
+featured: false
+draft: false
+slug: website-update
 ---
 
-As part of the switch to Hugo, I finally managed to update the website with some new content! 
+I finally managed to update the website with some new content! 

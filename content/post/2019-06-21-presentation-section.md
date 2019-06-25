@@ -1,13 +1,12 @@
 ---
-title: Added presentations
-author: Andreas Handel
-date: '2019-06-21'
-slug: presentations
-categories: []
+title: 'Added presentation section'
+authors:
+- andreashandel
 tags: []
-image:
-  caption: ''
-  focal_point: ''
+categories: []
+date: '2019-06-21'
+featured: false
+draft: false
 ---
 
 I've added a new _Presentation_ section and started to add slides for talks/presentations. 
