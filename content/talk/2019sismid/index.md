@@ -31,13 +31,13 @@ image:
 math: true
 ---
 
-# Preparation
+## Preparation
 
 * Install R and Rstudio.
 * Install the DSAIRM R package and take a brief look. [This website provides instructions.](https://ahgroup.github.io/DSAIRM/)
 
 
-# Presentation Slides 
+## Presentation Slides 
 
 To come
 
