@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
-    <title>How to build (good) models</title>
+    <title>How to assess modeling studies</title>
     <meta charset="utf-8" />
     <meta name="author" content="Andreas Handel" />
     <meta name="date" content="2019-06-27" />
@@ -13,7 +13,7 @@
     <textarea id="source">
 class: center, middle, title-slide, title-slide
 
-# How to build (good) models
+# How to assess modeling studies
 ### Andreas Handel
 ### University of Georgia
 ### 2019-06-27
@@ -21,125 +21,81 @@ class: center, middle, title-slide, title-slide
 ---
 
 
-# Modeling workflow overview
-* Have a scenario/question for which a model can provide useful insight (hardest part).
-* Translate your scenario/question into a suitable model (hard).
-* Implement the model on a computer, analyze it, produce results such as figures and tables (fairly easy).
-* Write it all up and try to publish (easy to hard, depends on journal).
 
-
----
-# Step 1 - Should I? 
-
-* What do I want to accomplish and can a model help?
+# Is the overall study sound?
+* Does the study address an important/interesting question?
+* Does a model make sense for the question being addressed? 
 
 &lt;div class="figure" style="text-align: center"&gt;
 &lt;img src="./media/dilbert_predictingeverything1.gif" alt="dilbert.com" width="100%" /&gt;
 &lt;p class="caption"&gt;dilbert.com&lt;/p&gt;
 &lt;/div&gt;
 
-__Coming up with an important/relevant question where a model can be useful is the most important component.__
 
 
 ---
-# Step 2 - Decide what matters 
+# Model assumptions and complexity 
+* Are the assumptions made in building the model clearly described and justified?
+* Does the model have the right level of detail given the question and data?
+* If the model is simple, does it include details important for the question?
+* If the model is complex, are the model parameter values well supported by available data?
 
-* Reality is so complicated, we can never (and don’t want to) include every detail into a model. Therefore, models are always approximations of the real world.
-* The type of model and detail needed depends on the question.
-* Good modeling means having a model that includes details that matter, and ignores details that do not matter.
+&lt;img src="./media/mapfigure.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+# Model implementation
+* Is the model properly implemented and well described?
+* Are diagrams and equations (if applicable) shown?
+* Are enough details provided that someone could re-implement their model?
+* Is the model code freely available?
 
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="./media/mapfigure.png" alt="Maps as an analogy for models." width="100%" /&gt;
-&lt;p class="caption"&gt;Maps as an analogy for models.&lt;/p&gt;
+&lt;img src="./media/SIRmodelsketch.png" alt="Source: https://bit.ly/2WYiMJt" width="50%" /&gt;
+&lt;p class="caption"&gt;Source: https://bit.ly/2WYiMJt&lt;/p&gt;
 &lt;/div&gt;
 
 
 ---
-# Step 3 - Choose model type &amp; details
-
-.pull-left[
-* I recommend starting with a simple model. 
-* ODE models are good starting points.
-* Only include the most essential components and processes you know you need.
-* You can always increase model size/complexity later.
-]
-
-.pull-right[
-&lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="./media/xkcd_approximation_physicists.png" alt="xkcd.com" width="90%" /&gt;
-&lt;p class="caption"&gt;xkcd.com&lt;/p&gt;
-&lt;/div&gt;
-]
-
-
+# Model use
+* What is the model used for and is that clearly explained?
+* Is a thorough analysis performed?
+* If the model is used for prediction, is some type of uncertainty and sensitivity analysis included?
+* If the model is fit to data, are there checks for overfitting? 
+  
+---
+# Model results
+* How generalizable are the results?  
+* Do the authors discuss when/how the model _fails_ and what that means? This is often informative.
+* If the model 'works', do the authors discuss why/how?
 
 
 ---
-# Step 4 - Sketch the model 
+# Model checks/validation
+* If there was no fitting of data, do the authors compare model results to data?
+  * What kind of comparison is done?
+  * Is the comparison convincing?
 
-&lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="./media/SIRmodelsketch.png" alt="https://bit.ly/2WYiMJt" width="50%" /&gt;
-&lt;p class="caption"&gt;https://bit.ly/2WYiMJt&lt;/p&gt;
-&lt;/div&gt;
-
-
-* Draw diagrams of the model components and interactions.
-* If you do an ODE model, write down the equations.
-* Writing down the ODEs might be a good exercise even if you will use a more complicated model eventually.
+&lt;img src="./media/phd_whocaresaboutexperiments.gif" width="100%" style="display: block; margin: auto;" /&gt;
 
 ---
-# Step 5 - Implement the model 
-
-* Write computer code for the model
-
-&lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="./media/xkcd_compiling.png" alt="xkcd.com" width="60%" /&gt;
-&lt;p class="caption"&gt;xkcd.com&lt;/p&gt;
-&lt;/div&gt;
-
-
+# Model interpretation
+* Are claims consistent with methods and results?
+  * A very simple model is likely not suitable for detailed predictions.
+  * A complicated model is likely not reliable if the model inputs have lots of uncertainty or the model assumptions are not acceptable.
+* If model use is exploratory/qualitative, are authors clear about this?
+* If model is meant to predict, are levels of uncertainty provided? What kind of uncertainty is considered? 
 
 ---
-# Step 6-666 - debug code, fix model 
-
-* Run your model code. It will likely not run and/or produce weird results.
-* Find all the bugs in your code and in your conceptual/mathematical model until everything seems to work. 
-* As you test your model, make sure every component works right.
-* Trying extreme scenarios is often a good quick test.
-
-&lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="./media/xkcd_goto.png
-" alt="xkcd.com" width="100%" /&gt;
-&lt;p class="caption"&gt;xkcd.com&lt;/p&gt;
-&lt;/div&gt;
-
+# Summary 
+* Simulation models are useful tools to study infectious diseases.
+* Models are not a magic tool. Results are only as good/reliable as the quality of the underlying model.
+* If in doubt about the quality/reliability of a modeling study, ask an expert.
 
 ---
-# Step 667 - analyze model 
-
-* Once your model works, run simulations, analyze results.
-
-&lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="./media/dilbert_flupandemic.gif" alt="dilbert.com" width="100%" /&gt;
-&lt;p class="caption"&gt;dilbert.com&lt;/p&gt;
-&lt;/div&gt;
-
-
-
----
-# Step 668-N - Reality check &amp; model adjustment
-
-* Compare your model results with whatever data you have/know about.
-* As needed (very likely) adjust model to reality.
-* __Note the model "failures":__ If you built a reasonable model and it wasn't able to reproduce reality, you/we have learned something.
-* Keep iterating until the model "works".
-
-&lt;img src="./media/phd_whocaresaboutexperiments.gif" width="90%" style="display: block; margin: auto;" /&gt;
-
----
-# Step N+1 - Write up and publish
-
-&lt;img src="./media/phd-realimpactfactor.gif" width="100%" style="display: block; margin: auto;" /&gt;
+# Literature 
+* Basu and Andrews, "Complexity in Mathematical Models of Public Health
+Policies: A Guide for Consumers of Models", doi:10.1371/journal.pmed.1001540
+* Garnett et al, "Mathematical models in the evaluation of health programmes", doi:10.1016/S0140-6736(10)61505-X
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

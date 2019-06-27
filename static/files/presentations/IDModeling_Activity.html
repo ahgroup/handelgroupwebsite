@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
-    <title>Active learning of infectious disease modeling</title>
+    <title>Active learning of infectious disease epidemiology</title>
     <meta charset="utf-8" />
     <meta name="author" content="Andreas Handel" />
-    <meta name="date" content="2019-06-24" />
+    <meta name="date" content="2019-06-27" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
     <link rel="stylesheet" href="media\handelslides.css" type="text/css" />
@@ -13,10 +13,10 @@
     <textarea id="source">
 class: center, middle, title-slide, title-slide
 
-# Active learning of infectious disease modeling
+# Active learning of infectious disease epidemiology
 ### Andreas Handel
 ### University of Georgia
-### 2019-06-24
+### 2019-06-27
 
 ---
 
@@ -25,11 +25,11 @@ class: center, middle, title-slide, title-slide
 # The challenge
 
 .pull-left[
-* Modern Infectious Disease Epidemiology is fairly mathematical/computational.
+* Modern infectious disease epidemiology is fairly mathematical/computational.
 * Models are generally implemented and analyzed on a computer.
-* This requires students to write computer code.
+* This requires students to use/write computer code.
 * Many students have limited coding skills.
-* The lack of coding skills can limit the use of such models.
+* The lack of coding skills can limit the use of models.
 ]
 
 .pull-right[
@@ -42,9 +42,9 @@ class: center, middle, title-slide, title-slide
 ---
 # The goals
 .pull-left[
-* Help students learn modern approaches to infectious disease epidemiology without having to write code.
+* Help students learn modern, model-based, approaches to infectious disease epidemiology without having to write code.
 * Allow for __active, hands-on learning.__
-* Provide a way to seamlessly progreSS toward increased coding.
+* Provide an (optional) way to easily progress toward increased coding.
 ]
 
 .pull-right[
@@ -57,15 +57,13 @@ class: center, middle, title-slide, title-slide
 ---
 # A solution
 * Write software that allows students to use models without having to write code.
-* I wrote one package (DSAIDE) for Infectious Disease Modeling at the population/epidemiology level and one package for within-host/immunology (DSAIRM).
-* More information
-  * Handel 2017 PLoS Computational Biology “Learning infectious disease epidemiology in a modern framework”
-  * Package website: https://ahgroup.github.io/DSAIDE/
-  * Companion package for within-host/immunology modeling: https://ahgroup.github.io/DSAIRM/
+  * DSAIDE - Dynamical Systems Approach to Infectious Disease Epidemiology: https://ahgroup.github.io/DSAIDE/
+  * DSAIRM - Dynamical Systems Approach to Immune Response Modeling: https://ahgroup.github.io/DSAIRM/
+  * See also: Handel 2017 PLoS Computational Biology _“Learning infectious disease epidemiology in a modern framework”_
 
 
 ---
-# DSAIDE Overview
+# DSAIDE overview
 * Easy install like any other R package.
 * Single command after package is installed and loaded to get to main menu.
 
@@ -73,7 +71,7 @@ class: center, middle, title-slide, title-slide
 
 
 ---
-# DSAIDE UI
+# DSAIDE interface
 
 &lt;img src="./media/appexample.png" width="100%" style="display: block; margin: auto;" /&gt;
 
@@ -90,15 +88,15 @@ class: center, middle, title-slide, title-slide
 
 ---
 # Easy advancement
-* Students can advance from the graphical exploration of the models (“Level 1”) to adding a bit of their own code and make the models do more (“L2”) all the way to using the model code and modifying it to fit their needs (“L3”).
+* Students can advance from the graphical exploration of the models (Level 1) to adding a bit of their own code and make the models do more (L2) all the way to using the model code and modifying it to fit their needs (L3).
 
 &lt;img src="./media/dsaidelevels.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 
 ---
 # Other considerations
-* The software is written as R packages. R is a powerful and FREE, widely used programming language. 
-* The packages are open source and publicly developed on Github ad cRAN.
+* The software is written as R package. R is a powerful and FREE, widely used statistical and programming language. 
+* The packages are open source and publicly developed on Github and CRAN.
 * The packages are developed such that students can seamlessly move from graphical interaction (exploring models) to doing their own coding (becoming modelers).
 
 
@@ -109,6 +107,14 @@ class: center, middle, title-slide, title-slide
 * __However__, if a user wants to build/explore new models, they usually have to take the (pre-written) models and alter them. Better than starting from scratch, but still requires coding.
 * A new R package, called _modelbuilder_ allows individuals to graphically build and analyze custom compartmental (ODE/stochastic/discrete-time) without the need to write code.
 * Package is in development, current version available at: https://ahgroup.github.io/modelbuilder/
+  
+  
+---
+# DSAIDE in action
+* If you haven't done yet, follow the brief installation instructions here: https://ahgroup.github.io/DSAIDE/
+* Start with the _Basic SIR Model_ app.
+* Continue with the _ID control for multiple outbreaks_ app.
+* Continue to explore any app you are interested in. For advanced users, you can download the simulation functions for all apps and try the L2 and L3 approach. See the "Get Started" tutorial on the package website for examples.
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
