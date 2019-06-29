@@ -4,7 +4,7 @@
     <title>Introduction to Infectious Disease Modeling</title>
     <meta charset="utf-8" />
     <meta name="author" content="Andreas Handel" />
-    <meta name="date" content="2019-06-27" />
+    <meta name="date" content="2019-06-28" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
     <link rel="stylesheet" href="media\handelslides.css" type="text/css" />
@@ -16,7 +16,7 @@ class: center, middle, title-slide, title-slide
 # Introduction to Infectious Disease Modeling
 ### Andreas Handel
 ### University of Georgia
-### 2019-06-27
+### 2019-06-28
 
 ---
 
@@ -72,7 +72,10 @@ class: center, middle, title-slide, title-slide
 
 # Simulation/modeling studies
 
-&lt;img src="./media/xkcd_algorithm_help.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/xkcd_algorithm_help.png" alt="xkcd.com" width="100%" /&gt;
+&lt;p class="caption"&gt;xkcd.com&lt;/p&gt;
+&lt;/div&gt;
 
 * __Computer/simulation models__ can represent a real system.
 * Simlulated data is not as good as real data.
@@ -105,13 +108,17 @@ class: center, middle, title-slide, title-slide
 ---
 
 # Modeling examples
-* Infectious disease transmission.
+* Weather forecasting.
 * Simulations of a power plant or other man-made system.
 * Predicting the economy.
-* Weather forecasting.
+* Infectious disease transmission.
+* Immune Response modeling.
 * ...
 
-&lt;img src="./media/ns_useofpredictions.gif" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/ns_useofpredictions.gif" alt="www.gocomics.com/nonsequitur" width="100%" /&gt;
+&lt;p class="caption"&gt;www.gocomics.com/nonsequitur&lt;/p&gt;
+&lt;/div&gt;
 
 ---
 # A real-world example
@@ -119,7 +126,17 @@ class: center, middle, title-slide, title-slide
 
 * Ira Longini flu model
 
+---
+# Within-host and between-host modeling
 
+Within-host | Between-host |
+---------- | ---------- |
+Spread inside a host (virology, microbiology, immunology) | Spread on the population level (ecology, epidemiology) |
+Populations of pathogens &amp; immune response components | Populations of hosts (humans, animals) |
+Acute/Persistent (e.g. Flu/TB) | Epidemic/Endemic (e.g. Flu/TB) |
+Usually (but not always) explicit modeling of pathogen | Often, but not always, no explicit modeling of pathogen |
+
+The same types of dynamical models have been used on both scales.
 
 
 ---
@@ -131,6 +148,19 @@ class: center, middle, title-slide, title-slide
 * Daley and Gani (2001) "Epidemic modeling: an introduction": Thorough mathematical treatment, not too intuitive/easy.
 * Diekmann &amp; Heesterbeek (2000) "Mathematical Epidemiology of Infectious Diseases: Model Building, Analysis and Interpretation": Relatively advanced math level.
 * Dynamical Systems Approach to Infectious Disease Epidemiology - draft of a book I wrote (uses models, but doesn't really teach modeling): https://ahgroup.github.io/DSAIDEbook/
+
+
+
+---
+# References
+Some general 'modeling in biology' books are: [@britton03; @allman03; @ellner06; @otto07].
+
+Some 'infectious disease modeling' books, with a focus on the epidemiological/population level, are: [@anderson91; @keeling08; @vynnycky10].
+
+The 'further information' section for each app in DSAIRM provides additional references and further reading for specific apps/models.
+
+---
+# References {#verysmall}
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

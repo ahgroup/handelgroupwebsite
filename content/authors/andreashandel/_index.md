@@ -79,11 +79,11 @@ bio = ""
 #### Short Academic Bio
 
 I am currently an Associate Professor in the [Department of Epidemiology and Biostatistics](http://www.publichealth.uga.edu/epibio/),
-[College of Public Health](http://www.publichealth.uga.edu/), at the [University of Georgia](http://www.uga.edu/). 
-I also have adjunct appointments in UGA's [Department of Infectious Diseases in the College of Veterinary Medicine](http://www.vet.uga.edu/id/people)
-and in the [Department of Epidemiology, Rollins School of Public Health](http://sph.emory.edu/faculty/profile/# AHANDEL) 
-at Emory University. I am a Member of UGA's [Institute of Bioinformatics](http://iob.uga.edu/faculty/) and 
-[Faculty of Infectious Diseases](https://fid.uga.edu).
+[College of Public Health](http://www.publichealth.uga.edu/), at the [University of Georgia (UGA)](http://www.uga.edu/). I also serve as Associate Department Head and Graduate Coordinator and as Director of the Health Systems Modeling Core of UGA's [Health Informatics Institute](http://hii.publichealth.uga.edu/).
+
+I have adjunct appointments in UGA's [Department of Infectious Diseases](http://www.vet.uga.edu/id/), [School of Ecology](https://www.ecology.uga.edu/), and Emory University's [Department of Epidemiology](https://www.sph.emory.edu/departments/epi/index.html). 
+
+My research focuses on the spread and control of infectious diseases, mainly influenza, tuberculosis and norovirus. I use computational simulation models, statistical analysis and machine learning to understand the dynamics of pathogens on different spatial and temporal scales. The ultimate goal of my work is to help design better intervention and control strategies against infectious diseases, both for individual patients and on the population level.
 
 Before joining UGA, I was a Postdoctoral Fellow in the [Department of Biology](http://www.emory.edu/BIOLOGY/) 
 at [Emory University](http://www.emory.edu/) in the group of [Rustom Antia](http://www.biology.emory.edu/Antia/). 
@@ -94,14 +94,10 @@ population level.
 I obtained a Ph.D. in physics from the [Center for Nonlinear Science](http://cns.physics.gatech.edu/) and 
 [School of Physics](http://www.physics.gatech.edu/), [Georgia Institute of Technology](http://www.gatech.edu/). 
 I worked with [Roman Grigoriev](http://www.cns.gatech.edu/~roman/) on the topic of localized control of spatially 
-extended, nonlinear dynamical systems. My research combined elements from [fluid mechanics](http://en.wikipedia.org/wiki/Fluid_mechanics), 
-[applied mathematics](http://en.wikipedia.org/wiki/Applied_mathematics), [dynamical systems theory](http://en.wikipedia.org/wiki/Dynamical_system) 
-and [control theory](http://en.wikipedia.org/wiki/Control_theory). 
+extended, nonlinear dynamical systems. 
 
 I received my B.S. (or what could be considered the German equivalent) from the [Department of Physics](http://www.physik.uni-stuttgart.de/index.en.html), 
-[University of Stuttgart](http://www.uni-stuttgart.de/en/) in Germany. My focus areas were 
-[nonlinear dynamics/chaos theory](http://en.wikipedia.org/wiki/Nonlinear_dynamics) and 
-[scientific computation](http://en.wikipedia.org/wiki/Scientific_computation).
+[University of Stuttgart](http://www.uni-stuttgart.de/en/) in Germany. 
 
 #### Additional Information about me 
 

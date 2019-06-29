@@ -4,7 +4,7 @@
     <title>How to use simulation models</title>
     <meta charset="utf-8" />
     <meta name="author" content="Andreas Handel" />
-    <meta name="date" content="2019-06-27" />
+    <meta name="date" content="2019-06-28" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
     <link rel="stylesheet" href="media\handelslides.css" type="text/css" />
@@ -16,7 +16,7 @@ class: center, middle, title-slide, title-slide
 # How to use simulation models
 ### Andreas Handel
 ### University of Georgia
-### 2019-06-27
+### 2019-06-28
 
 ---
 
@@ -58,7 +58,7 @@ class: center, middle, title-slide, title-slide
 &lt;img src="./media/multioutbreakmodelfigure.png" width="80%" style="display: block; margin: auto;" /&gt;
 
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="./media/multioutbreakfigv2.png" alt="Basic SIR model with control." width="80%" /&gt;
+&lt;img src="./media/multioutbreakmodelfigure2.png" alt="Basic SIR model with control." width="80%" /&gt;
 &lt;p class="caption"&gt;Basic SIR model with control.&lt;/p&gt;
 &lt;/div&gt;
 
@@ -118,7 +118,7 @@ $$
 
 # Predictions
 * If we believe our model approximates reality well enough, we can use it to predict future outcomes, e.g. due to interventions.
-* Those predictions can be of different type:
+* Those predictions can be of different types:
   * __Qualitative:__ Try to predict shape/direction of an outcome (similar to the 'understanding' model use).
   * __Semi-quantitative:__ Try to predict the approximate or relative size of an outcome.
   * __Quantitative:__ Try to predict (with confidence intervals) the magnitude of an outcome.
@@ -134,7 +134,7 @@ $$
 
 
 # Semi-quantitative prediction example
-* Multi-group effort to use computer models to predict the how different interventions affect TB incidence and prevalence in 2025.
+* Multi-group effort to use computer models to predict how different interventions affect TB incidence and prevalence in 2025.
 
 &lt;img src="./media/TBMAClogos.png" width="100%" style="display: block; margin: auto;" /&gt;
 
@@ -222,7 +222,7 @@ __All models makes simplifying assumptions. Thus, predictions are only reliable 
 ---
 # Fitting models to data 
 
-* The previous two model uses do not require fitting of models to data.
+* The previous two model uses do not require fitting to data.
 * If we have the right data, we can fit models to it.
 
 &lt;img src="./media/phd_dataisorare.gif" width="100%" style="display: block; margin: auto;" /&gt;
@@ -252,7 +252,7 @@ __All models makes simplifying assumptions. Thus, predictions are only reliable 
 
 Person-person transmission is the only transmission mechanism
 
-&lt;img src="./media/basicSIRmodelscheme.png" width="80%" style="display: block; margin: auto;" /&gt;
+&lt;img src="./media/basicSIRmodelfigure.png" width="80%" style="display: block; margin: auto;" /&gt;
 
 $$
 `\begin{aligned}
@@ -284,10 +284,11 @@ $$
 
 ---
 # Model fits
+* Model with constant source (red, n&gt;0 for duration of outbreak) did not perform better than the no source model (green, n=0).
+* Model with extra source between Dec 10-12 (blue, n&gt;0 between 12/10-12/12, 0 otherwise) did best (AIC comparison). 
+
 &lt;img src="./media/norofit.png" width="60%" style="display: block; margin: auto;" /&gt;
 
-* Model with constant source (n&gt;0 for duration of outbreak) did not perform better than the no source model (n=0).
-* Model with extra source between Dec 10-12 (n&gt;0 between 12/10-12/12, 0 otherwise) did best (AIC comparison). 
 
 
 
