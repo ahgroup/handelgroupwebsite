@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Types of models</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Andreas Handel" />
+    <meta name="date" content="2019-07-03" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="media\handelslides.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, title-slide, title-slide
+
+# Types of models
+### Andreas Handel
+### University of Georgia
+### 2019-07-03
+
+---
+
+
+# Modeling definition
+
+.pull-left[
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/modelingcouple.jpg" alt="Not this" width="60%" /&gt;
+&lt;p class="caption"&gt;Not this&lt;/p&gt;
+&lt;/div&gt;
+]
+
+.pull-right[
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/SIRmodelsketch.png" alt="This one" width="70%" /&gt;
+&lt;p class="caption"&gt;This one&lt;/p&gt;
+&lt;/div&gt;
+]
+
+* The term __modeling__ usually means (in science) the description and analysis of a system using mathematical or computational models. 
+* Many different types of modeling approaches exist. Simulation models are one type (with many subtypes).
+
+---
+
+# Types of models
+* Models can be
+  * Experimental
+  * Mathematical/equation based
+  * Computational/algorithm based
+  * Applied to data
+  * Used without data
+  * Static or dynamic
+  * Mechanistic or not
+  * Applied to things, animals, molecules, cells, sequences, individuals, ...
+
+__The terms model and modeling are widely applied to different things.__
+
+
+---
+# A way to classify computational/mathematical models
+
+
+* __Statistical/phenomenological models__
+  * Look at patterns in data
+  * Do not describe mechanisms leading to the data
+* __Mechanistic/process/simulation models__
+  * Try to represent simplified versions of mechanisms
+  * Can be used with and without data
+
+
+---
+
+# Phenomenological/Non-mechanistic models
+
+.pull-left[
+* You might be familiar with statistical models (that includes Machine Learning, AI, Deep Learning,...).
+* Most of those models are phenomenological/non-mechanistic (and static).
+* Those models are used extensively in all areas of science.
+* The main goal of these models is to understand data/patterns and make predictions.
+]
+
+.pull-right[
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/xkcd-curve_fitting.png" alt="xkcd.com" width="80%" /&gt;
+&lt;p class="caption"&gt;xkcd.com&lt;/p&gt;
+&lt;/div&gt;
+]
+
+
+
+---
+
+# Non-mechanistic model example 1
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/phenoexample.png" alt="Impact of duration of infection on outbreak size. The fit model is `\(F = b_0 + b_1 D +b_2 D^2 + b_3 D^3\)`. " width="80%" /&gt;
+&lt;p class="caption"&gt;Impact of duration of infection on outbreak size. The fit model is `\(F = b_0 + b_1 D +b_2 D^2 + b_3 D^3\)`. &lt;/p&gt;
+&lt;/div&gt;
+
+---
+## Non-mechanistic model example 2
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/phenomodel.png" alt="Impact of drug dose (C) on virus load (area under the curve, AUC). The function AUC = `\(V_{max} (1-\frac{C}{C+C_{50}})\)` is fit to the data." width="50%" /&gt;
+&lt;p class="caption"&gt;Impact of drug dose (C) on virus load (area under the curve, AUC). The function AUC = `\(V_{max} (1-\frac{C}{C+C_{50}})\)` is fit to the data.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+---
+# Non-mechanistic models - Advantages
+* Finding correlations/patterns is (relatively) simple.
+* Some models are very good at predicting (e.g. Netflix recommender, Google Translate).
+* Sometimes we can go from correlation to causation.
+* We don't need to understand all the underlying mechanisms to get actionable insights.
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/dilbert-machine-learning.gif" alt="dilbert.com" width="100%" /&gt;
+&lt;p class="caption"&gt;dilbert.com&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+---
+
+# Non-mechanistic models - Disadvantages
+.pull-left[
+* The jump from correlation to causation is always tricky (bias/confounding/systematic errors). 
+* Even if we can assume a causal relation, we do not gain a lot of mechanistic insights or deep understanding of the system.
+]
+
+.pull-right[
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/xkcd-machine_learning.png" alt="xkcd.com" width="100%" /&gt;
+&lt;p class="caption"&gt;xkcd.com&lt;/p&gt;
+&lt;/div&gt;
+]
+---
+
+# Mechanistic models
+* We formulate explicit mechanisms/processes driving the system  dynamics.
+* This is done using mathematical equations (often ordinary differential equations), or computer rules.
+* Also called _systems dynamics models_ or _(micro)simulation models_.
+
+&lt;img src="./media/id-process-schematic.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+$$
+`\begin{aligned}
+\dot S &amp; = -bSI \\
+\dot I &amp; = bSI - g I \\
+\dot R &amp; = g I \\
+\end{aligned}`
+$$
+
+
+---
+# Mechanistic model example 1
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/SIRpredictexample.png" alt="Impact of duration of infection (D=1/g) on outbreak size. The fit model is the one shown below." width="60%" /&gt;
+&lt;p class="caption"&gt;Impact of duration of infection (D=1/g) on outbreak size. The fit model is the one shown below.&lt;/p&gt;
+&lt;/div&gt;
+
+$$
+`\begin{aligned}
+\dot S &amp; = -bSI \\
+\dot I &amp; = bSI - gI \\
+\dot R &amp; = gI \\
+\end{aligned}`
+$$
+
+---
+# Mechanistic model example 2
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/predictexample.png" alt="Total virus load (VAUC) as function of drug efficacy, e." width="50%" /&gt;
+&lt;p class="caption"&gt;Total virus load (VAUC) as function of drug efficacy, e.&lt;/p&gt;
+&lt;/div&gt;
+
+$$
+`\begin{aligned}
+\textrm{Uninfected Cells} \qquad \dot{U} &amp; = n - bUV -mU \\
+\textrm{Infected Cells} \qquad \dot{I} &amp; =  bUV - d_I I - mI\\     
+\textrm{Virus} \qquad  \dot{V} &amp; =  p(1-e)I - d_V V -  gb UV
+\end{aligned}`
+$$
+
+
+
+---
+
+# Mechanistic models - Advantages
+* We get a potentially deeper, mechanistic understanding of the system.
+* We know exactly how each component affects the others in our model.
+
+&lt;img src="./media/id-process-schematic.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+
+$$
+`\begin{aligned}
+\dot S &amp; = -bSI \\
+\dot I &amp; = bSI - gI \\
+\dot R &amp; = gI \\
+\end{aligned}`
+$$
+
+---
+
+## Mechanistic models - Disadvantages
+* We need to know (or assume) something about the mechanisms driving our system to build a mechanistic model.
+* If our assumptions/model are wrong, the "insights" we gain from the model are spurious.
+
+&lt;img src="./media/id-process-schematic2.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+
+$$
+`\begin{aligned}
+\dot S &amp; = -bSI \\
+\dot I &amp; = bSI - gI \\
+\dot R &amp; = gI \\
+\end{aligned}`
+$$
+
+---
+## Non-mechanistic vs Mechanistic models 
+* Non-mechanistic models (e.g. regression models, machine learning) are useful to see if we can find patterns in our data and possibly predict, without necessarily trying to understand the mechanisms.
+* Mechanistic models are useful if we want to study the mechanism(s) by which observed patterns arise.
+
+**Ideally, you want to have both in your 'toolbox'.**    
+
+
+---
+
+# Mechanistic model types
+There are many ways mechanistic models can be formulated and implemented. Here are some ways of characterizing them:
+
+* _Compartmental_ or _Agent-based_
+* _Discrete time_ or _Continuous time_
+* _Deterministic_ or _Stochastic_
+* _Space-less (homogeneous)_ or _Spatial_
+* _Memory-less (Markov)_ or _With memory_
+* _Small_ or _Big_
+* _Data-free_ or _With data_
+
+The most common model type is one using ordinary differential equations (ODEs). Such models are usually compartmental, continuous time, deterministic, space-less, memory-less, and small(ish).
+
+
+
+---
+class: center, middle
+
+# Compartmental versus Agent/Individual based models
+
+---
+
+# Compartmental models
+* The components of the model are treated as homogeneous groups (compartments), one only tracks population numbers/sizes.
+* The simplest type of model, sometimes mathematically tractable, easy to implement on a computer.
+* Good model for fitting data.
+* The assumption that populations are homogeneous and “well mixed” is always wrong (but sometimes it is a good enough approximation). 
+* Often the best starting point.
+
+
+
+---
+
+# Compartmental models - example 1
+
+&lt;img src="./media/basicSIRmodelfigure.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+$$
+`\begin{aligned}
+\dot S &amp; = -bSI \\
+\dot I &amp;  = bSI - gI \\
+\dot R &amp;  = gI \\
+\end{aligned}`
+$$
+
+$$
+`\begin{aligned}
+S_{t+dt} &amp; = S_{t} - dt(  bS_{t} I_{t} ) \\
+I_{t+dt} &amp;  = I_{t} + dt( bS_{t} I_{t} - gI_{t}) \\
+R_{t+dt} &amp;  = R_{t} + dt( gI_{t} ) \\
+\end{aligned}`
+$$
+---
+# Compartmental models - example 2
+
+&lt;img src="./media/chronicvirusmodel.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+$$
+`\begin{aligned}
+\textrm{Uninfected Cells} \qquad \dot{U} &amp; = n -d_U U - bUV \\
+\textrm{Infected Cells} \qquad \dot{I} &amp; =  bUV - d_I I \\     
+\textrm{Virus} \qquad  \dot{V} &amp; =  pI - d_V V -  bg UV 
+\end{aligned}`
+$$
+
+---
+# (Compartmental) models - terminology
+
+&lt;img src="./media/modelterminology.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+---
+# Individual/agent based models
+* Every unit/host/individual is modeled/tracked. Called agent-based or individual-based models (ABM/IBM). 
+* Mostly computational, (almost) no mathematical analysis is possible. 
+* IBM usually have many parameters, are diffcult to build and take long to run. 
+* IBM are difficult to fit to data. 
+* IBM are conceptually easy to understand.
+* IBM are potentially most detailed and realistic.
+
+
+---
+# Individual based models - example
+
+.pull-left[
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/gleamviz_italy.png" alt="Ajelli et al 2010 BMC Inf Dis: https://doi.org/10.1186/1471-2334-10-190" width="100%" /&gt;
+&lt;p class="caption"&gt;Ajelli et al 2010 BMC Inf Dis: https://doi.org/10.1186/1471-2334-10-190&lt;/p&gt;
+&lt;/div&gt;
+]
+
+.pull-right[
+&lt;img src="./media/netlogo.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+class: center, middle
+
+# Discrete time versus continuous time models
+
+
+---
+# Discrete time models
+* The model is updated in discrete time-steps.
+* Good for systems where there is a “natural” time step.
+  * Example: For some animals, births occur during a small period in spring. Modeling the long-term dynamics of an ID in such a population might lend itself to a model that is updated annually.
+* Complex models, such as agent-based simulations are almost always discrete-time (for computational reasons).
+* Discrete-time compartmental models are often formulated as difference equations.
+* If the time-step becomes small, a discrete-time model approaches a continuous-time model.
+
+---
+# Discrete time models - example
+
+&lt;img src="./media/basicSIRmodelfigure.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+$$
+`\begin{aligned}
+S_{t+dt} &amp; = S_{t} - dt(  bS_{t} I_{t} ) \\
+I_{t+dt} &amp;  = I_{t} + dt( bS_{t} I_{t} - gI_{t}) \\
+R_{t+dt} &amp;  = R_{t} + dt( gI_{t} ) \\
+\end{aligned}`
+$$
+
+
+&lt;img src="./media/netlogo.png" width="40%" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+# Continuous time models
+
+* The model is updated continuously.
+* Best for systems where changes occur continuously and concurrently. 
+  * Example: To model an outbreak of flu (or some other ID) in a large population, with new infections and recoveries occurring continuously and concurrently, a continuous-time model might be best.
+* Continuous-time models are usually described by differential equations.
+* Ordinary differential equation (ODE) models are the most common and simplest one.
+
+
+---
+# Continuous time models - example 1
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/vectorbornemodel.png" alt="Vector borne infectious disease model." width="60%" /&gt;
+&lt;p class="caption"&gt;Vector borne infectious disease model.&lt;/p&gt;
+&lt;/div&gt;
+
+
+$$
+`\begin{aligned}
+\dot S_h &amp; = - b_1 S_h I_v + w R_h \\
+\dot I_h &amp; = b_1 S_h I_v  - g I_h \\ 
+\dot R_h &amp; = g I_h - w R_h \\
+\dot S_v &amp; =b - b_2 S_v I_h - n S_v \\ 
+\dot I_v &amp; = b_2 S_v I_h  - n I_v \\
+\end{aligned}`
+$$ 
+---
+# Continuous time models - example 2 
+
+&lt;img src="./media/virusandIRmodel.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+.small[
+
+$$
+`\begin{aligned}
+\dot U &amp;= n - d_U U - bUV\\ 
+\dot I &amp;= bUV - d_I I - k_T T I\\
+\dot V &amp;= \frac{pI}{1+s_F F} - d_V V - b UV - k_A AV \\
+\dot F &amp;= p_F - d_F F + \frac{V}{V+ h_V}g_F(F_{max}-F)  \\ 
+\dot T &amp;= F V g_T + r_T T\\
+\dot B &amp; = \frac{F V}{F V + h_F} g_B B \\
+\dot A &amp; = r_A B - d_A A - k_A A V
+\end{aligned}`
+$$
+]
+
+---
+class: center, middle
+
+# Deterministic versus stochastic models
+
+
+---
+# Deterministic models
+* For given parameters and initial conditions, the model always produces the same result.
+*  Simple, easy to implement on a computer (e.g. ODE models).
+*  Sometimes one can do analytical calculations.
+*  Real biological systems are never deterministic, but sometimes approximately so.
+* When large numbers are involved, deterministic models tend to be good. They break down when only few entities (e.g. few hosts) are involved.
+
+
+
+
+---
+# Deterministic models - examples
+
+&lt;img src="./media/basicSIRmodelfigure.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+$$
+`\begin{aligned}
+\dot S &amp; = -bSI \\
+\dot I &amp;  = bSI - gI \\
+\dot R &amp;  = gI \\
+\end{aligned}`
+$$
+
+$$
+`\begin{aligned}
+S_{t+dt} &amp; = S_{t} - dt(  bS_{t} I_{t} ) \\
+I_{t+dt} &amp;  = I_{t} + dt( bS_{t} I_{t} - gI_{t}) \\
+R_{t+dt} &amp;  = R_{t} + dt( gI_{t} ) \\
+\end{aligned}`
+$$
+
+$$
+`\begin{aligned}
+\dot{B} &amp; = g B(1-\frac{B}{B_{max}}) - d_B B - kBI\\
+\dot{I} &amp; = r BI - d_I I
+\end{aligned}`
+$$
+
+---
+# Stochastic models
+* Results differ between simulations, even for the same model conditions.
+* More difficult to implement on a computer, takes longer to run.
+* The math is more difficult.
+* Closer to the “real” system.
+* Stochastic effects are important at low numbers. 
+* The same model implemented as deterministic or stochastic can lead to different results!
+
+---
+# Stochastic models - example
+
+&lt;img src="./media/netlogo.png" width="40%" style="display: block; margin: auto;" /&gt;
+
+
+&lt;img src="./media/basicSIRmodelfigure.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+$$
+`\begin{aligned}
+S_{t+dt} &amp; = S_{t} - dt(  bS_{t} I_{t} ) \\
+I_{t+dt} &amp;  = I_{t} + dt( bS_{t} I_{t} - gI_{t}) + {\bf Noise} \\
+R_{t+dt} &amp;  = R_{t} + dt( gI_{t} ) \\
+\end{aligned}`
+$$
+---
+class: center, middle
+
+# Homogeneous/space-less versus spatial models
+
+---
+# Homogeneous/space-less models
+* There is no explicit notion of space. Entities (e.g. hosts) are assumed to exist in a homogenous space.
+* Entities are assumed to be well-mixed and randomly bump into each other. 
+* Most compartmental models make this assumption.
+
+
+---
+# Space-less models - example
+
+&lt;img src="./media/basicSIRmodelfigure.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+$$
+`\begin{aligned}
+\dot S &amp; = -bSI \\
+\dot I &amp;  = bSI - gI \\
+\dot R &amp;  = gI \\
+\end{aligned}`
+$$
+
+&lt;img src="./media/bacteriadiagram.png" width="40%" style="display: block; margin: auto;" /&gt;
+
+$$
+`\begin{aligned}
+\dot{B} &amp; = g B(1-\frac{B}{B_{max}}) - d_B B - kBI\\
+\dot{I} &amp; = r BI - d_I I
+\end{aligned}`
+$$
+
+---
+# Spatial models
+* Some notion of space is explicitly included.
+* Different types of models can be used:
+  * Patch/Meta-population models. Usually coupling of multiple compartmental models.
+  * Partial Differential equations.
+  * Agent-based models.
+  * Network models.
+
+
+---
+# Spatial models - example
+
+
+.pull-left[
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/gleamviz_italy.png" alt="Ajelli et al 2010 BMC Inf Dis: https://doi.org/10.1186/1471-2334-10-190" width="100%" /&gt;
+&lt;p class="caption"&gt;Ajelli et al 2010 BMC Inf Dis: https://doi.org/10.1186/1471-2334-10-190&lt;/p&gt;
+&lt;/div&gt;
+]
+
+.pull-right[
+&lt;img src="./media/netlogo.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="./media/agent-based-model.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+
+---
+class: center, middle
+
+# Memory-less (Markov) models versus models with memory
+
+
+---
+# Memory-less models
+* Many models (e.g. those based on ordinary differential equations, ODE) are memory-less (Markovian). What happens next only depends on the current state of the system, not on the past. 
+* That means for instance, that an infected individual has an equal chance to recover at any time, no matter how long ago the infection occurred.
+* This approximation is sometimes, but not always acceptable. 
+
+---
+# Memory-less models - example
+
+
+$$
+`\begin{aligned}
+\dot S &amp; = -bSI \\
+\dot I &amp;  = bSI - gI \\
+\dot R &amp;  = gI \\
+\end{aligned}`
+$$
+
+$$
+`\begin{aligned}
+S_{t+dt} &amp; = S_{t} - dt(  bS_{t} I_{t} ) \\
+I_{t+dt} &amp;  = I_{t} + dt( bS_{t} I_{t} - gI_{t}) \\
+R_{t+dt} &amp;  = R_{t} + dt( gI_{t} ) \\
+\end{aligned}`
+$$
+
+
+
+---
+# Models with memory
+* If we want to keep track of the past, e.g. if we want to let the chance of recovery depend on the time since infection, we can’t use basic ODE models.
+* Possible models:
+  * ODE models with “dummy compartments”
+  * Partial differential equations
+  * Delay differential equations
+  * Agent-based models
+
+---
+# Models with memory - example
+
+$$
+`\begin{aligned}
+\frac{ dS(t)}{dt} &amp; = -bS(t)I(t- {\bf \tau}) \\
+\frac{ dI(t)}{dt} &amp;  = bS(t)I(t - {\bf \tau}) - gI(t) \\
+\frac{ dR(t)}{dt} &amp;  = gI(t) \\
+\end{aligned}`
+$$
+
+&lt;img src="./media/netlogo.png" width="40%" style="display: block; margin: auto;" /&gt;
+
+
+---
+class: center, middle
+
+# Small versus large models
+
+
+
+---
+# Small models
+* Start with a very simple model, try to capture the most important aspects of the known dynamics of the system.
+* Analyze model to gain conceptual insights. It should be relatively easy to understand what is going on.
+* It’s often possible to fit the model to data. Model rejection (e.g. poor agreement with data) is helpful, it taught us something.
+* The model might not include crucial known biology and therefore the insights/results might be of limited use (or completely useless).
+
+
+---
+# Small models - example
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/vectorbornemodel.png" alt="Vector borne ID  model." width="60%" /&gt;
+&lt;p class="caption"&gt;Vector borne ID  model.&lt;/p&gt;
+&lt;/div&gt;
+
+
+$$
+`\begin{aligned}
+\dot S_h &amp; = - b_1 S_h I_v + w R_h \\
+\dot I_h &amp; = b_1 S_h I_v  - g I_h \\ 
+\dot R_h &amp; = g I_h - w R_h \\
+\dot S_v &amp; =b - b_2 S_v I_h - n S_v \\ 
+\dot I_v &amp; = b_2 S_v I_h  - n I_v \\
+\end{aligned}`
+$$ 
+
+
+---
+# Big models
+* Build a comprehensive model, try to include a lot of detail.
+* Run the model on the computer, investigate results. It’s often hard to understand how the different components of the model influence the result. Careful analysis is needed.
+* Model results that are at odds with known biology can suggest needed model modifications.  But big models can reproduce a lot of observed phenomena, even if the model is wrong.
+* There is usually not enough data to fit complex models.
+* Comprehensive and accurate models can be used to make detailed, quantitative predictions.
+
+
+---
+# Big models - example
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/gleamviz_italy.png" alt="Ajelli et al 2010 BMC Inf Dis: https://doi.org/10.1186/1471-2334-10-190" width="40%" /&gt;
+&lt;p class="caption"&gt;Ajelli et al 2010 BMC Inf Dis: https://doi.org/10.1186/1471-2334-10-190&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/tbmacmodel.png" alt="72 compartment ODE model" width="40%" /&gt;
+&lt;p class="caption"&gt;72 compartment ODE model&lt;/p&gt;
+&lt;/div&gt;
+
+---
+class: center, middle
+
+# "Data-free" models versus models with data
+
+
+---
+# "Data-free" models
+* Model is formulated and model parameters are chosen based on known biology.
+* Model is analyzed “by itself”, without fitting to data.
+* Can produce useful insights, even if only limited data are available.
+
+---
+# "Data-free" models - example
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/gleamviz_italy.png" alt="Ajelli et al 2010 BMC Inf Dis: https://doi.org/10.1186/1471-2334-10-190" width="40%" /&gt;
+&lt;p class="caption"&gt;Ajelli et al 2010 BMC Inf Dis: https://doi.org/10.1186/1471-2334-10-190&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./media/tbmacmodel.png" alt="72 compartment ODE model" width="40%" /&gt;
+&lt;p class="caption"&gt;72 compartment ODE model&lt;/p&gt;
+&lt;/div&gt;
+
+
+---
+# Models fit to data
+* Models are being fitted to data (inference). 
+* Statistically/quantitative comparison of models with data.
+* Used to discriminate hypotheses, determine parameters.
+* Less flexibility in model formulation, often constrained/determined by available data.
+
+---
+# Models fit to data - example
+
+$$
+`\begin{aligned}
+\dot S &amp; = {\bf - nS}  - bSI \\
+\dot I &amp;  = {\bf nS} + bSI - gI \\
+\dot R &amp;  = gI \\
+\end{aligned}`
+$$
+
+
+&lt;img src="./media/norofit.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+---
+# Types of models - summary
+* Models have several of the different characteristics just described:
+  * The very common ODE models are deterministic, compartmental, continuous time, no-memory, no-space. 
+  * Agent-based models are usually stochastic, spatial, and contain memory.
+
+__Ideal approach: Choose the model that is most suitable for the question you try to answer.__ 
+
+* In reality: Model selection is based on a mix of 
+  * Question one wants to answer
+  * Expertise
+  * Feasibility (computation time, model complexity)
+  * “Environment” (what approaches do others use) 
+  * “Marketing” (what kind of models “sell”) 
+
+---
+# Summary
+* Simulation models are one type of the many model types out there.
+* Within the category of simulation/mechanistic models, there are many different sub-categories.
+* There is no single best kind of model, it depends on the question/scenario.
+* Choosing an appropriate model for a given task is part of the _art_ of good modeling, there is unfortunately no recipe.
+
+
+
+---
+# Literature
+* Keeling and Danon, "Mathematical modelling of infectious diseases", doi:10.1093/bmb/ldp038
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
