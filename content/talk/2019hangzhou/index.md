@@ -6,7 +6,7 @@ summary: An introductory workshop on infectious disease modeling.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2019-07-08"
+date: "2019-07-10"
 date_end: "2019-07-11"
 all_day: true
 
@@ -41,16 +41,19 @@ math: true
 
 # Presentation Slides 
 
-[1. Introduction to infectious disease modeling](/files/presentations/IDModeling_Introduction.html)
+[1. Introduction to infectious disease modeling](/files/presentations/1_Modeling_Introduction.html)
 
-[2. How to use simulation models](/files/presentations/IDModeling_UseCases.html)
+[2. Some example models](/files/presentations/2_Modeling_ExampleModels.html)
 
-[3. Types of models](/files/presentations/IDModeling_ModelTypes.html)
+[3. How to use simulation models](/files/presentations/3_Modeling_UseCases.html)
 
-[4. How to build (good) models](/files/presentations/IDModeling_ModelingProcess.html)
+[4. Types of models](/files/presentations/4_Modeling_ModelTypes.html)
 
-[5. How to assess modeling studies](/files/presentations/IDModeling_ModelAssessment.html)
+[5. Sources of uncertainty](/files/presentations/5_Modeling_Uncertainty.html)
 
+[6. How to build (good) models](/files/presentations/6_Modeling_ModelingProcess.html)
 
-[6. Active learning of infectious disease epidemiology](/files/presentations/IDModeling_Activity.html)
+[7. How to assess modeling studies](/files/presentations/7_Modeling_ModelAssessment.html)
+
+[8. Active learning of infectious disease epidemiology](/files/presentations/8_Modeling_Activity.html)
 

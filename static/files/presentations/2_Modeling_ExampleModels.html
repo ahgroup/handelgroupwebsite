@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>A few simple simulation models</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Andreas Handel" />
+    <meta name="date" content="2019-07-03" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="media\handelslides.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, title-slide, title-slide
+
+# A few simple simulation models
+## on the population and within-host levels
+### Andreas Handel
+### University of Georgia
+### 2019-07-03
+
+---
+
+
+
+
+
+
+# A simple process/simulation model
+* We'll start with a very simple model, a population of individuals (humans or animals or pathogens) that grow or die.
+* We'll implement the model as a discrete time equation, given by:
+
+$$
+P_{t+dt} = P_t + dt ( g P_t - d_P P_t )
+$$
+`\(P_t\)` are the number of people/pathogens in the population at time `\(t\)`, `\(dt\)` is some time step, `\(g\)` is the growth/birth rate and `\(d_P\)` is the death rate.
+
+* What processes exactly does this model describe 'translated into words'?
+
+---
+# A simple process/simulation model
+* We'll start with a very simple model, a population of individuals (humans or animals or pathogens) that grow or die.
+* We'll implement the model as a discrete time equation, given by:
+
+$$
+P_{t+dt} = P_t + dt ( g P_t - d_P P_t )
+$$
+`\(P_t\)` are the number of people/pathogens in the population at time `\(t\)`, `\(dt\)` is some time step, `\(g\)` is the growth/birth rate and `\(d_P\)` is the death rate.
+
+* Why do we multiply by the time step, _dt_?
+
+---
+# A simple process/simulation model
+* We'll start with a very simple model, a population of individuals (humans or animals or pathogens) that grow or die.
+* We'll implement the model as a discrete time equation, given by:
+
+$$
+P_{t+dt} = P_t + dt ( g P_t - d_P P_t )
+$$
+`\(P_t\)` are the number of people/pathogens in the population at time `\(t\)`, `\(dt\)` is some time step, `\(g\)` is the growth/birth rate and `\(d_P\)` is the death rate.
+
+* If we started with 100 people/pathogens at time t=0, had a growth rate of 12 and death rate of 2 (per year or day), and took time steps of 1 year (or day), how many individual would we have after 1,2,3... years/days?
+
+
+
+
+---
+# A simple simulation model - variant 1
+Original:
+
+$$
+P_{t+dt} = P_t + dt ( g P_t - d_P P_t )
+$$
+Alternative:
+
+$$
+P_{t+dt} = P_t + dt ( g - d_P P_t )
+$$
+What's the difference? Is this a good model?
+
+
+---
+# A simple simulation model - variant 2
+Original:
+
+$$
+P_{t+dt} = P_t + dt ( g P_t - d_P P_t )
+$$
+Alternative:
+
+$$
+P_{t+dt} = P_t + dt ( g P_t - d_P)
+$$
+
+What's the difference? Is this a good model?
+
+---
+# Discrete time models
+
+$$
+P_{t+dt} = P_t + dt ( g P_t - d_P P_t )
+$$
+
+* The model above is updated in discrete time steps (to be chosen by the modeler).
+* Good for systems where there is a "natural"" time step. E.g. some animals always give birth in spring or some bacteria divide at specific times.
+* Used in complex individual based models for computational reasons.
+* For compartmental models where we track the total populations (instead of individuals), continuous-time models are more common. They are usually formulated as ordinary differential equations (ODE).
+* If the time-step becomes small, a discrete-time model approaches a continuous-time model.
+
+
+---
+# Continuous time models
+Discrete:
+
+$$
+P_{t+dt} = P_t + dt ( g P_t - d_P P_t )
+$$
+Re-write:
+
+$$
+\frac{P_{t+dt} - P_t}{dt} =  g P_t - d_P P_t 
+$$
+
+Continuous:
+$$
+\frac{dP}{dt}  = gP - d_P P
+$$
+
+* If we simulate a continuous time model, the computer uses a smart discrete time-step approximation.
+
+---
+# Some notation
+The following are 3 equivalent ways of writing the differential equation:
+
+$$
+`\begin{aligned}
+\frac{dP(t)}{dt}  &amp;= gP(t) - d_P P(t) \\
+\frac{dP}{dt}  &amp;= gP - d_P P \\
+\dot{P}  &amp;= gP - d_P P \\
+\end{aligned}`
+$$
+We will use the 'dot notation'.
+
+---
+# Some terminology
+
+$$
+\dot{P}  = gP - d_P P
+$$
+
+* The left side is the instantanous change in time of the indicated variable.
+* Each term on the right side represents a (often simplified/abstracted) biological process/mechanism.
+* Any positive term on the right side is an inflow and leads to an increase of the indicated variable.
+* Any negative term on the right side is an outflow and leads to a decrease of the indicated variable.
+
+
+
+---
+# Extending the model 
+
+$$
+\dot{P}  = gP - d_P P
+$$
+
+For different values of the parameters _g_ and `\(d_P\)`, what broad types of dynamics/outcomes can we get from this model?  
+
+
+---
+# Extending the model 
+
+$$
+\dot{P}  = gP - d_P P
+$$
+
+How can we extend the model to get growth that levels off as we reach some high level of _P_?
+
+
+---
+# Model with saturating growth 
+$$
+\dot{P}  = gP(1-\frac{P}{P_{max}}) - d_P P
+$$
+We changed the birth process from exponential/unlimited growth to saturating growth.
+
+---
+# Adding a second variable
+
+* A single variable model is 'boring'.
+* The interesting stuff happens if we have multiple compartments/variables that interact.
+* Let's introduce a second variable.
+* Let's assume that _P_ is a population of some animal or some bacteria, which gets attacked and consumed by some predator, e.g. another animal or the immune system. We'll pick the letter _H_ for the predator (any label is fine). 
+
+
+---
+# Adding a second variable
+$$
+`\begin{aligned}
+\dot{P} &amp; = gP(1-\frac{P}{P_{max}}) - d_P P \ \pm \ ?\\
+\dot{H} &amp; = ?
+\end{aligned}`
+$$
+
+* The predator attacks/eats the prey. What process could we add to the _P_-equation to describe this?
+
+---
+# Adding a second variable
+$$
+`\begin{aligned}
+\dot{P} &amp; = gP(1-\frac{P}{P_{max}}) - d_P P - kPH\\
+\dot{H} &amp; = ?
+\end{aligned}`
+$$
+
+* The more _P_ there is, the more the predator will grow, e.g. by eating _P_ or by receiving growth signals. 
+* What term could we write down for the growth dynamics of _H_?
+* Finally, _H_ individuals have some life-span after which they die. How can we model this?
+
+---
+# Predator-prey model
+$$
+`\begin{aligned}
+\dot{P} &amp; = g_P P(1-\frac{P}{P_{max}}) - d_P P - kPH\\
+\dot{H} &amp; = g_H P H - d_H H
+\end{aligned}`
+$$
+* The model we just built is a version of the well-studied predator-prey model from ecology.
+* The names of the variables and parameters are arbitrary. If we think of bacteria and the immune response, we might name them _B_ and _I_ instead.
+* If you read the literature, you'll see all kinds of letters used for variables and parameters. That can be confusing but unfortunately unavoidable. 
+* Look carefully at models and see how variables/parameters are defined. A model that looks new might in fact be one that you know, just using different notation.
+
+
+---
+# Graphical model representation
+
+* It is important to go back and forth between words, diagrams, equations.
+* Diagrams specify a model somewhat, but not completely. The diagrams below could be implemented as ODEs (shown) or discrete time or stochastic models.
+
+.pull-left[
+
+&lt;img src="./media/predpreydiagram.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+$$
+`\begin{aligned}
+\dot{P} &amp; = g_P P(1-\frac{P}{P_{max}}) - d_P P - kPH\\
+\dot{H} &amp; = g_H P H - d_H H
+\end{aligned}`
+$$
+]
+
+.pull-right[
+
+&lt;img src="./media/bacteriadiagram.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+$$
+`\begin{aligned}
+\dot{B} &amp; = g B(1-\frac{B}{B_{max}}) - d_B B - kBI\\
+\dot{I} &amp; = r BI - d_I I
+\end{aligned}`
+$$
+]
+
+---
+# Model exploration
+* We could analyze the model behavior with 'pencil and paper' (or some software, e.g. Mathematica/Maple/Maxima). This only works for simple models. 
+* We could analyze the model behavior by simulating it.
+* To simulate, we need to implement the model on a computer, specify starting (initial) conditions for all variables (here _P_ and _H_) and values for all model parameters.
+
+$$
+`\begin{aligned}
+\dot{P} &amp; = g_P P(1-\frac{P}{P_{max}}) - d_P P - kPH\\
+\dot{H} &amp; = g_H P H - d_H H
+\end{aligned}`
+$$
+* We won't do that now but will explore these kinds of models later using the DSAIDE/DSAIRM R packages.
+
+
+---
+class: center, middle
+
+# The basic SIR model
+
+
+---
+# The basic SIR model
+* We'll now look at the most fundamental/basic model for population level infectious disease modeling.
+* This model tracks individuals (humans or animals) in 3 states, susceptible, infected/infectious and recovered/removed. It is called the SIR model.
+
+&lt;img src="./media/basicSIRmodelfigure.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+$$
+`\begin{aligned}
+\dot S &amp; = -bSI \\
+\dot I &amp;  = bSI - gI \\
+\dot R &amp;  = gI \\
+\end{aligned}`
+$$
+
+
+* Only 2 processes are modeled, what are they?
+
+
+
+---
+# SIR model with births and deaths
+* If we wanted to include births and deaths in our model, how could we do that?
+
+$$
+`\begin{aligned}
+\dot S &amp; = -bSI \\
+\dot I &amp;  = bSI - gI \\
+\dot R &amp;  = gI \\
+\end{aligned}`
+$$
+
+
+---
+# SIR model with births and deaths
+One possible variant 
+
+&lt;img src="./media/SIRbirthdeathfigure.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+
+$$
+`\begin{aligned}
+\dot S &amp; = m  - bSI - nS\\
+\dot I &amp;  = bSI - gI - nI\\
+\dot R &amp;  = gI - d R - nR\\
+\end{aligned}`
+$$
+---
+# A notation example
+
+These 2 models are the same!
+
+$$
+`\begin{aligned}
+\dot S &amp; = m  - bSI - nS\\
+\dot I &amp;  = bSI - gI - nI\\
+\dot R &amp;  = gI  - nR\\
+\end{aligned}`
+$$
+
+$$
+`\begin{aligned}
+\dot{x} &amp; = \lambda - bx - \beta x z \\
+\dot{y} &amp; =    - by - \kappa y + \beta x z \\
+\dot{z} &amp;  =  \kappa y - bz  
+\end{aligned}`
+$$
+
+---
+# Terminology again
+
+&lt;img src="./media/modelterminology.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+class: center, middle
+
+# A simple virus infection model
+
+
+---
+# A simple virus infection model
+
+&lt;img src="./media/chronicvirusmodel.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+$$
+`\begin{aligned}
+\textrm{Uninfected Cells} \qquad \dot{U} &amp; = n -d_U U - bUV \\
+\textrm{Infected Cells} \qquad \dot{I} &amp; =  bUV - d_I I \\     
+\textrm{Virus} \qquad  \dot{V} &amp; =  pI - d_V V -  bg UV 
+\end{aligned}`
+$$
+
+---
+# Matching models
+
+Can you spot the differences?
+
+
+.pull-left[
+
+&lt;img src="./media/extendedvirusmodel.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+$$
+`\begin{aligned}
+\dot{U} &amp; =  m - d_U U - bUV \\
+\dot{I} &amp; =  bUV - d_I I - n I \\     
+\dot{D} &amp; =  d_I I \\     
+\dot{V} &amp; =  pI - d_V V -  gb UV 
+\end{aligned}`
+$$
+]
+
+.pull-right[
+
+&lt;img src="./media/simpleenvironmentalmodel.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+`\begin{aligned}
+\dot S &amp; =  m - nS - bSE \\
+\dot I &amp;  = bSE - gI - nI \\
+\dot R &amp;  = gI - nR \\
+\dot E &amp;  = pI - c E - kbSE \\
+\end{aligned}`
+]
+
+
+---
+class: center, middle
+
+# A larger virus infection model
+
+
+---
+# Virus and Immune Response Model
+* The immune response is incredibly complex, we still don't know how to model it in much detail.
+* We can nevertheless build and explore models that are a (hopefully) good balance between realism and abstraction.
+* We'll consider a virus infection model that includes the following components/variables:
+
+* **U** - uninfected cells 
+* **I** - infected cells
+* **V** - (free) virus
+* **F** - innate immune response
+* **T** - CD8 T-cells
+* **B** - B-cells
+* **A** - Antibodies
+
+
+---
+# Model Diagram
+&lt;img src="./media/virusandIRmodel.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+
+---
+# Model Equations
+
+$$
+`\begin{aligned}
+\dot U &amp;= n - d_U U - bUV\\ 
+\dot I &amp;= bUV - d_I I - k_T T I\\
+\dot V &amp;= \frac{pI}{1+s_F F} - d_V V - b UV - k_A AV \\
+\dot F &amp;= p_F - d_F F + \frac{V}{V+ h_V}g_F(F_{max}-F)  \\ 
+\dot T &amp;= F V g_T + r_T T\\
+\dot B &amp; = \frac{F V}{F V + h_F} g_B B \\
+\dot A &amp; = r_A B - d_A A - k_A A V
+\end{aligned}`
+$$
+
+
+
+---
+# Learn more
+DSAIDE package:
+* _Basic SIR Model_ app.
+* _Characteristics of ID_ app.
+* _ID Patterns_ app.
+* _Environmental Transmission_ app.
+
+DSAIRM package:
+* _Basic Bacterium Model_ app.
+* _Basic Virus Model_ app. 
+* _Virus and Immune Response_ app.
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

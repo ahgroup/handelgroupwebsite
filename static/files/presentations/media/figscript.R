@@ -11,7 +11,7 @@ allinf = rep(0,length(gvec)) #this will record infected for each g
 for (n in 1:length(gvec))
 {
     #call the simulator function with different values of g each time
-    result <- simulate_introduction(S0 = 500, I0 = 5, tmax = 200, g = gvec[n],  b = 1/2500)
+    result <- simulate_sir_ode(S = 500, I = 5, tfinal = 200, g = gvec[n],  b = 1/2500)
     allinf[n] <- tail(result$ts[,"R"],1) #record total number of infected for each value of g
 }
 
@@ -34,4 +34,4 @@ legend("topleft",c("Data","Cubic","Model"), col=c("black","red","green"), lwd=3)
 #save in various formats
 #dev.print(device=pdf,width=ww,height=wh, paper="special",file="figinoculum.pdf");
 #dev.print(device=tiff,filename ="../resultfiles/fig7.tif",width=ww, height=wh, units="in",pointsize = 12, compression =c("lzw"), res=300)
-dev.print(device=png,width=ww,height=wh,units="in",res=600,file="predictexample.png")
+dev.print(device=png,width=ww,height=wh,units="in",res=600,file="SIRpredictexample.png")

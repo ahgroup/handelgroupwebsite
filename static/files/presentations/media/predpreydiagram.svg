@@ -14,7 +14,7 @@
    viewBox="0 0 744.09448 524.40944"
    id="svg8179"
    version="1.1"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="predpreydiagram.svg">
   <defs
      id="defs8181">
@@ -369,7 +369,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4254587"
-     inkscape:cx="197.83768"
+     inkscape:cx="239.10149"
      inkscape:cy="290.48197"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -550,7 +550,9 @@
          id="tspan13542"
          x="195.16367"
          y="917.60461"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.50000381px;line-height:125%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1px">gP(1-P/P<tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.50000381px;line-height:125%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1px">g<tspan
+   style="-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:17.49999991px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal"
+   id="tspan93">P</tspan>P(1-P/P<tspan
    style="font-size:10.6640625px;baseline-shift:sub;stroke-width:1px"
    id="tspan9290">max</tspan>)</tspan></text>
     <path
@@ -622,7 +624,9 @@
          id="tspan13522-7"
          x="373.75034"
          y="912.67761"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.50000381px;line-height:125%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1px">rPH</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.50000381px;line-height:125%;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1px">g<tspan
+   style="-inkscape-font-specification:'Palatino Linotype, Normal';font-family:'Palatino Linotype';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:17.49999991px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal"
+   id="tspan95">H</tspan>PH</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.49999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker8805-7-9-8-6-8)"
        d="m 461.25002,887.36221 c -6.52889,45.0377 -52.5,49.1816 -56.25,0"
