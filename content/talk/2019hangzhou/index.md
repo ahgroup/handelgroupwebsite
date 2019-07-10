@@ -41,19 +41,29 @@ math: true
 
 # Presentation Slides 
 
-[1. Introduction to infectious disease modeling](/files/presentations/1_Modeling_Introduction.html)
+[All pdf slides as zip file](/files/presentations/Slides.zip)
 
-[2. Some example models](/files/presentations/2_Modeling_ExampleModels.html)
+[1. Introduction to infectious disease modeling (html)](/files/presentations/1_Modeling_Introduction.html)
+[1. Introduction to infectious disease modeling (pdf)](/files/presentations/1_Modeling_Introduction.pdf)
 
-[3. How to use simulation models](/files/presentations/3_Modeling_UseCases.html)
+[2. Some example models (html)](/files/presentations/2_Modeling_ExampleModels.html)
+[2. Some example models (pdf)](/files/presentations/2_Modeling_ExampleModels.pdf)
 
-[4. Types of models](/files/presentations/4_Modeling_ModelTypes.html)
+[3. How to use simulation models (html)](/files/presentations/3_Modeling_UseCases.html)
+[3. How to use simulation models (pdf)](/files/presentations/3_Modeling_UseCases.pdf)
 
-[5. Sources of uncertainty](/files/presentations/5_Modeling_Uncertainty.html)
+[4. Types of models (html)](/files/presentations/4_Modeling_ModelTypes.html)
+[4. Types of models (pdf)](/files/presentations/4_Modeling_ModelTypes.pdf)
 
-[6. How to build (good) models](/files/presentations/6_Modeling_ModelingProcess.html)
+[5. Sources of uncertainty (html)](/files/presentations/5_Modeling_Uncertainty.html)
+[5. Sources of uncertainty (pdf)](/files/presentations/5_Modeling_Uncertainty.pdf)
 
-[7. How to assess modeling studies](/files/presentations/7_Modeling_ModelAssessment.html)
+[6. How to build (good) models (html)](/files/presentations/6_Modeling_ModelingProcess.html)
+[6. How to build (good) models (pdf)](/files/presentations/6_Modeling_ModelingProcess.pdf)
 
-[8. Active learning of infectious disease epidemiology](/files/presentations/8_Modeling_Activity.html)
+[7. How to assess modeling studies (html)](/files/presentations/7_Modeling_ModelAssessment.html)
+[7. How to assess modeling studies (pdf)](/files/presentations/7_Modeling_ModelAssessment.pdf)
+
+[8. Active learning of infectious disease epidemiology (html)](/files/presentations/8_Modeling_Activity.html)
+[8. Active learning of infectious disease epidemiology (pdf)](/files/presentations/8_Modeling_Activity.pdf)
 
