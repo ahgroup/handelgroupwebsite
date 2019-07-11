@@ -34,36 +34,28 @@ math: true
 
 # Preparation
 
-* Install R and Rstudio.
+* Install R and (optional) Rstudio.
 * Install the DSAIDE R package and take a brief look. [This website provides instructions.](https://ahgroup.github.io/DSAIDE/)
 * Optional: Read [this paper](http://handelgroup.uga.edu/publication/handel07prsb/) which provides background reading for the "ID Control of multiple outbreaks" app in DSAIDE.
 
 
 # Presentation Slides 
 
-[All pdf slides as zip file](/files/presentations/Slides.zip)
+[All pdf slides as zip file](/files/presentations/2019Hangzhou_Slides.zip)
 
-[1. Introduction to infectious disease modeling (html)](/files/presentations/1_Modeling_Introduction.html)
-[1. Introduction to infectious disease modeling (pdf)](/files/presentations/1_Modeling_Introduction.pdf)
+[1. Introduction to infectious disease modeling](/files/presentations/2019Hangzhou_1_Modeling_Introduction.pdf)
 
-[2. Some example models (html)](/files/presentations/2_Modeling_ExampleModels.html)
-[2. Some example models (pdf)](/files/presentations/2_Modeling_ExampleModels.pdf)
+[2. Some example models](/files/presentations/2019Hangzhou_2_Modeling_ExampleModels.pdf)
 
-[3. How to use simulation models (html)](/files/presentations/3_Modeling_UseCases.html)
-[3. How to use simulation models (pdf)](/files/presentations/3_Modeling_UseCases.pdf)
+[3. How to use simulation models](/files/presentations/2019Hangzhou_3_Modeling_UseCases.pdf)
 
-[4. Types of models (html)](/files/presentations/4_Modeling_ModelTypes.html)
-[4. Types of models (pdf)](/files/presentations/4_Modeling_ModelTypes.pdf)
+[4. Types of models](/files/presentations/2019Hangzhou_4_Modeling_ModelTypes.pdf)
 
-[5. Sources of uncertainty (html)](/files/presentations/5_Modeling_Uncertainty.html)
-[5. Sources of uncertainty (pdf)](/files/presentations/5_Modeling_Uncertainty.pdf)
+[5. Sources of uncertainty](/files/presentations/2019Hangzhou_5_Modeling_Uncertainty.pdf)
 
-[6. How to build (good) models (html)](/files/presentations/6_Modeling_ModelingProcess.html)
-[6. How to build (good) models (pdf)](/files/presentations/6_Modeling_ModelingProcess.pdf)
+[6. How to build (good) models](/files/presentations/2019Hangzhou_6_Modeling_ModelingProcess.pdf)
 
-[7. How to assess modeling studies (html)](/files/presentations/7_Modeling_ModelAssessment.html)
-[7. How to assess modeling studies (pdf)](/files/presentations/7_Modeling_ModelAssessment.pdf)
+[7. How to assess modeling studies](/files/presentations/2019Hangzhou_7_Modeling_ModelAssessment.pdf)
 
-[8. Active learning of infectious disease epidemiology (html)](/files/presentations/8_Modeling_Activity.html)
-[8. Active learning of infectious disease epidemiology (pdf)](/files/presentations/8_Modeling_Activity.pdf)
+[8. Active learning of infectious disease epidemiology](/files/presentations/2019Hangzhou_8_Modeling_Activity.pdf)
 
