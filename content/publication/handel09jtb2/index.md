@@ -2,7 +2,7 @@
 title = "Exploring the role of the immune response in preventing antibiotic resistance"
 date = 2009-02-01
 authors = ["A Handel", "E Margolis", "BR Levin"]
-publication_types = ["3", "6"]
+publication_types = ["3"]
 abstract = ""
 featured = false
 publication = "*JOURNAL OF THEORETICAL BIOLOGY*"
