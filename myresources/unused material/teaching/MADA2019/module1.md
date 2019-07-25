@@ -6,7 +6,7 @@ type: docs
 date: "2019-07-22T00:00:00+01:00"
 draft: false
 menu:
-  example:
+  MADA2019:
     parent: Module 1
     weight: 1
 
