@@ -65,12 +65,12 @@ bio = ""
 [[social]]
   icon = "globe"
   icon_pack = "fas"
-  link = ""
+  link = "https://www.andreashandel.com"
 
 +++
 
 I am currently an Associate Professor in the [Department of Epidemiology and Biostatistics](http://www.publichealth.uga.edu/epibio/),
 [College of Public Health](http://www.publichealth.uga.edu/), at the [University of Georgia (UGA)](http://www.uga.edu/). I also serve as Associate Department Head and Graduate Coordinator and as Director of the Health Systems Modeling Core of UGA's [Health Informatics Institute](http://hii.publichealth.uga.edu/).
 
-More information about the work of my research group at UGA can be found [on the group website](http://handelgroup.uga.edu/), more deails about myself can be found on [my website]() (which I host separately from the research group site).
+More information about the work of my research group at UGA can be found [on the group website](http://handelgroup.uga.edu/), more deails about myself can be found on [my website](https://www.andreashandel.com) (which I host separately from the research group site).
 
