@@ -1,9 +1,9 @@
 +++
 # Display name
-name = "Kylie Balotin"
+name = "Simran Budhwar"
 
 # Username (this should match the folder name)
-authors = ["kyliebalotin"]
+authors = ["simranbudhwar"]
 
 # Is this the primary user of the site?
 superuser = false
@@ -16,16 +16,11 @@ role = "REU Student"
 user_groups = ["Former Members"]
 
 
-[[social]]
-  icon = "linkedin"
-  icon_pack = "fab"
-  link = "https://www.linkedin.com/in/kylie-balotin-a87118110/"
-
 
 
 +++
 
 
-* Time in group: 2014
-* Research projects: TB drug treatment modeling
+* Time in group: Summer 2019
+* Research projects: Norovirus patient data analysis
 
