@@ -3,7 +3,7 @@
 title = "modelbuilder - Building and analysis of compartmental mechanistic models without coding"
 
 # Date this page was created.
-date = 2019-02-15
+date = 2019-03-15
 
 # Project summary to display on homepage.
 summary = "R package that allows building and analysis of dynamical models without the need to write code."

@@ -3,7 +3,7 @@
 title = "DSAIDE - Dynamical Systems Approach to Infectious Disease Epidemiology"
 
 # Date this page was created.
-date = 2019-02-07
+date = 2019-03-01
 
 # Project summary to display on homepage.
 summary = "R package that teaches modern infectious disease epidemiology in a user-friendly way."
