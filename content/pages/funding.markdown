@@ -30,8 +30,6 @@ Sometimes I have funding for students and postdocs, sometimes I don't. In either
 
 [NSF Doctoral Dissertation Improvement Grants](http://www.nsf.gov/pubs/2008/nsf08564/nsf08564.htm)
 
-[EPA STAR Fellowships](http://www.epa.gov/ncer/fellow/) (US citizens/residents)
-
 [Hertz Foundation](http://www.hertzfoundation.org/)
 
 [NSF Information for Postdoctoral Fellows](http://www.nsf.gov/funding/education.jsp?fund_type=3)

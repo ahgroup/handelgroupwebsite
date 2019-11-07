@@ -25,7 +25,7 @@ permalink: "/affiliations/"
 
 #### Other Affiliations
 
-[Emory University Department of Epidemiology](http://www.sph.emory.edu/faculty/profile/#AHANDEL)
+[Emory University Department of Epidemiology](https://sph.emory.edu/faculty/profile/index.php?FID=8558)
 
 [Center for Modeling Immunity to Influenza Infections](https://scholarblogs.emory.edu/mitii/)
 
