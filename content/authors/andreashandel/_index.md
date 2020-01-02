@@ -1,75 +1,63 @@
 ---
-# Display name
-name: Nelson Bighetti
-
-# Username (this should match the folder name)
+name: Andreas Handel
 authors:
-- admin
-
-# Is this the primary user of the site?
+- andreashandel
 superuser: true
-
-# Role/position
-role: Professor of Artificial Intelligence
-
-# Organizations/Affiliations
+role: Associate Professor
 organizations:
-- name: Stanford University
-  url: ""
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
+  - name: University of Georgia 
+  - url: http://www.uga.edu
+bio: Data Analysis and Modeling with a focus on infectious diseases.  
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-
+- Infectious Disease Modeling
+- Data Science
+- R package development
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-
-# Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+  - course: Postdoc in Computational Biology
+    institution: Emory University
+    year: 2004-2009
+  - course: PhD in Physics
+    institution: Georgia Institute of Technology
+    year: 1999-2004
+  - course: BSc (equiv) in Physics
+    institution: University of Stuttgart
+    year: 1996-1999
 social:
+- icon: globe
+  icon_pack: fas
+  link: https://www.andreashandel.com
+- icon: github
+  icon_pack: fab
+  link: https://github.com/andreashandel
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/andreashandel
+- icon: linkedin-in
+  icon_pack: fab
+  link: https://www.linkedin.com/in/andreashandel/
+- icon: google-scholar
+  icon_pack: ai
+  link: http://scholar.google.com/citations?user=bruHK0YAAAAJ&hl=en
+- icon: impactstory
+  icon_pack: ai
+  link: https://impactstory.org/u/0000-0002-4622-1146
+- icon: orcid
+  icon_pack: ai
+  link: http://orcid.org/0000-0002-4622-1146
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
-  
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Researchers
-- Visitors
+- Current Members
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am currently an Associate Professor in the [Department of Epidemiology and Biostatistics](http://www.publichealth.uga.edu/epibio/),
+[College of Public Health](http://www.publichealth.uga.edu/), at the [University of Georgia (UGA)](http://www.uga.edu/). I also serve as Associate Department Head and Graduate Coordinator and as Director of the Health Systems Modeling Core of UGA's [Health Informatics Institute](http://hii.publichealth.uga.edu/).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+My research focuses on data analysis and modeling to study the spread and control of infectious diseases, mainly influenza, tuberculosis and norovirus. You can learn more about this work [on my research group site](http://handelgroup.uga.edu/). Information on other activities (teaching, presentations, blog posts, etc.), can be found on this website. 
+
+

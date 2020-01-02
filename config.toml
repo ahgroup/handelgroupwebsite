@@ -9,11 +9,11 @@ title = "Handel Research Group"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "http://handelgroup.uga.edu/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy;  Andreas Handel 2019 - information on this site does not reflect opinions of the University of Georgia"
+copyright = "&copy;  Andreas Handel {year} - information on this site does not reflect opinions of the University of Georgia"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""

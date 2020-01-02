@@ -4,7 +4,7 @@ widget = "blank"  # Do not modify this line!
 headless = true  # Homepage is headless, other widget pages are not.
 active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
-date = 2019-02-10
+date = 2020-01-01
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
 # title = "Demos"
@@ -49,9 +49,9 @@ date = 2019-02-10
 
 Welcome to the Handel Research Group website.
 
-We are located in the Department of Epidemiology and Biostatistics within the College of Public Health at the University of Georgia.
+We are located in the [Department of Epidemiology and Biostatistics](http://www.publichealth.uga.edu/epibio/) within the [College of Public Health](http://www.publichealth.uga.edu/) at the [University of Georgia](https://www.uga.edu/).
 
-We are also affiliated with the Health Informatics Institute and the Center for the Ecology of Infectious Diseases at UGA, as well as the Modeling Immunity to Influenza Infection Center at Emory University.
+We are also part of the [Health Informatics Institute](http://hii.publichealth.uga.edu/), the [Center for the Ecology of Infectious Diseases](http://ceid.uga.edu/) and the [Center for Influenza Vaccine Research for High-Risk Populations](https://www.niaidcivics.org/center-for-influenza-vaccine-research-for-high-risk-populations-civr-hrp/). 
 
 In our group, we study the spread and control of infectious diseases, mainly influenza, tuberculosis and norovirus. We use mathematical models, computational simulations and statistical analysis to understand the dynamics of pathogens on different spatial and temporal scales.
 
