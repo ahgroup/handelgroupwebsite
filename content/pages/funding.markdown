@@ -63,7 +63,7 @@ Sometimes I have funding for students and postdocs, sometimes I don't. In either
 
 [NIH Training Awards (F31, F32, etc.)](http://grants.nih.gov/training/nrsa.htm) (most are US citizens/residents only)
 
-[ORISE - Funding to perform research at the CDC](http://www.orau.gov/cdc/default.htm)
+[ORISE - Funding to perform research at the CDC](https://orise.orau.gov/cdc/default.html)
 
 [Association of Schools of Public Health - various funding opportunities](http://www.aspph.org/study/#fellowships-and-internships)
 

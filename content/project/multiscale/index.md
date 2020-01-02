@@ -9,7 +9,7 @@ date = 2019-02-07
 summary = "Multi-scale analysis of infectious disease dynamics."
 
 # Tags: can be used for filtering projects.
-tags = ["Infectious Disease Dynamics", "Multi-scale analysis"]
+tags = ["Infectious Disease Dynamics", "Multi-scale analysis","research"]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

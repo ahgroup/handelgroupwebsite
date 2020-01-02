@@ -9,7 +9,7 @@ date = 2019-02-07
 summary = "Modeling and data analysis to inform optimal vaccine formulation and use."
 
 # Tags: can be used for filtering projects.
-tags = ["Vaccines"]
+tags = ["Vaccines", "research"]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

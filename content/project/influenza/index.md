@@ -9,7 +9,7 @@ date = 2019-02-17
 summary = "Modeling and Analysis of influenza."
 
 # Tags: can be used for filtering projects.
-tags = ["Influenza", "Vaccine"]
+tags = ["Influenza", "Vaccine","research"]
 
 
 # Featured image

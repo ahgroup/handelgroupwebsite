@@ -9,7 +9,7 @@ date = 2019-02-09
 summary = "Analysis of Tuberculosis transmission dynamics."
 
 # Tags: can be used for filtering projects.
-tags = ["Tuberculosis", "Epidemiology"]
+tags = ["Tuberculosis", "Epidemiology","research"]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

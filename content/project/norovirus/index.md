@@ -10,7 +10,7 @@ summary = "Modeling and Analysis to inform norovirus vaccine design."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Norovirus", "Vaccine"]
+tags = ["Norovirus", "Vaccine","research"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

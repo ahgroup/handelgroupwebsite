@@ -9,7 +9,7 @@ date = 2019-02-02
 summary = "Analysis and modeling of the immune response following infection."
 
 # Tags: can be used for filtering projects.
-tags = ["Immunology"]
+tags = ["Immunology", "research"]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
