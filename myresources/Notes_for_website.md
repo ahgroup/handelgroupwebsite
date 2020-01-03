@@ -49,7 +49,7 @@ https://github.com/gcushen/hugo-academic/issues/906
 run blogdown::build_site()
 
 # To deploy site
-1. Run VPN
+1. Connect to UGA VPN
 2. Mount network drive to \\128.192.39.205\ahgroup, connect with myid\ahandel
 3. Copy everything in public/ to the main directory on the server
 

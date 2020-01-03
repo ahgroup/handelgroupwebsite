@@ -16,7 +16,7 @@ baseurl = "https://handelgroup.uga.edu/"
 copyright = "&copy;  Andreas Handel {year} - information on this site does not reflect opinions of the University of Georgia"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-48442618-5"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
