@@ -11,34 +11,34 @@
 [[main]]
     name = "News"
     identifier = "posts"
-    url = "#posts"
+    url = "/post"
     weight = 10
 
 [[main]]
     name = "Publications"
     identifier = "publications"
-    url = "#publications"
+    url = "/publication"
     weight = 20
 
 [[main]]
     name = "Projects"
     identifier = "projects"
-    url = "#projects"
+    url = "/projects"
     weight = 30
 
 [[main]]
     name = "People"
     identifier = "people"
-    url = "#people"
+    url = "/people"
     weight = 45
 
 [[main]]
     name = "Resources"
     identifier = "resources"
-    url = "/pages/resources/"
+    url = "/resources"
     weight = 60
 
 [[main]]
     name = "Opportunities"
-    url = "/pages/opportunities/"
+    url = "/opportunities"
     weight = 70
