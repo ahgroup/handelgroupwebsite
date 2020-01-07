@@ -43,6 +43,8 @@ date = 2020-01-01
  # css_class = ""
 +++
 
+This page provides brief descriptions and links to various tools we produced or use for our research and teaching.
+
 ### Research Resources
 
 This is a collection of programs, scripts and descriptions to produce results in various publications. You can get the publications from the publication section of this webpage. Some of the code is relatively well documented, some isn't. Feel free to use and modify the programs any way you want. If you need help understanding certain programs, I 
@@ -50,7 +52,7 @@ will try to help. But my time is limited, and for a lot of the old programs, I m
 exactly I did. That's especially true for anything Matlab or Fortran since I haven't used either in years.
 
 
-[TB Cough duration analysis](/files/software/Supercougher_Supplements.zip) - A zip file containing various supplementary R scripts and codebooks for a superspreading/supercoughing study in TB patients. The manuscript describing this work is currently under review.
+[TB Cough duration analysis](/files/software/Supercougher_Supplements.zip) - A zip file containing various supplementary R scripts and codebooks for a superspreading/supercoughing study in TB patients. The manuscript describing this work is [here](/publication/2019-handel-ijtld/).
 
 
 [TB-MAC UGA Model](/files/software/TB_MAC_UGA.zip) - A file containing the R code and description of the model that was used by us to produce the results described in a multi-model project on TB intervention analysis. 
@@ -91,13 +93,13 @@ them independently from any of my courses.
 
 
 [YaRI](/files/software/yari.zip) = Yet another R Introduction - I always wanted to give something 
-[a name like that](http://en.wikipedia.org/wiki/Yet_another)! This is a short introduction to R that I compiled and used for various courses I teach that are based on R. I wrote the YaRI tutorial several years ago. Since then, a lot of good R tutorials and teaching resources have become available. At this point, I don't use YaRI much in my teaching anymore. The 2 I currently use and recommend  are [Datacamp](https://www.datacamp.com) and the [Swirl R Package](http://swirlstats.com/). Datacamp is more polished, feature rich and overall nicer, but requires you to pay a monthly fee to get full access (some content is free). Swirl is completely free. For further links to R (and other) resources, see the compilation of github lists mentioned below.
+[a name like that](http://en.wikipedia.org/wiki/Yet_another)! This is a short introduction to R that I compiled and used for various courses I teach that are based on R. I wrote the YaRI tutorial several years ago. Since then, a lot of good R tutorials and teaching resources have become available. At this point, I don't use YaRI in my teaching anymore, it's listed here mainly because I can't get myself to completely remove it :). 
+For good recent resources covering R and Data Analysis, see e.g. the "Resources" section of my [Modern Applied Data Analysis Online Course](https://andreashandel.github.io/MADAcourse/). 
 
 [Lists with further resources, pertaining to learning R, Data Analysis, and other topics.](https://github.com/ahgroup/research-and-teaching-resource-lists) - I maintain a compilation of links and bits of information related to my research and teaching on Github. Mainly as a quick look-up and reminder for myself, though others might find it useful too.
 
 
 ### Group Tools
-
 
 This section is mainly intended for potential group members so they know what they might be getting themselves into. If others profit from some of the information, even better.
 
