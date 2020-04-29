@@ -12,7 +12,7 @@ weight = 50
 
 [content]
   # Page type to display. E.g. project.
-  page_type = "project"
+  page_type = "allprojects"
   
   # Filter toolbar (optional).
   # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.

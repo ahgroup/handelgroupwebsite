@@ -1,5 +1,5 @@
 +++
-title = "The latest happenings our group"
+title = "News from our group"
 
 # View.
 #   1 = List
