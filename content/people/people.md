@@ -16,6 +16,7 @@ subtitle = ""
   user_groups = ["Current Members",
                  "Former Members"]
 
+
 [design]
   # Show user's social networking links? (true/false)
   show_social = false

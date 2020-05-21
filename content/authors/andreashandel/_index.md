@@ -1,17 +1,32 @@
 ---
-name: Andreas Handel
+# Display name
+title: Andreas Handel
+
+# Username (this should match the folder name)
 authors:
 - andreashandel
+
+# Is this the primary user of the site?
 superuser: true
-role: Associate Professor
+
+# Role/position
+role: Associate Professor 
+
+# Organizations/Affiliations
 organizations:
-  - name: University of Georgia 
-  - url: http://www.uga.edu
+- name: University of Georgia
+  url: http://www.uga.edu
+
+
+# Short bio (displayed in user profile at end of posts)
 bio: Data Analysis and Modeling with a focus on infectious diseases.  
+
 interests:
 - Infectious Disease Modeling
 - Data Science
 - R package development
+
+
 education:
   courses:
   - course: Postdoc in Computational Biology
@@ -23,6 +38,12 @@ education:
   - course: BSc (equiv) in Physics
     institution: University of Stuttgart
     year: 1996-1999
+
+
+# Social/Academic Networking
+# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
 - icon: globe
   icon_pack: fas
@@ -49,11 +70,16 @@ social:
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: ""
+
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
+#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Current Members
 ---
+
 
 I am currently an Associate Professor in the [Department of Epidemiology and Biostatistics](http://www.publichealth.uga.edu/epibio/),
 [College of Public Health](http://www.publichealth.uga.edu/), at the [University of Georgia (UGA)](http://www.uga.edu/). I also serve as Associate Department Head and Graduate Coordinator and as Director of the Health Systems Modeling Core of UGA's [Health Informatics Institute](http://hii.publichealth.uga.edu/).

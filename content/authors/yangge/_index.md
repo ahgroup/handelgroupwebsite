@@ -1,33 +1,32 @@
-+++
+---
 # Display name
-name = "Yang Ge"
+title: Yang Ge
 
 # Username (this should match the folder name)
-authors = ["yangge"]
+authors:
+- yangge
 
 # Is this the primary user of the site?
-superuser = false
+superuser: false
 
 # Role/position
-role = "PhD Student"
+role: PhD Student
 
 # Organizational groups that you belong to (for People widget)
-user_groups = ["Current Members"]
+#   Set this to `[]` or comment out if you are not using People widget.
+user_groups:
+- Current Members
 
-# Short bio (displayed in user profile at end of posts)
-bio = ""
+social:
+- icon: github
+  icon_pack: fab
+  link: https://github.com/ygechn
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/yangge86/
 
-[[social]]
-  icon = "github"
-  icon_pack = "fab"
-  link = "https://github.com/ygechn"
+---
 
-[[social]]
-  icon = "linkedin"
-  icon_pack = "fab"
-  link = "https://www.linkedin.com/in/yangge86/"
-
-+++
 
 * Time in group: 2018 - present
-* Research Projects: Norovirus Infections
+* Research Projects: Role of inoculum dose for Influenza and Norovirus infections and vaccines

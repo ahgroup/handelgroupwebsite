@@ -1,29 +1,28 @@
-+++
+---
 # Display name
-name = "Theresa Devasia"
+title: Theresa Devasia
 
 # Username (this should match the folder name)
-authors = ["theresadevasia"]
+authors:
+- theresadevasia
 
 # Is this the primary user of the site?
-superuser = false
+superuser: false
 
 # Role/position
-role = "Undergrad Student"
+role: Undergraduate Researcher
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Former Members"]
+user_groups:
+- Former Members
 
-
-[[social]]
-  icon = "globe"
-  icon_pack = "fas"
-  link = "https://www.researchgate.net/profile/Theresa_Devasia"
-
-
-+++
-
+social:
+- icon: globe
+  icon_pack: fas
+  link: https://www.researchgate.net/profile/Theresa_Devasia
+  
+---
 
 * Time in group: 2012 - 2016
 * Research projects: Statistical Analysis of Infectious Disease Data

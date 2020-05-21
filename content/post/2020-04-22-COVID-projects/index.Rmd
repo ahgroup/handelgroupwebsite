@@ -1,0 +1,28 @@
+---
+title: 'Several COVID-19 related projects'
+author: Andreas Handel
+date: '2020-04-22'
+slug: several-COVID-19-projects
+categories:
+  - publications
+tags: []
+summary: ''
+lastmod: '2020-04-25T12:29:52-05:00'
+draft: false
+featured: no
+disable_jquery: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Like most infectious disease modelers, we have gotten involved in several COVID-19 related projects recently. 
+A lot of work is done as part of UGA's Center for the Ecology of Infectious Diseases, most of those projects [can be found here.](http://2019-coronavirus-tracker.com/)
+
+One project is our visualization of COVID-19 cases/deaths. [This shiny app is here.](https://shiny.ovpr.uga.edu/yact/)
+
+Lastly, a few projects exist as pre-prints. One analyzes [mass screening and testing interventions](https://doi.org/10.1101/2020.02.20.20025973) another looks at [reduction of mortality if containment is not possible](https://doi.org/10.1101/2020.03.13.20034892), [this one analyzes multiple likely airborne transmissions on a bus](https://dx.doi.org/10.2139/ssrn.3567505) and [this one looks at several transmission events during casual contact](https://dx.doi.org/10.2139/ssrn.3563064).
+
+Dr. Handel also described most of these projects in a recent presentation at GA Southern, [here are the slides from this talk.](https://www.andreashandel.com/talk/2020-04-gasouthern-covid/)

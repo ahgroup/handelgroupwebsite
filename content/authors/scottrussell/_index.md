@@ -1,24 +1,24 @@
-+++
+---
 # Display name
-name = "Scott Russell"
+title: Scott Russell
 
 # Username (this should match the folder name)
-authors = ["scottrussell"]
+authors:
+- scottrussell
 
 # Is this the primary user of the site?
-superuser = false
+superuser: false
 
 # Role/position
-role = "Master Student"
+role: Master Student
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Former Members"]
+user_groups:
+- Former Members
 
+---
 
-
-
-+++
 
 
 * Time in group: 2009 - 2013
