@@ -1,19 +1,19 @@
 +++
 # Project title.
-title = "DSAIDE - Dynamical Systems Approach to Infectious Disease Epidemiology"
+title = "COVID-19 tracker"
 
 # Date this page was created.
-date = 2019-03-01
+date = 2020-03-01
 
 # Project summary to display on homepage.
-summary = "R package that teaches modern infectious disease epidemiology in a user-friendly way."
+summary = "An R/Shiny app that visualizes COVID-19 data."
 
 # Tags: can be used for filtering projects.
-tags = ["Infectious Disease Models", "R Package", "Teaching Resource","software"]
+tags = ["Infectious Disease", "Shiny", "Software"]
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{icon_pack = "fab", icon="github", name="Project Site", url = "https://ahgroup.github.io/DSAIDE/"}]
+url_custom = [{icon_pack = "fas", icon="globe", name="Project Site", url = "https://shiny.ovpr.uga.edu/yact/"}]
 
 
 # Featured image
@@ -26,4 +26,6 @@ url_custom = [{icon_pack = "fab", icon="github", name="Project Site", url = "htt
   focal_point = "Smart"
 +++
 
-We developed an R package that teaches a modern, model-based approach to infectious disease epidemiolgy without the need to write computer code. Learn more about it [on the package website](https://ahgroup.github.io/DSAIDE/).
+An R/Shiny app that visualizes COVID-19 cases, hospitalizations, deaths and tests for US states and counties, as well as countries around the world. 
+This app was created by [William Norfolk](https://github.com/williamnorfolk), [Robbie Richards](https://rlrichards.github.io) and [Andreas Handel.](https://www.andreashandel.com/) 
+[Check out the app here.](https://shiny.ovpr.uga.edu/yact/) The _About_ section of the app contains more information. 
