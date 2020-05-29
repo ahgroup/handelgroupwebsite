@@ -6,34 +6,9 @@ active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
 date = 2020-01-01
 
-# Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-# title = "Demos"
-# subtitle = ""
-
-
 [design]
 # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "1"
-
-[design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
-
-  # Background color.
-  # color = "navy"
-  
-  # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
-  
-  # Background image.
-  # image = "headers/bubbles-wide.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-
-  # Text color (true=light or false=dark).
-  # text_color_light = true
 
 [advanced]
  # Custom CSS. 
@@ -65,9 +40,11 @@ or anywhere else at UGA and beyond.
 
 ### Opportunities for Graduate Students
 
-If you are interested, contact me and we can discuss if there are ways you can get involved. Also check out 
-opportunities for [external funding](/pages/funding/), and if you want to write a proposal with me as mentor, please contact 
-me and we can discuss possible projects.
+If you are a current UGA student and interested in our research, contact me and we can discuss if there are ways you can get involved. Also check out 
+opportunities for external funding described below. And if you want to write a proposal with me as mentor, please contact 
+me and we can discuss possible projects. 
+
+If you are not currently a UGA student, you can reach out but you would need to apply to and be admitted by our program in order to formally do research (and receive financial support) in our group.
 
 
 ### Opportunities for Undergraduate Students
