@@ -40,6 +40,7 @@ subtitle = ""
   #  7: Epidemiology
   #  8: Software Development
   #  9: Other topics
+  #  10: COVID
   publication_type = ""
 
 [design]

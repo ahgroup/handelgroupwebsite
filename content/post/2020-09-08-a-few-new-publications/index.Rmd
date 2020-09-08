@@ -2,7 +2,7 @@
 title: 'A few new publications'
 author: Andreas Handel
 date: '2020-09-08'
-slug: 2020-09-08-a-few-new-publications
+slug: '2020-09-08-a-few-new-publications'
 categories:
   - publications
 tags: []

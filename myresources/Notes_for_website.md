@@ -58,11 +58,10 @@ I'm not using regular pages at this point. Instead, stand-alone pages (e.g. reso
 * add entry to 'mynewbibs.bib' file. Include abstract. Can do that by pulling website article from zotero or through myncbi.
 * Run the academic tool for publications: https://sourcethemes.com/academic/docs/managing-content/
 * Make sure folder is not the actual website since we don't want existing pubs overwritten, otherwise they'll loose their special formatting.
-* Copy the new entries into the main /publication folder
+* Copy the new entries into the main /publication folder. Rename folders following my own scheme.
 * Add a pdf to each publication folder with the same name as the folder for that publication
 * adjust each index.md to set custom publication type 
-* My custom publication types are in data/publication_types.toml
-publications.md in content/home describes the different types
+* My custom publication types are in data/publication_types.toml and their names are in publications.md in content/home describes the different types
 To adjust labels/categories for publications, edit a layout file, then adjust numbers in publications:
 https://github.com/gcushen/hugo-academic/issues/906
 
