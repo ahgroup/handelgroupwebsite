@@ -3,7 +3,7 @@ title: "Dataset of Antigenic Distance Measures, Hemagglutination Inhibition, Vir
 date: 2020-08-01
 publishDate: 2020-09-08T17:49:58.118035Z
 authors: ["Amanda L. Skarlupka", "Andreas Handel", "Ted M. Ross"]
-publication_types: ["1"]
+publication_types: ["0"]
 abstract: ""
 featured: false
 publication: "*Data in Brief*"
