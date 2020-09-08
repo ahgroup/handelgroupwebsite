@@ -84,6 +84,6 @@ user_groups:
 I am currently an Associate Professor in the [Department of Epidemiology and Biostatistics](http://www.publichealth.uga.edu/epibio/),
 [College of Public Health](http://www.publichealth.uga.edu/), at the [University of Georgia (UGA)](http://www.uga.edu/). I also serve as Associate Department Head and Graduate Coordinator and as Director of the Health Systems Modeling Core of UGA's [Health Informatics Institute](http://hii.publichealth.uga.edu/).
 
-My research focuses on data analysis and modeling to study the spread and control of infectious diseases, mainly influenza, tuberculosis and norovirus. You can learn more about this work [on my research group site](http://handelgroup.uga.edu/). Information on other activities (teaching, presentations, blog posts, etc.) can be found [on this website](https://www.andreashandel.com/). 
+My research focuses on data analysis and modeling to study the spread and control of infectious diseases, mainly influenza, tuberculosis and norovirus. Currently I also work a lot on COVID-19. You can learn more about this research, including links to scientific publications, on this web site. Somewhat overlapping information on other activities (teaching, presentations, blog posts, etc.) can be found [on my personal website](https://www.andreashandel.com/). 
 
 

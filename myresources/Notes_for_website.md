@@ -54,6 +54,7 @@ I'm not using regular pages at this point. Instead, stand-alone pages (e.g. reso
 * copy/paste/modify an existing entry 
 
 # To add new publications 
+* pull new pubs into zotero "mynewrefs" folder 
 * add entry to 'mynewbibs.bib' file. Include abstract. Can do that by pulling website article from zotero or through myncbi.
 * Run the academic tool for publications: https://sourcethemes.com/academic/docs/managing-content/
 * Make sure folder is not the actual website since we don't want existing pubs overwritten, otherwise they'll loose their special formatting.
