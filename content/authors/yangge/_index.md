@@ -18,9 +18,12 @@ user_groups:
 - Current Members
 
 social:
+- icon: globe
+  icon_pack: fas
+  link: https://yangepi.github.io/
 - icon: github
   icon_pack: fab
-  link: https://github.com/ygechn
+  link: https://github.com/yangepi
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/yangge86/

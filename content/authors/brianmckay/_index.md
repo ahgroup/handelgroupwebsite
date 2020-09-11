@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD Student
+role: former PhD Student
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -37,6 +37,7 @@ education:
  
 ---
 
+Brian graduated at the end of 2019 and is now a lecturer in our department. He is still working on several research projects with our group.
 
 * Time in group: 2016 - present
 * Research Projects: Influenza Epidemiology

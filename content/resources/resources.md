@@ -52,14 +52,30 @@ This is a collection of programs, scripts and descriptions to produce results in
 I use the materials in this section for several of the classes and workshops I teach. You are of course free to use 
 them independently from any of my courses.
 
-[__DSAIDE__](https://ahgroup.github.io/DSAIDE/) - Dynamical Systems Approaches to Infectious Disease Epidemiology. This is an R package containing multiple Infectious Disease Epidemiology models that the user/student can run through a graphical user interface. 
+#### Software
 
+[__DSAIDE__](https://ahgroup.github.io/DSAIDE/) - Dynamical Systems Approaches to Infectious Disease Epidemiology. This is an R package containing multiple Infectious Disease Epidemiology models that the user/student can run through a graphical user interface. 
 
 [__DSAIRM__](https://ahgroup.github.io/DSAIRM/) - Dynamical Systems Approach to Immune Response Modeling. This R package consists of a set of simulations (refered to here as apps) that teach within-host infection dynamics and immune response modeling from a dynamical system perspective. By manipulating the models through a graphical (Shiny) user interface and working through the provided instructions, you can learn about some important concepts of within-host and immmune response modeling.
 
+[__modelbuilder__](https://ahgroup.github.io/modelbuilder/) - Our latest R package, still in development, that allows users to build their own compartmental simulation models and analyze them without having to write any code.
+
+
+#### Online Course Materials
+
+__Modern Applied Data Analysis (MADA)__ is a course I regularly teach online. All course materials are available in the form of a simple GitHub website and can be used by anyone for self-learning. You can find the course [on this site](https://andreashandel.github.io/MADAcourse/).
+
+__Simulation Modeling in Immunology (SMI)__ is a website with course materials covering within-host modeling and immunology. It is part of an an annual workshop that I co-teach with my colleague Paul Thomas. All course materials are available in the form of a simple GitHub website and can be used by anyone for self-learning. You can find the course [on this site](https://andreashandel.github.io/SMIcourse/).
+
+__Infectious Disease Epidemiology - A model based approach (IDEMA)__ is a graduate level course I regularly teach online. Currently (fall 2020) I teach it again and as part of that am releasing all course materials in the form of a simple GitHub website. The complete set of materials will be on the website by the end of the year and will stay there for anyone interested. You can find the course [on this site](https://andreashandel.github.io/IDEMAcourse/).
+
+
+#### Online Books and other materials
+
+[__Infectious Disease Epidemiology - A model based approach (IDEMA) - an online textbook__](https://andreashandel.github.io/IDEMAbook/) this book goes with the course of the same mentioned in the previous section. The book will likely be under perpetual development, with some chapters being more complete than others. Most chapters are fairly readable and complete enough that I use it when I teach a course on that topic. It is however not thoroughly fact-checked, error-corrected, properly referenced, etc. While I have been considering the idea of turning this into a full/real book, in my current thinking the cost-benefit analysis doesn't pan out. I thus plan to leave it online for free as is, with occasional updates and fixes, but without an attempt to make it polished and complete enough for a printed book.
+
 [YaRI](/files/software/yari.zip) = Yet another R Introduction - I always wanted to give something 
 [a name like that](http://en.wikipedia.org/wiki/Yet_another)! This is a short introduction to R that I compiled and used for various courses I teach that are based on R. I wrote the YaRI tutorial several years ago. Since then, a lot of good R tutorials and teaching resources have become available. At this point, I don't use YaRI in my teaching anymore, it's listed here mainly because I can't get myself to completely remove it :). 
-For good recent resources covering R and Data Analysis, see e.g. the "Resources" section of my [Modern Applied Data Analysis Online Course](https://andreashandel.github.io/MADAcourse/). 
 
 [Lists with further resources, pertaining to learning R, Data Analysis, and other topics.](https://andreashandel.github.io/research-and-teaching-resources/) - I maintain a compilation of links and bits of information related to my research and teaching on Github. Mainly as a quick look-up and reminder for myself, though others might find it useful too.
 

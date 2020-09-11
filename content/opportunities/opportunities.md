@@ -82,8 +82,6 @@ Sometimes I have funding for students and postdocs, sometimes I don't. In either
 
 [Department of Energy Computational Science Graduate Fellowship](http://www.krellinst.org/csgf/) (US citizens/residents)
 
-[National Defense Science and Engineering Graduate Fellowship](http://ndseg.asee.org/) (US citizens/residents)
-
 [Big list of links hosted by UC Berkeley](http://grad.berkeley.edu/financial/fellowships_resources.shtml)
 
 
