@@ -1,7 +1,6 @@
 # Log of changes
 * 4/29/2020: tried to change to academic 4.8, broke publication author order, switched back to 4.7. Uploaded latest site to serve.
 
-
 # Website structure
 * /content should contain all content in subfolders, apart from content in /static, see below
 * /assets contains files for customized formatting, and the site logo
@@ -62,6 +61,7 @@ I'm not using regular pages at this point. Instead, stand-alone pages (e.g. reso
 * Add a pdf to each publication folder with the same name as the folder for that publication
 * adjust each index.md to set custom publication type 
 * My custom publication types are in data/publication_types.toml and their names are in publications.md in content/home describes the different types
+This also needs to be adjusted in /i8n/en.yaml
 To adjust labels/categories for publications, edit a layout file, then adjust numbers in publications:
 https://github.com/gcushen/hugo-academic/issues/906
 

@@ -172,6 +172,9 @@
 - id: pub_other
   translation: Other topics
 
+- id: pub_covid
+  translation: COVID-19
+
 
 # Project details
 

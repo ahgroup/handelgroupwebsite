@@ -11,5 +11,5 @@ types = [ "pub_flu",
           "pub_epi",
           "pub_software",
           "pub_other",
-		  "pub_covid"
+		      "pub_covid"
         ]
