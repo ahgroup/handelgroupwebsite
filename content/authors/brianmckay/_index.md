@@ -15,13 +15,16 @@ role: former PhD Student
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Current Members
+- Former Members
 
 interests:
 - Infectious Disease Modeling
 - Data Analysis
 
 social:
+- icon: globe
+  icon_pack: fas
+  link: https://mystifying-mayer-844958.netlify.app
 - icon: github
   icon_pack: fab
   link: https://github.com/bmckay

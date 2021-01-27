@@ -7,7 +7,6 @@ categories:
   - publications
 tags: []
 summary: ''
-lastmod: '2020-09-08T12:29:52-05:00'
 draft: false
 featured: no
 disable_jquery: no

@@ -10,21 +10,24 @@ authors:
 superuser: false
 
 # Role/position
-role: REU Student
+role: PhD Student 
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Former Members
+- Current Members
 
 social:
+- icon: globe
+  icon_pack: fas
+  link: https://wz-billings.rbind.io/
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/zane-b/
-  
+
 ---
 
 
-* Time in group: Summer 2019
-* Research projects: Influenza patient data analysis
+* Time in group: Summer 2019 as REU student, 2020 - present as PhD student
+* Research projects: Influenza vaccines
 

@@ -7,7 +7,6 @@ categories:
   - groupmembers
 tags: []
 summary: ''
-lastmod: '2020-12-02T12:29:52-05:00'
 draft: false
 featured: no
 disable_jquery: no
@@ -19,5 +18,5 @@ projects: []
 ---
 
 
-[Brian McKay](/author/brian-mckay/) defended his PhD thesis. Congratulations, Dr. McKay! Watch papers from his PhD work come out in the next year, lots of great flu research! 
+[Brian McKay](/author/brianmckay/) defended his PhD thesis. Congratulations, Dr. McKay! Watch papers from his PhD work come out in the next year, lots of great flu research! 
 
