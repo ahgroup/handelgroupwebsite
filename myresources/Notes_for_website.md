@@ -34,10 +34,8 @@ https://bookdown.org/yihui/blogdown/static-files.html
 # Tracking
 * Google Analytics is implemented. This is set up by specifying the analytics tag in params.toml
 
-
 # General notes
 I'm not using regular pages at this point. Instead, stand-alone pages (e.g. resources) are done using the 'blank' widget. That makes things consistent for the academic theme (though likely won't port easily to different themes).
-* Google Analytics is implemented. This is set up by specifying the analytics tag in params.toml
 
 # To update Academic theme
 * Find current version in themes/academic/data/academic.toml
