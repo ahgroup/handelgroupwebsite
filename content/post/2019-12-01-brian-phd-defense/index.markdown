@@ -1,0 +1,23 @@
+---
+title: 'PhD student Brian McKay successfully defended his PhD thesis'
+author: Andreas Handel
+date: '2019-12-01'
+slug: brian-defense
+categories:
+  - groupmembers
+tags: []
+summary: ''
+lastmod: '2020-12-02T12:29:52-05:00'
+draft: false
+featured: no
+disable_jquery: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+[Brian McKay](/author/brian-mckay/) defended his PhD thesis. Congratulations, Dr. McKay! Watch papers from his PhD work come out in the next year, lots of great flu research! 
+
