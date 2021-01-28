@@ -1,4 +1,5 @@
 # Log of changes
+* 1/27/2021: switched to wowchemy
 * 4/29/2020: tried to change to academic 4.8, broke publication author order, switched back to 4.7. Uploaded latest site to serve.
 
 # Website structure
@@ -53,7 +54,7 @@ I'm not using regular pages at this point. Instead, stand-alone pages (e.g. reso
 # To add new publications 
 * pull new pubs into zotero "mynewrefs" folder 
 * add entry to 'mynewbibs.bib' file. Include abstract. Can do that by pulling website article from zotero or through myncbi.
-* Run the academic tool for publications: https://sourcethemes.com/academic/docs/managing-content/
+* Run the academic tool for publications: https://wowchemy.com/docs/content/publications/
 * Make sure folder is not the actual website since we don't want existing pubs overwritten, otherwise they'll loose their special formatting.
 * Copy the new entries into the main /publication folder. Rename folders following my own scheme.
 * Add a pdf to each publication folder with the same name as the folder for that publication
