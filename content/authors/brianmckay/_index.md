@@ -10,12 +10,12 @@ authors:
 superuser: false
 
 # Role/position
-role: former PhD Student
+role: Lecturer (former PhD Student)
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Former Members
+- Current Members
 
 interests:
 - Infectious Disease Modeling
@@ -35,13 +35,13 @@ education:
     institution: University of Georgia
     year: 20015-2019
   - course: MPH in Epidemiology
-    institution: niversity of Georgia
+    institution: University of Georgia
     year: 2013-2015
  
 ---
 
-Brian graduated at the end of 2019 and is now a lecturer in our department. He is still working on several research projects with our group.
+Brian graduated with his PhD at the end of 2019. He is now a lecturer in our department. He is still working on several research projects with our group.
 
 * Time in group: 2016 - present
-* Research Projects: Influenza Epidemiology
+* Research Projects: Influenza Epidemiology, Systematic Reviews
 
