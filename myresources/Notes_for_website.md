@@ -68,6 +68,9 @@ This also needs to be adjusted in /i8n/en.yaml
 To adjust labels/categories for publications, edit a layout file, then adjust numbers in publications:
 https://github.com/gcushen/hugo-academic/issues/906
 
+See also here for (new?) tool:
+https://github.com/wowchemy/hugo-academic-cli
+
 # To build site
 run blogdown::build_site()
 run blogdown::serve_site() for live preview
