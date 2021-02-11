@@ -17,7 +17,7 @@ image:
 projects: []
 ---
 
-Recently, a new PhD student, [Zane](/author/zanebillings/), joined our group. He previously did an REU in our group and liked it enough to apply to our PhD program and now joined the team. He'll be working on influenza vaccines and we are excited to have him part of the team!
+Recently, a new PhD student, [Zane](/author/w-zane-billings/), joined our group. He previously did an REU in our group and liked it enough to apply to our PhD program and now joined the team. He'll be working on influenza vaccines and we are excited to have him part of the team!
 
 We also published several more COVID-19 papers (as well as a few non-COVID ones), they can all be found in the [publications](/publication/) section of the website, and you can filter there by topic/pathogen if you are especially (not) interested in COVID 😃.
 

@@ -52,9 +52,13 @@ I'm not using regular pages at this point. Instead, stand-alone pages (e.g. reso
 * copy/paste/modify an existing entry 
 
 # To add new publications 
+
+Note: the academic import tool is not working on main office computer, works on laptop.
+
 * pull new pubs into zotero "mynewrefs" folder 
 * add entry to 'mynewbibs.bib' file. Include abstract. Can do that by pulling website article from zotero or through myncbi.
-* Run the academic tool for publications: https://wowchemy.com/docs/content/publications/
+* Run the academic tool for publications: academic import --bibtex <path_to_your/publications.bib>
+* More details on how to use it: https://wowchemy.com/docs/content/publications/
 * Make sure folder is not the actual website since we don't want existing pubs overwritten, otherwise they'll loose their special formatting.
 * Copy the new entries into the main /publication folder. Rename folders following my own scheme.
 * Add a pdf to each publication folder with the same name as the folder for that publication

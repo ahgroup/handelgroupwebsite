@@ -18,5 +18,5 @@ projects: []
 ---
 
 
-[Brian McKay](/author/brianmckay/) defended his PhD thesis. Congratulations, Dr. McKay! Watch papers from his PhD work come out in the next year, lots of great flu research! 
+[Brian McKay](/author/brian-mckay/) defended his PhD thesis. Congratulations, Dr. McKay! Watch papers from his PhD work come out in the next year, lots of great flu research! 
 
