@@ -66,7 +66,9 @@ Sometimes I have funding for students and postdocs, sometimes I don't. In either
 
 #### Graduate Funding
 
-[A rather comprehensive list of different fellowships available for graduate students](http://www.gradschools.com/Article/Graduate-Fellowships/1676.html)
+[A great list/spreadsheet of funding opportunities for graduate students](https://research.jhu.edu/rdt/funding-opportunities/graduate/)
+
+[Another comprehensive list of different fellowships available for graduate students](http://www.gradschools.com/Article/Graduate-Fellowships/1676.html)
 
 [A list for different types of federal STEM funding opportunities](https://stemgradstudents.science.gov/)
 
