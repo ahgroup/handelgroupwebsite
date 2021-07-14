@@ -68,7 +68,7 @@ social:
   link: http://orcid.org/0000-0002-4622-1146
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: "ahandel@uga.edu"  # For a direct email link, use "mailto:test@example.org".
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
