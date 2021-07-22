@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Isaac Fung | Handel Research Group</title>
+    <link>https://handelgroup.uga.edu/author/isaac-fung/</link>
+      <atom:link href="https://handelgroup.uga.edu/author/isaac-fung/index.xml" rel="self" type="application/rss+xml" />
+    <description>Isaac Fung</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright>
+    <image>
+      <url>https://handelgroup.uga.edu/author/isaac-fung/avatar_hufb61f28014fe5d2add127ec91d26d4ae_48532_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Isaac Fung</title>
+      <link>https://handelgroup.uga.edu/author/isaac-fung/</link>
+    </image>
+    
+  </channel>
+</rss>

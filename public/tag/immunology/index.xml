@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Immunology | Handel Research Group</title>
+    <link>https://handelgroup.uga.edu/tag/immunology/</link>
+      <atom:link href="https://handelgroup.uga.edu/tag/immunology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Immunology</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Sat, 02 Feb 2019 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
+      <title>Immunology</title>
+      <link>https://handelgroup.uga.edu/tag/immunology/</link>
+    </image>
+    
+    <item>
+      <title>Immunology Research</title>
+      <link>https://handelgroup.uga.edu/allprojects/immunology/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/immunology/</guid>
+      <description>&lt;p&gt;Understanding the dynamical interactions between pathogens and the immune system will help us to further improve our ability to create novel vaccines and treatment strategies. In collaboration with several experimental groups at Emory, St. Jude and elsewhere, we study different aspects of pathogen - immune response interactions. Our focus is on viral infections and CD8 T-cell responses against those viruses.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

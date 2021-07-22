@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Handel Research Group</title>
+    <link>https://handelgroup.uga.edu/publication-type/3/</link>
+      <atom:link href="https://handelgroup.uga.edu/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Mon, 01 Oct 2018 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
+      <title>3</title>
+      <link>https://handelgroup.uga.edu/publication-type/3/</link>
+    </image>
+    
+    <item>
+      <title>Exploring the impact of inoculum dose on host immunity and morbidity to inform model-based vaccine design.</title>
+      <link>https://handelgroup.uga.edu/publication/2018-handel-pcb/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2018-handel-pcb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heterogeneity and longevity of antibody memory to viruses and vaccines.</title>
+      <link>https://handelgroup.uga.edu/publication/2018-antia-plosbio/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2018-antia-plosbio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intermediate levels of vaccination coverage may minimize seasonal influenza outbreaks</title>
+      <link>https://handelgroup.uga.edu/publication/2018-zarnitsyna-plosone/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2018-zarnitsyna-plosone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neuraminidase inhibitors for influenza: fully evaluating benefits and harms</title>
+      <link>https://handelgroup.uga.edu/publication/2015-handel-lancetrm/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2015-handel-lancetrm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intervention strategies for an influenza pandemic taking into account secondary bacterial infections</title>
+      <link>https://handelgroup.uga.edu/publication/2009-handel-epidemics/</link>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2009-handel-epidemics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring the role of the immune response in preventing antibiotic resistance</title>
+      <link>https://handelgroup.uga.edu/publication/2009-handel-jtb2/</link>
+      <pubDate>Sun, 01 Feb 2009 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2009-handel-jtb2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is the best control strategy for multiple infectious disease outbreaks?</title>
+      <link>https://handelgroup.uga.edu/publication/2007-handel-prsb/</link>
+      <pubDate>Thu, 01 Mar 2007 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2007-handel-prsb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neuraminidase Inhibitor Resistance in Influenza: Assessing the Danger of Its Generation and Spread</title>
+      <link>https://handelgroup.uga.edu/publication/2007-handel-pcb/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2007-handel-pcb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Role of Compensatory Mutations in the Emergence of Drug Resistance</title>
+      <link>https://handelgroup.uga.edu/publication/2006-handel-pcb/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2006-handel-pcb/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

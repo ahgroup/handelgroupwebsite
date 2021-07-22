@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SJ Turner | Handel Research Group</title>
+    <link>https://handelgroup.uga.edu/author/sj-turner/</link>
+      <atom:link href="https://handelgroup.uga.edu/author/sj-turner/index.xml" rel="self" type="application/rss+xml" />
+    <description>SJ Turner</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Mon, 01 Jun 2015 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
+      <title>SJ Turner</title>
+      <link>https://handelgroup.uga.edu/author/sj-turner/</link>
+    </image>
+    
+    <item>
+      <title>Oseltamivir Prophylaxis Reduces Inflammation and Facilitates Establishment of Cross-Strain Protective T Cell Memory to Influenza Viruses</title>
+      <link>https://handelgroup.uga.edu/publication/2015-bird-plosone/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2015-bird-plosone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reproducible selection of high avidity CD8(&#43;) T-cell clones following secondary acute virus infection</title>
+      <link>https://handelgroup.uga.edu/publication/2014-cukalac-pnas/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2014-cukalac-pnas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Influenza Epitope-Specific CD8(&#43;) T Cell Avidity, but Not Cytokine Polyfunctionality, Can Be Determined by TCR beta Clonotype</title>
+      <link>https://handelgroup.uga.edu/publication/2010-moffat-jimm/</link>
+      <pubDate>Wed, 01 Dec 2010 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2010-moffat-jimm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

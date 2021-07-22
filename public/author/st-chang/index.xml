@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ST Chang | Handel Research Group</title>
+    <link>https://handelgroup.uga.edu/author/st-chang/</link>
+      <atom:link href="https://handelgroup.uga.edu/author/st-chang/index.xml" rel="self" type="application/rss+xml" />
+    <description>ST Chang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Tue, 01 Nov 2016 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
+      <title>ST Chang</title>
+      <link>https://handelgroup.uga.edu/author/st-chang/</link>
+    </image>
+    
+    <item>
+      <title>Cost-effectiveness and resource implications of aggressive action on tuberculosis in China, India, and South Africa: a combined analysis of nine models</title>
+      <link>https://handelgroup.uga.edu/publication/2016-menzies-lancetgh/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2016-menzies-lancetgh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feasibility of achieving the 2025 WHO global tuberculosis targets in South Africa, China, and India: a combined analysis of 11 mathematical models</title>
+      <link>https://handelgroup.uga.edu/publication/2016-houben-lancetgh/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2016-houben-lancetgh/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

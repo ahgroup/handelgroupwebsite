@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>research | Handel Research Group</title>
+    <link>https://handelgroup.uga.edu/tag/research/</link>
+      <atom:link href="https://handelgroup.uga.edu/tag/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>research</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Sun, 17 Feb 2019 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
+      <title>research</title>
+      <link>https://handelgroup.uga.edu/tag/research/</link>
+    </image>
+    
+    <item>
+      <title>Influenza Research</title>
+      <link>https://handelgroup.uga.edu/allprojects/influenza/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/influenza/</guid>
+      <description>&lt;p&gt;We are interested in the dynamics of influenza, both on the within-host level and the between-host level. On the within-host level, we try to gain a better and more quantitative understanding as to what drives the infection dynamics and leads to virus clearance. On the between-host levels, we study the spread and potential control of the virus. Current specific projects we work on are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Persistence of avian influenza in the environment&lt;/li&gt;
+&lt;li&gt;Adaptive immune responses to influenza&lt;/li&gt;
+&lt;li&gt;Dose-dependent influenza infection outcomes&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tuberculosis Research</title>
+      <link>https://handelgroup.uga.edu/allprojects/tuberculosis/</link>
+      <pubDate>Sat, 09 Feb 2019 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/tuberculosis/</guid>
+      <description>&lt;p&gt;In collaboration with our departmental colleague Chris Whalen and others, we use a combination of mathematical models and data to better understand the spread of and potential interventions against tuberculosis, with a focus on African settings.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-scale Research</title>
+      <link>https://handelgroup.uga.edu/allprojects/multiscale/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/multiscale/</guid>
+      <description>&lt;p&gt;In collaboration with Pej Rohani, as well as other colleagues at UGA and beyond, we are exploring the dynamics of avian influenza virus on the within-host and population-level scale simultaneously.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Norovirus Research</title>
+      <link>https://handelgroup.uga.edu/allprojects/norovirus/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/norovirus/</guid>
+      <description>&lt;p&gt;Together with collaborators at Emory and elsewhere, we are working on better understanding aspects of norovirus within-host and epidemiological dynamics and potential control. Currently, we are collaborating with Ben Lopman, Katia Koelle and Juan Leon at Emory, as well as colleagues from other universities, the CDC and Takeda, to analyze and model data that can inform the development and deployment of a future norovirus vaccine.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vaccine related research</title>
+      <link>https://handelgroup.uga.edu/allprojects/vaccines/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/vaccines/</guid>
+      <description>&lt;p&gt;We are using modeling and analysis approaches to determine how to optimize vaccine formulation, with a focus on the impact of dose.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Immunology Research</title>
+      <link>https://handelgroup.uga.edu/allprojects/immunology/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/immunology/</guid>
+      <description>&lt;p&gt;Understanding the dynamical interactions between pathogens and the immune system will help us to further improve our ability to create novel vaccines and treatment strategies. In collaboration with several experimental groups at Emory, St. Jude and elsewhere, we study different aspects of pathogen - immune response interactions. Our focus is on viral infections and CD8 T-cell responses against those viruses.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

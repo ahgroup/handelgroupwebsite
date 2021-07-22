@@ -1,0 +1,5 @@
+# Netlify redirects
+# Automatically generated
+# Documentation: http://bit.ly/netlify-deployment
+/resources /opportunities/
+/resources /resources/

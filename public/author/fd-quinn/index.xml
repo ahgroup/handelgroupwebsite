@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FD Quinn | Handel Research Group</title>
+    <link>https://handelgroup.uga.edu/author/fd-quinn/</link>
+      <atom:link href="https://handelgroup.uga.edu/author/fd-quinn/index.xml" rel="self" type="application/rss+xml" />
+    <description>FD Quinn</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Tue, 01 May 2018 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
+      <title>FD Quinn</title>
+      <link>https://handelgroup.uga.edu/author/fd-quinn/</link>
+    </image>
+    
+    <item>
+      <title>A Prospective Validation of a Clinical Algorithm to Detect Tuberculosis in Child Contacts</title>
+      <link>https://handelgroup.uga.edu/publication/2018-martinez-ajrccm/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2018-martinez-ajrccm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effectiveness of WHO&#39;s pragmatic screening algorithm for child contacts of tuberculosis cases in resource-constrained settings: a prospective cohort study in Uganda</title>
+      <link>https://handelgroup.uga.edu/publication/2018-martinez-lancetrm/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2018-martinez-lancetrm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

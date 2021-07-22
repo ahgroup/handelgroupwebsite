@@ -20,7 +20,7 @@ user_groups:
 social:
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/jacquelinedworaczyk
   
 ---
 

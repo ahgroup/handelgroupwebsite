@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VI Zarnitsyna | Handel Research Group</title>
+    <link>https://handelgroup.uga.edu/author/vi-zarnitsyna/</link>
+      <atom:link href="https://handelgroup.uga.edu/author/vi-zarnitsyna/index.xml" rel="self" type="application/rss+xml" />
+    <description>VI Zarnitsyna</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Fri, 01 Jun 2018 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
+      <title>VI Zarnitsyna</title>
+      <link>https://handelgroup.uga.edu/author/vi-zarnitsyna/</link>
+    </image>
+    
+    <item>
+      <title>Intermediate levels of vaccination coverage may minimize seasonal influenza outbreaks</title>
+      <link>https://handelgroup.uga.edu/publication/2018-zarnitsyna-plosone/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2018-zarnitsyna-plosone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathematical Model Reveals the Role of Memory CD8 T Cell Populations in Recall Responses to Influenza</title>
+      <link>https://handelgroup.uga.edu/publication/2016-zarnitsyna-fimm/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2016-zarnitsyna-fimm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

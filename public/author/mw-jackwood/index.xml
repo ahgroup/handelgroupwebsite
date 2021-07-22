@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MW Jackwood | Handel Research Group</title>
+    <link>https://handelgroup.uga.edu/author/mw-jackwood/</link>
+      <atom:link href="https://handelgroup.uga.edu/author/mw-jackwood/index.xml" rel="self" type="application/rss+xml" />
+    <description>MW Jackwood</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Wed, 01 Aug 2012 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
+      <title>MW Jackwood</title>
+      <link>https://handelgroup.uga.edu/author/mw-jackwood/</link>
+    </image>
+    
+    <item>
+      <title>Molecular evolution and emergence of avian gammacoronaviruses</title>
+      <link>https://handelgroup.uga.edu/publication/2012-jackwood-ige/</link>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2012-jackwood-ige/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Influenza | Handel Research Group</title>
+    <link>https://handelgroup.uga.edu/tag/influenza/</link>
+      <atom:link href="https://handelgroup.uga.edu/tag/influenza/index.xml" rel="self" type="application/rss+xml" />
+    <description>Influenza</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
+      <title>Influenza</title>
+      <link>https://handelgroup.uga.edu/tag/influenza/</link>
+    </image>
+    
+    <item>
+      <title>Effectiveness of Neuraminidase Inhibitors to Prevent Mortality in Patients with Laboratory-Confirmed Avian Influenza A H7N9</title>
+      <link>https://handelgroup.uga.edu/publication/2021-cheng-ijid/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2021-cheng-ijid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Associations Between Relative Viral Load at Diagnosis and Influenza A Symptoms and Recovery</title>
+      <link>https://handelgroup.uga.edu/publication/2020-mckay-ofid/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2020-mckay-ofid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Influenza Hemagglutinin Antigenic Distance Measures Capture Trends in HAI Differences and Infection Outcomes, but Are Not Suitable Predictive Tools</title>
+      <link>https://handelgroup.uga.edu/publication/2020-skarlupka-vaccine/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2020-skarlupka-vaccine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact of a Rapid Point of Care Test for Influenza on Guideline Consistent Care and Antibiotic Use.</title>
+      <link>https://handelgroup.uga.edu/publication/2019-dale-jabfm/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2019-dale-jabfm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Influenza Research</title>
+      <link>https://handelgroup.uga.edu/allprojects/influenza/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/influenza/</guid>
+      <description>&lt;p&gt;We are interested in the dynamics of influenza, both on the within-host level and the between-host level. On the within-host level, we try to gain a better and more quantitative understanding as to what drives the infection dynamics and leads to virus clearance. On the between-host levels, we study the spread and potential control of the virus. Current specific projects we work on are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Persistence of avian influenza in the environment&lt;/li&gt;
+&lt;li&gt;Adaptive immune responses to influenza&lt;/li&gt;
+&lt;li&gt;Dose-dependent influenza infection outcomes&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

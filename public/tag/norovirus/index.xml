@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Norovirus | Handel Research Group</title>
+    <link>https://handelgroup.uga.edu/tag/norovirus/</link>
+      <atom:link href="https://handelgroup.uga.edu/tag/norovirus/index.xml" rel="self" type="application/rss+xml" />
+    <description>Norovirus</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Thu, 07 Feb 2019 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
+      <title>Norovirus</title>
+      <link>https://handelgroup.uga.edu/tag/norovirus/</link>
+    </image>
+    
+    <item>
+      <title>Norovirus Research</title>
+      <link>https://handelgroup.uga.edu/allprojects/norovirus/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/norovirus/</guid>
+      <description>&lt;p&gt;Together with collaborators at Emory and elsewhere, we are working on better understanding aspects of norovirus within-host and epidemiological dynamics and potential control. Currently, we are collaborating with Ben Lopman, Katia Koelle and Juan Leon at Emory, as well as colleagues from other universities, the CDC and Takeda, to analyze and model data that can inform the development and deployment of a future norovirus vaccine.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

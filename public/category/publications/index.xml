@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>publications | Handel Research Group</title>
+    <link>https://handelgroup.uga.edu/category/publications/</link>
+      <atom:link href="https://handelgroup.uga.edu/category/publications/index.xml" rel="self" type="application/rss+xml" />
+    <description>publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
+      <title>publications</title>
+      <link>https://handelgroup.uga.edu/category/publications/</link>
+    </image>
+    
+    <item>
+      <title>Group Updates</title>
+      <link>https://handelgroup.uga.edu/post/updates-summer-2021/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://handelgroup.uga.edu/post/updates-summer-2021/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://handelgroup.uga.edu/author/rachel-mercaldo/&#34;&gt;Rachel&lt;/a&gt; graduated in spring of 2021 and is now working as a Postdoc at the NIH.&lt;/p&gt;
+&lt;p&gt;We had two great REU students join us this summer, &lt;a href=&#34;https://handelgroup.uga.edu/author/jacqueline-dworaczyk/&#34;&gt;Jacqueline&lt;/a&gt; and &lt;a href=&#34;https://handelgroup.uga.edu/author/salil-goyal/&#34;&gt;Salil&lt;/a&gt;. They made a lot of progress on each of their projects during the summer. Expect to see papers published on those topics soon 😃.&lt;/p&gt;
+&lt;p&gt;We published a few more papers, they can all be found in the &lt;a href=&#34;https://handelgroup.uga.edu/publication/&#34;&gt;publications&lt;/a&gt; section of the website.&lt;/p&gt;
+&lt;p&gt;Together with his colleague &lt;a href=&#34;https://www.stjude.org/directory/t/paul-thomas.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paul Thomas&lt;/a&gt;, Dr. Handel taught another year of within-host modeling and immunology at &lt;a href=&#34;https://andreashandel.github.io/SISMID2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SISMID 2021&lt;/a&gt;. This was the 13th year of teaching this workshop. Materials used in this workshop can be found on our &lt;a href=&#34;https://andreashandel.github.io/SMIcourse/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Simulation Modeling and Immunology website&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Updates for the new year</title>
+      <link>https://handelgroup.uga.edu/post/updates-for-2021/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://handelgroup.uga.edu/post/updates-for-2021/</guid>
+      <description>&lt;p&gt;Recently, a new PhD student, &lt;a href=&#34;https://handelgroup.uga.edu/author/w-zane-billings/&#34;&gt;Zane&lt;/a&gt;, joined our group. He previously did an REU in our group and liked it enough to apply to our PhD program and now joined the team. He&amp;rsquo;ll be working on influenza vaccines and we are excited to have him part of the team!&lt;/p&gt;
+&lt;p&gt;We also published several more COVID-19 papers (as well as a few non-COVID ones), they can all be found in the &lt;a href=&#34;https://handelgroup.uga.edu/publication/&#34;&gt;publications&lt;/a&gt; section of the website, and you can filter there by topic/pathogen if you are especially (not) interested in COVID 😃.&lt;/p&gt;
+&lt;p&gt;Related to that, slides for several COVID (and also a few non-COVID) presentations that I gave are available &lt;a href=&#34;https://www.andreashandel.com/talk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on my personal website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And I also updated this website to the latest Hugo/Academic (now Wowchemy) theme, so if anything doesn&amp;rsquo;t work, let me know.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A few more publications</title>
+      <link>https://handelgroup.uga.edu/post/a-few-more-publications/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://handelgroup.uga.edu/post/a-few-more-publications/</guid>
+      <description>&lt;p&gt;We recently had a few new publications come out: One of the PhD thesis chapters of our former student Brian got published in the Proceedings of the Royal Society B, and we had a few COVID related papers come out, as well as a few on assorted other infectious disease topics. All publications can be found in the &lt;a href=&#34;https://handelgroup.uga.edu/publication/&#34;&gt;publications section&lt;/a&gt; of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Several COVID-19 related projects</title>
+      <link>https://handelgroup.uga.edu/post/several-covid-19-projects/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://handelgroup.uga.edu/post/several-covid-19-projects/</guid>
+      <description>&lt;p&gt;Like most infectious disease modelers, we have gotten involved in several COVID-19 related projects recently. 
+A lot of work is done as part of UGA&amp;rsquo;s Center for the Ecology of Infectious Diseases, most of those projects &lt;a href=&#34;http://2019-coronavirus-tracker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;can be found here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;One project is our visualization of COVID-19 cases/deaths. &lt;a href=&#34;https://shiny.ovpr.uga.edu/yact/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This shiny app is here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lastly, a few projects exist as pre-prints. One analyzes &lt;a href=&#34;https://doi.org/10.1101/2020.02.20.20025973&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mass screening and testing interventions&lt;/a&gt; another looks at &lt;a href=&#34;https://doi.org/10.1101/2020.03.13.20034892&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;reduction of mortality if containment is not possible&lt;/a&gt;, &lt;a href=&#34;https://dx.doi.org/10.1001/jamainternmed.2020.5225&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this one analyzes multiple likely airborne transmissions on a bus&lt;/a&gt; and &lt;a href=&#34;https://dx.doi.org/10.1093/ofid/ofaa231&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this one looks at several transmission events during casual contact&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dr. Handel also described most of these projects in a recent presentation at GA Southern, &lt;a href=&#34;https://www.andreashandel.com/talk/2020-04-gasouthern-covid/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here are the slides from this talk.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A few new publications</title>
+      <link>https://handelgroup.uga.edu/post/a-few-new-publications/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://handelgroup.uga.edu/post/a-few-new-publications/</guid>
+      <description>&lt;p&gt;We recently published a few new papers: An introduction and review of simulation modeling in the within-host/immunology level, a study of cough distribution in TB patients and a description of our within-host modeling R package. All publications can be found in the &lt;a href=&#34;https://handelgroup.uga.edu/publication/&#34;&gt;publications section&lt;/a&gt; of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linda M. Wakim | Handel Research Group</title>
+    <link>https://handelgroup.uga.edu/author/linda-m.-wakim/</link>
+      <atom:link href="https://handelgroup.uga.edu/author/linda-m.-wakim/index.xml" rel="self" type="application/rss+xml" />
+    <description>Linda M. Wakim</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
+      <title>Linda M. Wakim</title>
+      <link>https://handelgroup.uga.edu/author/linda-m.-wakim/</link>
+    </image>
+    
+    <item>
+      <title>Quantification of epitope abundance reveals the effect of direct and cross-presentation on influenza CTL responses</title>
+      <link>https://handelgroup.uga.edu/publication/2019-wu-natcomm/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://handelgroup.uga.edu/publication/2019-wu-natcomm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

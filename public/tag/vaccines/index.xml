@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vaccines | Handel Research Group</title>
+    <link>https://handelgroup.uga.edu/tag/vaccines/</link>
+      <atom:link href="https://handelgroup.uga.edu/tag/vaccines/index.xml" rel="self" type="application/rss+xml" />
+    <description>Vaccines</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Thu, 07 Feb 2019 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
+      <title>Vaccines</title>
+      <link>https://handelgroup.uga.edu/tag/vaccines/</link>
+    </image>
+    
+    <item>
+      <title>Vaccine related research</title>
+      <link>https://handelgroup.uga.edu/allprojects/vaccines/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/vaccines/</guid>
+      <description>&lt;p&gt;We are using modeling and analysis approaches to determine how to optimize vaccine formulation, with a focus on the impact of dose.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,8 +1,8 @@
 ---
-title: 'Updates for the new year'
+title: Group Updates
 author: Andreas Handel
-date: '2021-01-27'
-slug: updates-for-2021
+date: '2021-07-21'
+slug: updates-summer-2021
 categories:
   - publications
 tags: []
@@ -17,11 +17,13 @@ image:
 projects: []
 ---
 
-Recently, a new PhD student, [Zane](/author/w-zane-billings/), joined our group. He previously did an REU in our group and liked it enough to apply to our PhD program and now joined the team. He'll be working on influenza vaccines and we are excited to have him part of the team!
+[Rachel](/author/rachel-mercaldo/) graduated in spring of 2021 and is now working as a Postdoc at the NIH.
 
-We also published several more COVID-19 papers (as well as a few non-COVID ones), they can all be found in the [publications](/publication/) section of the website, and you can filter there by topic/pathogen if you are especially (not) interested in COVID 😃.
+We had two great REU students join us this summer, [Jacqueline](/author/jacqueline-dworaczyk/) and [Salil](/author/salil-goyal/). They made a lot of progress on each of their projects during the summer. Expect to see papers published on those topics soon 😃.
 
-Related to that, slides for several COVID (and also a few non-COVID) presentations that I gave are available [on my personal website](https://www.andreashandel.com/talk/).
+We published a few more papers, they can all be found in the [publications](/publication/) section of the website.
 
-And I also updated this website to the latest Hugo/Academic (now Wowchemy) theme, so if anything doesn't work, let me know.
+Together with his colleague [Paul Thomas](https://www.stjude.org/directory/t/paul-thomas.html), Dr. Handel taught another year of within-host modeling and immunology at [SISMID 2021](https://andreashandel.github.io/SISMID2021/). This was the 13th year of teaching this workshop. Materials used in this workshop can be found on our [Simulation Modeling and Immunology website](https://andreashandel.github.io/SMIcourse/).
+
+
 
