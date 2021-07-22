@@ -95,8 +95,6 @@ Sometimes I have funding for students and postdocs, sometimes I don't. In either
 
 [NIH Career Development Awards](http://grants.nih.gov/training/careerdevelopmentawards.htm)
 
-[Burroughs Wellcome Fund](http://www.bwfund.org/page.php?mode=privateview&pageID=52&navID=90)
-
 [Life Sciences Research Foundation](http://www.lsrf.org)
 
 [NSF Information for Postdoctoral Fellows](http://www.nsf.gov/funding/education.jsp?fund_type=3)

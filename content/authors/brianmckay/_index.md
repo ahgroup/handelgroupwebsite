@@ -15,7 +15,7 @@ role: Lecturer (former PhD Student)
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Current Members
+- Former Members
 
 interests:
 - Infectious Disease Modeling
@@ -24,7 +24,7 @@ interests:
 social:
 - icon: globe
   icon_pack: fas
-  link: https://mystifying-mayer-844958.netlify.app
+  link: https://brianmckay.netlify.app/
 - icon: github
   icon_pack: fab
   link: https://github.com/bmckay
@@ -40,8 +40,8 @@ education:
  
 ---
 
-Brian graduated with his PhD at the end of 2019. He is now a lecturer in our department. He is still working on several research projects with our group.
+Brian graduated with his PhD at the end of 2019. He is still working on several research projects with our group.
 
-* Time in group: 2016 - present
+* Time in group: 2016 - 2019
 * Research Projects: Influenza Epidemiology, Systematic Reviews
 

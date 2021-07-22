@@ -15,7 +15,7 @@ role: PhD Student
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Current Members
+- Former Members
 
 social:
 - icon: github
@@ -27,5 +27,5 @@ social:
 
 ---
 
-* Time in group: 2018 - present
-* Research Projects: Tuberculosis
+* Time in group: 2018 - 2021
+* Research Projects: Ebola, Tuberculosis and SARS-CoV-2

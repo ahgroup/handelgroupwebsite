@@ -27,7 +27,9 @@ This page provides brief descriptions and links to various tools we produced or 
 
 ### Research Resources
 
-This is a collection of programs, scripts and descriptions to produce results in various publications. You can get the publications from the publication section of this webpage. Some of the code is relatively well documented, some isn't. Feel free to use and modify the programs any way you want. If you need help understanding certain programs, I will try to help. But my time is limited, and for a lot of the old programs, I might not even remember anymore what exactly I did. That's especially true for anything Matlab or Fortran since I haven't used either in years.
+In recent years, we made sure that for our publications, all code is supplied as supplementary material. In the past, this was not always possible. To allow as much access and reproducibility to our work as possible, we link here to a collection of programs, scripts and descriptions to produce results in various publications. 
+
+You can get the publications from the publication section of this webpage. Some of the code is relatively well documented, some isn't. Feel free to use and modify the programs any way you want. If you need help understanding certain programs, I will try to help. But my time is limited, and for a lot of the old programs, I might not even remember anymore what exactly I did. That's especially true for anything Matlab or Fortran since I haven't used either in years.
 
 [TB Cough duration analysis](/files/software/Supercougher_Supplements.zip) - A zip file containing various supplementary R scripts and codebooks for a superspreading/supercoughing study in TB patients. The manuscript describing this work is [here](/publication/2019-handel-ijtld/).
 
@@ -63,19 +65,16 @@ them independently from any of my courses.
 
 #### Online Course Materials
 
-__Modern Applied Data Analysis (MADA)__ is a course I regularly teach online. All course materials are available in the form of a simple GitHub website and can be used by anyone for self-learning. You can find the course [on this site](https://andreashandel.github.io/MADAcourse/).
+[__Modern Applied Data Analysis (MADA)__]((https://andreashandel.github.io/MADAcourse/) is a course I regularly teach online. All course materials are available online and can be used by anyone for self-learning. 
 
-__Simulation Modeling in Immunology (SMI)__ is a website with course materials covering within-host modeling and immunology. It is part of an an annual workshop that I co-teach with my colleague Paul Thomas. All course materials are available in the form of a simple GitHub website and can be used by anyone for self-learning. You can find the course [on this site](https://andreashandel.github.io/SMIcourse/).
+[__Simulation Modeling in Immunology (SMI)__](https://andreashandel.github.io/SMIcourse/) is a website with course materials covering within-host modeling and immunology. It is, among other things, used as part of an an annual workshop that I co-teach with my colleague Paul Thomas. 
 
-__Infectious Disease Epidemiology - A model based approach (IDEMA)__ is a graduate level course I regularly teach online. Currently (fall 2020) I teach it again and as part of that am releasing all course materials in the form of a simple GitHub website. The complete set of materials will be on the website by the end of the year and will stay there for anyone interested. You can find the course [on this site](https://andreashandel.github.io/IDEMAcourse/).
+[__Infectious Disease Epidemiology - A model based approach (IDEMA)__](https://andreashandel.github.io/IDEMAcourse/) is a graduate level course I regularly teach online. All materials from this course are avaiable on the website. 
 
 
 #### Online Books and other materials
 
 [__Infectious Disease Epidemiology - A model based approach (IDEMA) - an online textbook__](https://andreashandel.github.io/IDEMAbook/) this book goes with the course of the same mentioned in the previous section. The book will likely be under perpetual development, with some chapters being more complete than others. Most chapters are fairly readable and complete enough that I use it when I teach a course on that topic. It is however not thoroughly fact-checked, error-corrected, properly referenced, etc. While I have been considering the idea of turning this into a full/real book, in my current thinking the cost-benefit analysis doesn't pan out. I thus plan to leave it online for free as is, with occasional updates and fixes, but without an attempt to make it polished and complete enough for a printed book.
-
-[YaRI](/files/software/yari.zip) = Yet another R Introduction - I always wanted to give something 
-[a name like that](http://en.wikipedia.org/wiki/Yet_another)! This is a short introduction to R that I compiled and used for various courses I teach that are based on R. I wrote the YaRI tutorial several years ago. Since then, a lot of good R tutorials and teaching resources have become available. At this point, I don't use YaRI in my teaching anymore, it's listed here mainly because I can't get myself to completely remove it :). 
 
 [Lists with further resources, pertaining to learning R, Data Analysis, and other topics.](https://andreashandel.github.io/research-and-teaching-resources/) - I maintain a compilation of links and bits of information related to my research and teaching on Github. Mainly as a quick look-up and reminder for myself, though others might find it useful too.
 
@@ -83,7 +82,6 @@ __Infectious Disease Epidemiology - A model based approach (IDEMA)__ is a gradua
 ### Group Tools
 
 This section is mainly intended for potential group members so they know what they might be getting themselves into. If others profit from some of the information, even better.
-
 
 Our current programming environment of choice is the free and Open Source software [R](https://www.r-project.org/). We use it for almost all of our projects. While not required, using R through [R Studio](https://www.rstudio.com/) makes working in R more user/beginner friendly. R Studio is also free. Almost all of our current writing is also done in the R ecosystem using Rmarkdown/bookdown/blogdown, etc.
 
