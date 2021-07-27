@@ -5,7 +5,7 @@
     <link>https://handelgroup.uga.edu/tag/influenza/</link>
       <atom:link href="https://handelgroup.uga.edu/tag/influenza/index.xml" rel="self" type="application/rss+xml" />
     <description>Influenza</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Sat, 17 Apr 2021 00:00:00 -0400</lastBuildDate>
     <image>
       <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
       <title>Influenza</title>
@@ -13,48 +13,29 @@
     </image>
     
     <item>
-      <title>Effectiveness of Neuraminidase Inhibitors to Prevent Mortality in Patients with Laboratory-Confirmed Avian Influenza A H7N9</title>
-      <link>https://handelgroup.uga.edu/publication/2021-cheng-ijid/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 -0500</pubDate>
-      <guid>https://handelgroup.uga.edu/publication/2021-cheng-ijid/</guid>
-      <description></description>
+      <title>SARS-CoV-2 vaccination modeling</title>
+      <link>https://handelgroup.uga.edu/allprojects/covidvaccines/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/covidvaccines/</guid>
+      <description>&lt;p&gt;Building on our &lt;a href=&#34;https://handelgroup.uga.edu/allprojects/norovirusvaccines/&#34;&gt;norovirus vaccine work&lt;/a&gt;, we are working with the same group of collaborators to better understand the impact of different SARS-CoV-2 vaccination strategies.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Associations Between Relative Viral Load at Diagnosis and Influenza A Symptoms and Recovery</title>
-      <link>https://handelgroup.uga.edu/publication/2020-mckay-ofid/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 -0400</pubDate>
-      <guid>https://handelgroup.uga.edu/publication/2020-mckay-ofid/</guid>
-      <description></description>
+      <title>Designing better influenza vaccines</title>
+      <link>https://handelgroup.uga.edu/allprojects/influenzavaccines/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/influenzavaccines/</guid>
+      <description>&lt;p&gt;We are using modeling and analysis approaches to determine how to optimize vaccine formulation, with a focus on the impact of dose for future universal influenza vaccines. The work is part of the &lt;a href=&#34;https://www.niaidcivics.org/center-for-influenza-vaccine-research-for-high-risk-populations-civr-hrp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Influenza Vaccine Research for High-Risk Populations (CIVR-HRP)&lt;/a&gt;, which is a component of NIH&amp;rsquo;s &lt;a href=&#34;https://www.niaidcivics.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Collaborative Influenza Vaccine Innovation Centers (CIVICs) program&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Influenza Hemagglutinin Antigenic Distance Measures Capture Trends in HAI Differences and Infection Outcomes, but Are Not Suitable Predictive Tools</title>
-      <link>https://handelgroup.uga.edu/publication/2020-skarlupka-vaccine/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://handelgroup.uga.edu/publication/2020-skarlupka-vaccine/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Impact of a Rapid Point of Care Test for Influenza on Guideline Consistent Care and Antibiotic Use.</title>
-      <link>https://handelgroup.uga.edu/publication/2019-dale-jabfm/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://handelgroup.uga.edu/publication/2019-dale-jabfm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Influenza Research</title>
-      <link>https://handelgroup.uga.edu/allprojects/influenza/</link>
+      <title>Modeling and analysis of influenza immune responses</title>
+      <link>https://handelgroup.uga.edu/allprojects/influenzaimmunity/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 -0500</pubDate>
-      <guid>https://handelgroup.uga.edu/allprojects/influenza/</guid>
-      <description>&lt;p&gt;We are interested in the dynamics of influenza, both on the within-host level and the between-host level. On the within-host level, we try to gain a better and more quantitative understanding as to what drives the infection dynamics and leads to virus clearance. On the between-host levels, we study the spread and potential control of the virus. Current specific projects we work on are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Persistence of avian influenza in the environment&lt;/li&gt;
-&lt;li&gt;Adaptive immune responses to influenza&lt;/li&gt;
-&lt;li&gt;Dose-dependent influenza infection outcomes&lt;/li&gt;
-&lt;/ul&gt;
+      <guid>https://handelgroup.uga.edu/allprojects/influenzaimmunity/</guid>
+      <description>&lt;p&gt;We want to understand what mechanisms lead to good induction of memory immune responses following vaccination, and what mechanisms influence the severity of infections. To that end, we combine statistical and mechanistic models with data. We work on several projects in this area, some are part of the the &lt;a href=&#34;https://www.niaidcivics.org/center-for-influenza-vaccine-research-for-high-risk-populations-civr-hrp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Influenza Vaccine Research for High-Risk Populations (CIVR-HRP)&lt;/a&gt;, others are part of the Center for Influenza Disease and Emergence Research (CIDER), a component of NIH&amp;rsquo;s &lt;a href=&#34;https://www.ceirr-network.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Centers of Excellence for Influenza Research and Response (CEIRR)&lt;/a&gt;, and some are part of the project &lt;a href=&#34;https://reporter.nih.gov/project-details/10204919&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dynamics and Evolution of Immune Responses to Influenza Viruses&lt;/a&gt; with colleague &lt;a href=&#34;http://www.biology.emory.edu/Antia/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rustom Antia as PI&lt;/a&gt; and other collaborators.&lt;/p&gt;
 </description>
     </item>
     

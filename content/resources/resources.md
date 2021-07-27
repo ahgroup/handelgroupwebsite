@@ -31,22 +31,22 @@ In recent years, we made sure that for our publications, all code is supplied as
 
 You can get the publications from the publication section of this webpage. Some of the code is relatively well documented, some isn't. Feel free to use and modify the programs any way you want. If you need help understanding certain programs, I will try to help. But my time is limited, and for a lot of the old programs, I might not even remember anymore what exactly I did. That's especially true for anything Matlab or Fortran since I haven't used either in years.
 
-[TB Cough duration analysis](/files/software/Supercougher_Supplements.zip) - A zip file containing various supplementary R scripts and codebooks for a superspreading/supercoughing study in TB patients. The manuscript describing this work is [here](/publication/2019-handel-ijtld/).
+[TB Cough duration analysis](/files/software/Supercougher_Supplements.zip) - A zip file containing various supplementary R scripts and codebooks for a superspreading/supercoughing study in TB patients. The manuscript describing this work is _Handel et al 2019 IJTLD_.
 
-[TB-MAC UGA Model](/files/software/TB_MAC_UGA.zip) - A file containing the R code and description of the model that was used by us to produce the results described in a multi-model project on TB intervention analysis. The results are described in Houben et al. [(2016) Lancet Global Health](/publication/2016-houben-lancetgh/).
+[TB-MAC UGA Model](/files/software/TB_MAC_UGA.zip) - A file containing the R code and description of the model that was used by us to produce the results described in a multi-model project on TB intervention analysis. The results are described in _Houben et al. (2016) Lancet Global Health_.
 
-[TB Persistence](/files/software/TBpersistenceCode.zip) - A collection of R scripts to run the simulations described in our 2014 PLoS One publication ["Modeling the potential impact of host population survival on the evolution of M. tuberculosis latency."](/publication/2014-zheng-plosone/)
+[TB Persistence](/files/software/TBpersistenceCode.zip) - A collection of R scripts to run the simulations described in our 2014 PLoS One publication _Modeling the potential impact of host population survival on the evolution of M. tuberculosis latency._
 
-[Avian flu](/files/software/AIVstudy.zip) - a collection of R scripts and accompanying data to do the various analyses described in Handel et al. [(2013) PLoS Comp Bio](/publication/2013-handel-pcb/).
+[Avian flu](/files/software/AIVstudy.zip) - a collection of R scripts and accompanying data to do the various analyses described in _Handel et al. (2013) PLoS Comp Bio_.
 
-[resimmcode.m](/files/software/resimmcode.zip) - A short Matlab program that simulates the dynamics of bacteria and drugs during emergence of resistance. A version of this code was used in [Handel et al. (2009) JTB](/publication/2009-handel-jtb2/).
+[resimmcode.m](/files/software/resimmcode.zip) - A short Matlab program that simulates the dynamics of bacteria and drugs during emergence of resistance. A version of this code was used in _Handel et al. (2009) JTB_.
 
 [Gapjunction ABM](/files/software/gapjunction.zip) - An agent-based simulation, written for the freely available [Netlogo platform](http://ccl.northwestern.edu/netlogo/). The code simulates gap junction mediated antigen transport during the local spread of virus and clearance by CTL. The simulation is described and used in 
-[Handel et al. 2009 JRSI](/publication/2009-handel-jrsi/).
+_Handel et al. 2009 JRSI_.
 
-[Bacteria evolution simulation](/files/software/populationmodel.zip) - A Matlab program that simulates the evolution of a bacterial population in repeated exponential growth and serial dilution cycles. A version of this code was used in [Handel and Rozen 2009 BMC Evo Bio](/publication/2009-handel-bmceb/). Note that this uses the [lightspeed collection of Matlab functions](https://github.com/tminka/lightspeed).
+[Bacteria evolution simulation](/files/software/populationmodel.zip) - A Matlab program that simulates the evolution of a bacterial population in repeated exponential growth and serial dilution cycles. A version of this code was used in _Handel and Rozen 2009 BMC Evo Bio_. Note that this uses the [lightspeed collection of Matlab functions](https://github.com/tminka/lightspeed).
 
-[Compensatory Mutations](/files/software/compensatorymutation.zip) - (sparsely documented) Matlab and Fortran programs to simulate the evolution and spread of drug resistance through compensatory mutations. Details about the mathematical model can be found in [Handel et al (2006) PLoS Comp Bio](/publication/2006-handel-pcb/).
+[Compensatory Mutations](/files/software/compensatorymutation.zip) - (sparsely documented) Matlab and Fortran programs to simulate the evolution and spread of drug resistance through compensatory mutations. Details about the mathematical model can be found in _Handel et al (2006) PLoS Comp Bio_.
 
 
 ### Teaching Resources

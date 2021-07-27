@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Immunology | Handel Research Group</title>
+    <title>immunology | Handel Research Group</title>
     <link>https://handelgroup.uga.edu/tag/immunology/</link>
       <atom:link href="https://handelgroup.uga.edu/tag/immunology/index.xml" rel="self" type="application/rss+xml" />
-    <description>Immunology</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Sat, 02 Feb 2019 00:00:00 -0500</lastBuildDate>
+    <description>immunology</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Sun, 17 Feb 2019 00:00:00 -0500</lastBuildDate>
     <image>
       <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
-      <title>Immunology</title>
+      <title>immunology</title>
       <link>https://handelgroup.uga.edu/tag/immunology/</link>
     </image>
     
     <item>
-      <title>Immunology Research</title>
-      <link>https://handelgroup.uga.edu/allprojects/immunology/</link>
-      <pubDate>Sat, 02 Feb 2019 00:00:00 -0500</pubDate>
-      <guid>https://handelgroup.uga.edu/allprojects/immunology/</guid>
-      <description>&lt;p&gt;Understanding the dynamical interactions between pathogens and the immune system will help us to further improve our ability to create novel vaccines and treatment strategies. In collaboration with several experimental groups at Emory, St. Jude and elsewhere, we study different aspects of pathogen - immune response interactions. Our focus is on viral infections and CD8 T-cell responses against those viruses.&lt;/p&gt;
+      <title>Modeling and analysis of influenza immune responses</title>
+      <link>https://handelgroup.uga.edu/allprojects/influenzaimmunity/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/influenzaimmunity/</guid>
+      <description>&lt;p&gt;We want to understand what mechanisms lead to good induction of memory immune responses following vaccination, and what mechanisms influence the severity of infections. To that end, we combine statistical and mechanistic models with data. We work on several projects in this area, some are part of the the &lt;a href=&#34;https://www.niaidcivics.org/center-for-influenza-vaccine-research-for-high-risk-populations-civr-hrp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Influenza Vaccine Research for High-Risk Populations (CIVR-HRP)&lt;/a&gt;, others are part of the Center for Influenza Disease and Emergence Research (CIDER), a component of NIH&amp;rsquo;s &lt;a href=&#34;https://www.ceirr-network.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Centers of Excellence for Influenza Research and Response (CEIRR)&lt;/a&gt;, and some are part of the project &lt;a href=&#34;https://reporter.nih.gov/project-details/10204919&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dynamics and Evolution of Immune Responses to Influenza Viruses&lt;/a&gt; with colleague &lt;a href=&#34;http://www.biology.emory.edu/Antia/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rustom Antia as PI&lt;/a&gt; and other collaborators.&lt;/p&gt;
 </description>
     </item>
     

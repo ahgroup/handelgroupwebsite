@@ -5,7 +5,7 @@
     <link>https://handelgroup.uga.edu/allprojects/</link>
       <atom:link href="https://handelgroup.uga.edu/allprojects/index.xml" rel="self" type="application/rss+xml" />
     <description>Allprojects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Sat, 17 Apr 2021 00:00:00 -0400</lastBuildDate>
     <image>
       <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
       <title>Allprojects</title>
@@ -13,99 +13,38 @@
     </image>
     
     <item>
-      <title>COVID-19 tracker</title>
-      <link>https://handelgroup.uga.edu/allprojects/yact/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 -0500</pubDate>
-      <guid>https://handelgroup.uga.edu/allprojects/yact/</guid>
-      <description>&lt;p&gt;An R/Shiny app that visualizes COVID-19 cases, hospitalizations, deaths and tests for US states and counties, as well as countries around the world. 
-This app was created by &lt;a href=&#34;https://github.com/williamnorfolk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;William Norfolk&lt;/a&gt;, &lt;a href=&#34;https://rlrichards.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robbie Richards&lt;/a&gt; and &lt;a href=&#34;https://www.andreashandel.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andreas Handel.&lt;/a&gt; 
-&lt;a href=&#34;https://shiny.ovpr.uga.edu/yact/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the app here.&lt;/a&gt; The &lt;em&gt;About&lt;/em&gt; section of the app contains more information.&lt;/p&gt;
+      <title>SARS-CoV-2 vaccination modeling</title>
+      <link>https://handelgroup.uga.edu/allprojects/covidvaccines/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/covidvaccines/</guid>
+      <description>&lt;p&gt;Building on our &lt;a href=&#34;https://handelgroup.uga.edu/allprojects/norovirusvaccines/&#34;&gt;norovirus vaccine work&lt;/a&gt;, we are working with the same group of collaborators to better understand the impact of different SARS-CoV-2 vaccination strategies.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>modelbuilder - Building and analysis of compartmental mechanistic models without coding</title>
-      <link>https://handelgroup.uga.edu/allprojects/modelbuilder/</link>
-      <pubDate>Fri, 15 Mar 2019 00:00:00 -0400</pubDate>
-      <guid>https://handelgroup.uga.edu/allprojects/modelbuilder/</guid>
-      <description>&lt;p&gt;We are developing an R package that allows users to build and analyze compartmental, dynamical, mechanistic models (implemented as differential equations, discrete-time or stochastic), without the need to write computer code. Learn more about it &lt;a href=&#34;https://ahgroup.github.io/modelbuilder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on the package website&lt;/a&gt;.&lt;/p&gt;
+      <title>Designing better influenza vaccines</title>
+      <link>https://handelgroup.uga.edu/allprojects/influenzavaccines/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/influenzavaccines/</guid>
+      <description>&lt;p&gt;We are using modeling and analysis approaches to determine how to optimize vaccine formulation, with a focus on the impact of dose for future universal influenza vaccines. The work is part of the &lt;a href=&#34;https://www.niaidcivics.org/center-for-influenza-vaccine-research-for-high-risk-populations-civr-hrp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Influenza Vaccine Research for High-Risk Populations (CIVR-HRP)&lt;/a&gt;, which is a component of NIH&amp;rsquo;s &lt;a href=&#34;https://www.niaidcivics.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Collaborative Influenza Vaccine Innovation Centers (CIVICs) program&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>DSAIRM - Dynamical Systems Approach to Immune Response Modeling</title>
-      <link>https://handelgroup.uga.edu/allprojects/dsairm/</link>
-      <pubDate>Thu, 07 Mar 2019 00:00:00 -0500</pubDate>
-      <guid>https://handelgroup.uga.edu/allprojects/dsairm/</guid>
-      <description>&lt;p&gt;We developed an R package that provides immunologists and other bench scientists a user-friendly introduction to dynamical modeling of within-host infection, without the need to write computer code.  Learn more about it &lt;a href=&#34;https://ahgroup.github.io/DSAIRM/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on the package website&lt;/a&gt;.&lt;/p&gt;
+      <title>Model-guided vaccines for norovirus</title>
+      <link>https://handelgroup.uga.edu/allprojects/norovirusvaccines/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 -0500</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/norovirusvaccines/</guid>
+      <description>&lt;p&gt;We are working on better understanding aspects of norovirus within-host and epidemiological dynamics and potential control. We analyze and model data that can inform the development and deployment of future norovirus vaccines. This is part of an NIH funded project with collaborators &lt;a href=&#34;https://www.blopman.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ben Lopman&lt;/a&gt;, &lt;a href=&#34;https://scholarblogs.emory.edu/koellelab/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Katia Koelle&lt;/a&gt; and &lt;a href=&#34;https://www.sph.emory.edu/research/centers/leonlab/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Juan Leon&lt;/a&gt; at Emory, as well as colleagues from other universities, the CDC and Takeda.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>DSAIDE - Dynamical Systems Approach to Infectious Disease Epidemiology</title>
-      <link>https://handelgroup.uga.edu/allprojects/dsaide/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 -0500</pubDate>
-      <guid>https://handelgroup.uga.edu/allprojects/dsaide/</guid>
-      <description>&lt;p&gt;We developed an R package that teaches a modern, model-based approach to infectious disease epidemiolgy without the need to write computer code. Learn more about it &lt;a href=&#34;https://ahgroup.github.io/DSAIDE/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on the package website&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Influenza Research</title>
-      <link>https://handelgroup.uga.edu/allprojects/influenza/</link>
+      <title>Modeling and analysis of influenza immune responses</title>
+      <link>https://handelgroup.uga.edu/allprojects/influenzaimmunity/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 -0500</pubDate>
-      <guid>https://handelgroup.uga.edu/allprojects/influenza/</guid>
-      <description>&lt;p&gt;We are interested in the dynamics of influenza, both on the within-host level and the between-host level. On the within-host level, we try to gain a better and more quantitative understanding as to what drives the infection dynamics and leads to virus clearance. On the between-host levels, we study the spread and potential control of the virus. Current specific projects we work on are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Persistence of avian influenza in the environment&lt;/li&gt;
-&lt;li&gt;Adaptive immune responses to influenza&lt;/li&gt;
-&lt;li&gt;Dose-dependent influenza infection outcomes&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tuberculosis Research</title>
-      <link>https://handelgroup.uga.edu/allprojects/tuberculosis/</link>
-      <pubDate>Sat, 09 Feb 2019 00:00:00 -0500</pubDate>
-      <guid>https://handelgroup.uga.edu/allprojects/tuberculosis/</guid>
-      <description>&lt;p&gt;In collaboration with our departmental colleague Chris Whalen and others, we use a combination of mathematical models and data to better understand the spread of and potential interventions against tuberculosis, with a focus on African settings.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Multi-scale Research</title>
-      <link>https://handelgroup.uga.edu/allprojects/multiscale/</link>
-      <pubDate>Thu, 07 Feb 2019 00:00:00 -0500</pubDate>
-      <guid>https://handelgroup.uga.edu/allprojects/multiscale/</guid>
-      <description>&lt;p&gt;In collaboration with Pej Rohani, as well as other colleagues at UGA and beyond, we are exploring the dynamics of avian influenza virus on the within-host and population-level scale simultaneously.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Norovirus Research</title>
-      <link>https://handelgroup.uga.edu/allprojects/norovirus/</link>
-      <pubDate>Thu, 07 Feb 2019 00:00:00 -0500</pubDate>
-      <guid>https://handelgroup.uga.edu/allprojects/norovirus/</guid>
-      <description>&lt;p&gt;Together with collaborators at Emory and elsewhere, we are working on better understanding aspects of norovirus within-host and epidemiological dynamics and potential control. Currently, we are collaborating with Ben Lopman, Katia Koelle and Juan Leon at Emory, as well as colleagues from other universities, the CDC and Takeda, to analyze and model data that can inform the development and deployment of a future norovirus vaccine.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Vaccine related research</title>
-      <link>https://handelgroup.uga.edu/allprojects/vaccines/</link>
-      <pubDate>Thu, 07 Feb 2019 00:00:00 -0500</pubDate>
-      <guid>https://handelgroup.uga.edu/allprojects/vaccines/</guid>
-      <description>&lt;p&gt;We are using modeling and analysis approaches to determine how to optimize vaccine formulation, with a focus on the impact of dose.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Immunology Research</title>
-      <link>https://handelgroup.uga.edu/allprojects/immunology/</link>
-      <pubDate>Sat, 02 Feb 2019 00:00:00 -0500</pubDate>
-      <guid>https://handelgroup.uga.edu/allprojects/immunology/</guid>
-      <description>&lt;p&gt;Understanding the dynamical interactions between pathogens and the immune system will help us to further improve our ability to create novel vaccines and treatment strategies. In collaboration with several experimental groups at Emory, St. Jude and elsewhere, we study different aspects of pathogen - immune response interactions. Our focus is on viral infections and CD8 T-cell responses against those viruses.&lt;/p&gt;
+      <guid>https://handelgroup.uga.edu/allprojects/influenzaimmunity/</guid>
+      <description>&lt;p&gt;We want to understand what mechanisms lead to good induction of memory immune responses following vaccination, and what mechanisms influence the severity of infections. To that end, we combine statistical and mechanistic models with data. We work on several projects in this area, some are part of the the &lt;a href=&#34;https://www.niaidcivics.org/center-for-influenza-vaccine-research-for-high-risk-populations-civr-hrp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Influenza Vaccine Research for High-Risk Populations (CIVR-HRP)&lt;/a&gt;, others are part of the Center for Influenza Disease and Emergence Research (CIDER), a component of NIH&amp;rsquo;s &lt;a href=&#34;https://www.ceirr-network.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Centers of Excellence for Influenza Research and Response (CEIRR)&lt;/a&gt;, and some are part of the project &lt;a href=&#34;https://reporter.nih.gov/project-details/10204919&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dynamics and Evolution of Immune Responses to Influenza Viruses&lt;/a&gt; with colleague &lt;a href=&#34;http://www.biology.emory.edu/Antia/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rustom Antia as PI&lt;/a&gt; and other collaborators.&lt;/p&gt;
 </description>
     </item>
     

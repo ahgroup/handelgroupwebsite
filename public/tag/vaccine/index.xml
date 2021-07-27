@@ -5,7 +5,7 @@
     <link>https://handelgroup.uga.edu/tag/vaccine/</link>
       <atom:link href="https://handelgroup.uga.edu/tag/vaccine/index.xml" rel="self" type="application/rss+xml" />
     <description>Vaccine</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Sun, 17 Feb 2019 00:00:00 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Sat, 17 Apr 2021 00:00:00 -0400</lastBuildDate>
     <image>
       <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
       <title>Vaccine</title>
@@ -13,25 +13,11 @@
     </image>
     
     <item>
-      <title>Influenza Research</title>
-      <link>https://handelgroup.uga.edu/allprojects/influenza/</link>
-      <pubDate>Sun, 17 Feb 2019 00:00:00 -0500</pubDate>
-      <guid>https://handelgroup.uga.edu/allprojects/influenza/</guid>
-      <description>&lt;p&gt;We are interested in the dynamics of influenza, both on the within-host level and the between-host level. On the within-host level, we try to gain a better and more quantitative understanding as to what drives the infection dynamics and leads to virus clearance. On the between-host levels, we study the spread and potential control of the virus. Current specific projects we work on are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Persistence of avian influenza in the environment&lt;/li&gt;
-&lt;li&gt;Adaptive immune responses to influenza&lt;/li&gt;
-&lt;li&gt;Dose-dependent influenza infection outcomes&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Norovirus Research</title>
-      <link>https://handelgroup.uga.edu/allprojects/norovirus/</link>
-      <pubDate>Thu, 07 Feb 2019 00:00:00 -0500</pubDate>
-      <guid>https://handelgroup.uga.edu/allprojects/norovirus/</guid>
-      <description>&lt;p&gt;Together with collaborators at Emory and elsewhere, we are working on better understanding aspects of norovirus within-host and epidemiological dynamics and potential control. Currently, we are collaborating with Ben Lopman, Katia Koelle and Juan Leon at Emory, as well as colleagues from other universities, the CDC and Takeda, to analyze and model data that can inform the development and deployment of a future norovirus vaccine.&lt;/p&gt;
+      <title>SARS-CoV-2 vaccination modeling</title>
+      <link>https://handelgroup.uga.edu/allprojects/covidvaccines/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 -0400</pubDate>
+      <guid>https://handelgroup.uga.edu/allprojects/covidvaccines/</guid>
+      <description>&lt;p&gt;Building on our &lt;a href=&#34;https://handelgroup.uga.edu/allprojects/norovirusvaccines/&#34;&gt;norovirus vaccine work&lt;/a&gt;, we are working with the same group of collaborators to better understand the impact of different SARS-CoV-2 vaccination strategies.&lt;/p&gt;
 </description>
     </item>
     

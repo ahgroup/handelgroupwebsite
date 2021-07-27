@@ -67,7 +67,7 @@ social:
   link: http://orcid.org/0000-0002-4622-1146
 - icon: envelope
   icon_pack: fas
-  link: "ahandel@uga.edu"  
+  link: "mailto:ahandel@uga.edu"  
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
@@ -80,9 +80,9 @@ user_groups:
 ---
 
 
-I am a Professor and Associate Department Head in the [Department of Epidemiology and Biostatistics](http://www.publichealth.uga.edu/epibio/),
+I am Professor and Associate Department Head in the [Department of Epidemiology and Biostatistics](http://www.publichealth.uga.edu/epibio/),
 [College of Public Health](http://www.publichealth.uga.edu/), at the [University of Georgia (UGA)](http://www.uga.edu/). 
 
-My research focuses on data analysis and modeling to study the spread and control of infectious diseases, mainly influenza, tuberculosis and norovirus. More recently I worked on several SARS-CoV-2 related projects. You can learn more about this research, including links to scientific publications, on this web site. Somewhat overlapping information on other activities (teaching, presentations, blog posts, etc.) can be found [on my personal website](https://www.andreashandel.com/). 
+My research focuses on data analysis and modeling to study the spread and control of infectious diseases, mainly influenza, tuberculosis and norovirus. More recently I also worked on several SARS-CoV-2 projects. You can learn more about this research and our research group on this web site. Somewhat overlapping information on other activities (teaching, presentations, blog posts, etc.), as well as some more information about myself, [are on my personal website](https://www.andreashandel.com/). 
 
 

@@ -51,7 +51,7 @@ Welcome to the Handel Research Group website.
 
 We are located in the [Department of Epidemiology and Biostatistics](http://www.publichealth.uga.edu/epibio/) within the [College of Public Health](http://www.publichealth.uga.edu/) at the [University of Georgia](https://www.uga.edu/).
 
-In our group, we study the spread and control of infectious diseases, mainly influenza, tuberculosis and norovirus. We use mathematical models, computational simulations and statistical analysis to understand the dynamics of pathogens on different spatial and temporal scales.
+In our group, we study the spread and control of infectious diseases. We use mathematical models, computational simulations and statistical analysis to understand the dynamics of pathogens on different spatial and temporal scales.
 
 One part of our research deals with the spread of disease inside an infected **individual**. These **within-host studies** involve modeling pathogen and immune response, and sometimes drugs, to understand what determines disease severity and infectiousness.
 
