@@ -23,8 +23,9 @@ date = 2021-07-21
  # css_class = ""
 +++
 
-I used to list all our publications here, with the ability to filter by topic. It was nice, but it was very tedious to maintain, Hugo/Wowchemy kept breaking things all the time. So I finally gave up. Now, instead of trying to manage my publications on this website, I'm just pointing you to my (fairly well maintained) publication entries at [NCBI/NIH My Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/1lO-aqCZWgr5F/bibliography/public/) or [Google Scholar](https://scholar.google.com/citations?user=bruHK0YAAAAJ&hl=en).
+All our group publications used to be listed here, with the ability to filter by topic, and the ability to download the citation information and the pdfs for each paper. It was nice, but it was tedious to maintain. Things kept breaking and requiring a lot of manual, time-consuming intervention. So I finally gave up. Now, instead of trying to manage publications on this website, I'm just pointing to my (fairly well maintained) publication entries at [NCBI/NIH My Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/1lO-aqCZWgr5F/bibliography/public/) or [Google Scholar](https://scholar.google.com/citations?user=bruHK0YAAAAJ&hl=en).
 
-I also used to have the pdfs of all my papers here. This doesn't work anymore with the new setup. **But if for any reason there is a paper you want to get and can't, contact me and I'd be happy to send you the pdf.**
+Of course, those only show papers where I (Andreas) am a co-author. There are some papers that [members of our group](/people/) co-authored on which I am not listed. To find those, go to that group member's website.
 
-Also, there are some papers that [members of our group](/people/) co-authored on which I am not listed. To find those, go to that group member's website.
+I believe that tax-payer funded research findings should be publicly available and not behind a pay-wall. One nice feature about listing all papers here was that I could provide pdfs to all of them. With the new setup, this doesn't work anymore. You should be able to get pdfs of either the final paper or the draft through the [NCBI/NIH My Bibliography link](https://www.ncbi.nlm.nih.gov/myncbi/1lO-aqCZWgr5F/bibliography/public/). **If for any reason you can't get the final published paper and want it, please contact me and I'd be happy to send you the pdf.**
+

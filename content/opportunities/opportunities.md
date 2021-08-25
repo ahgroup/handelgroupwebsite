@@ -74,8 +74,6 @@ Sometimes I have funding for students and postdocs, sometimes I don't. In either
 
 [Graduate Women in Science Fellowships Program](http://www.gwis.org/?page=fellowship_program) (relatively small awards)
 
-[NSF Graduate Research Fellowship Program](http://www.nsfgrfp.org/) (US citizens/residents, need to be early in PhD program)
-
 [NSF Doctoral Dissertation Improvement Grants](http://www.nsf.gov/pubs/2008/nsf08564/nsf08564.htm)
 
 [Hertz Foundation](http://www.hertzfoundation.org/)
