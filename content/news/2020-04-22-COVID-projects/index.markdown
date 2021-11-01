@@ -24,4 +24,4 @@ One project is our visualization of COVID-19 cases/deaths. [This shiny app is he
 
 Lastly, a few projects exist as pre-prints. One analyzes [mass screening and testing interventions](https://doi.org/10.1101/2020.02.20.20025973) another looks at [reduction of mortality if containment is not possible](https://doi.org/10.1101/2020.03.13.20034892), [this one analyzes multiple likely airborne transmissions on a bus](https://dx.doi.org/10.1001/jamainternmed.2020.5225) and [this one looks at several transmission events during casual contact](https://dx.doi.org/10.1093/ofid/ofaa231).
 
-Dr. Handel also described most of these projects in a recent presentation at GA Southern, [here are the slides from this talk.](https://www.andreashandel.com/talk/2020-04-gasouthern-covid/)
+Dr. Handel also described most of these projects in a recent presentation at GA Southern, [here are the slides from this talk.](https://www.andreashandel.com/presentations/2020-04-gasouthern-covid/)

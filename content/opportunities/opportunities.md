@@ -25,7 +25,8 @@ We use mathematical, statistical and computational methods to analyze and model 
 
 Any of our projects need analytical and computational skills. Most projects require some level of computer programming, mostly done in the R language. For any project, a willingness to learn both the analytical/computational tools and the details of the biological system are crucial.
 
-I usually have ideas for projects, and I'm also open to any new ideas, as long as they fall broadly into the area of infectious disease modeling and analysis on either the population level or the level of the individual infected host.
+As an example, check out [this paper from our group](https://royalsocietypublishing.org/doi/10.1098/rspb.2020.0496) and [the supplementary material, which contains all analysis code](https://datadryad.org/stash/dataset/doi:10.5061/dryad.51c59zw4v). If you explore the supplementary material and look at the code, you should get a good idea of the kind of projects we work on in our group.
+
 
 
 ### Opportunities for Postdocs
@@ -41,17 +42,12 @@ or anywhere else at UGA and beyond.
 ### Opportunities for Graduate Students
 
 If you are a current UGA student and interested in our research, contact me and we can discuss if there are ways you can get involved. Also check out 
-opportunities for external funding described below. And if you want to write a proposal with me as mentor, please contact 
-me and we can discuss possible projects. 
-
-If you are not currently a UGA student, you can reach out but you would need to apply to and be admitted by our program in order to formally do research (and receive financial support) in our group.
+opportunities for external funding described below. And if you want to write a proposal with me as mentor, please contact me and we can discuss possible projects. If you are not currently a UGA student, you would need to apply to and be admitted by our program in order to join our research group.
 
 
 ### Opportunities for Undergraduate Students
 
-I often have projects that might be suitable for undergraduate students. You will either need to know or be willing 
-to learn programming in R and some statistics or differential equation modeling. Most of the undergraduate students who have worked with me for at least a year ended up as co-authors on one or several publications. If you are interested in doing some infectious 
-disease research, contact me.
+I sometimes have projects that might be suitable for undergraduate students. You will either need to know or be willing to learn programming in R and some statistics or differential equation modeling. If you are interested in doing some infectious disease research, take a look at some of our recent projects (e.g., the one linked to above) and if you like what you see, contact me.
 
 
 ### External funding Opportunities
@@ -59,9 +55,32 @@ disease research, contact me.
 Sometimes I have funding for students and postdocs, sometimes I don't. In either case, it is very useful for you to apply for your own funding. Getting a grant or fellowship looks very good on your CV. It also gives you more flexibility and security. Below is a list of external funding sources for students and postdocs. Entries are listed in no particular order. This list is by no means complete, and I'm not updating it too often. If you know of any good sources I omitted, or if you find outdated information, please let me know.
 
 
+_I try to keep the links below updated, if you find any information is not current anymore, please let me know._
+
+
+#### General Funding Resources
+
+_These funding opportunities apply to individuals at different stages of their careers (students/postdocs)._
+
+[NIH Training Awards (F31, F32, etc.)](http://grants.nih.gov/training/nrsa.htm) (most are US citizens/residents only)
+
+[ORISE - Funding to perform research at the CDC](https://orise.orau.gov/cdc/default.html)
+
+[Association of Schools of Public Health - various funding opportunities](http://www.aspph.org/study/#fellowships-and-internships)
+
+[Ford Foundation Fellowships](http://sites.nationalacademies.org/PGA/FordFellowships/index.htm)
+
+[Big list of links hosted by UC Berkeley](http://grad.berkeley.edu/financial/fellowships_resources.shtml)
+
+[U Penn fellowship list](https://www.curf.upenn.edu/find-fellowships/non-us-fellowships) - a list focusing on fellowships that don't require U.S. citizenship.
+
+[ProFellow](https://www.profellow.com/) - a website that has a database with various funding resources.
+
+
 #### Undergraduate Funding
 
 [UGA's Center for Undergraduate Research Opportunities](https://curo.uga.edu/)
+
 
 
 #### Graduate Funding
@@ -78,16 +97,13 @@ Sometimes I have funding for students and postdocs, sometimes I don't. In either
 
 [Hertz Foundation](http://www.hertzfoundation.org/)
 
-[NSF Information for Postdoctoral Fellows](http://www.nsf.gov/funding/education.jsp?fund_type=3)
-
 [Department of Energy Computational Science Graduate Fellowship](http://www.krellinst.org/csgf/) (US citizens/residents)
 
-[Big list of links hosted by UC Berkeley](http://grad.berkeley.edu/financial/fellowships_resources.shtml)
 
 
 #### Postdoctoral Funding
 
-[NSF Postdoctoral Research Fellowships in Biology](http://www.nsf.gov/pubs/2009/nsf09573/nsf09573.htm) (US citizens/residents)
+[NSF Information for Postdoctoral Fellows](http://www.nsf.gov/funding/education.jsp?fund_type=3)
 
 [Helen Hay Whitney Foundation Research Fellowships](http://www.hhwf.org/)
 
@@ -100,15 +116,6 @@ Sometimes I have funding for students and postdocs, sometimes I don't. In either
 [A long list of opportunities listed hosted by UC Berkeley](http://www.spo.berkeley.edu/fund/biopostdoc.html)
 
 
-#### Student and Postdoctoral Funding Opportunities
-
-[NIH Training Awards (F31, F32, etc.)](http://grants.nih.gov/training/nrsa.htm) (most are US citizens/residents only)
-
-[ORISE - Funding to perform research at the CDC](https://orise.orau.gov/cdc/default.html)
-
-[Association of Schools of Public Health - various funding opportunities](http://www.aspph.org/study/#fellowships-and-internships)
-
-[Ford Foundation Fellowships](http://sites.nationalacademies.org/PGA/FordFellowships/index.htm)
 
 
 
