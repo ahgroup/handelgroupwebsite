@@ -1,4 +1,5 @@
 # Log of changes
+* 8/2021 - removed publication section
 * 7/23/2021 - complete rebuild of website with current wowchemy theme
 * 1/27/2021: switched to wowchemy
 * 4/29/2020: tried to change to academic 4.8, broke publication author order, switched back to 4.7. Uploaded latest site to serve.
