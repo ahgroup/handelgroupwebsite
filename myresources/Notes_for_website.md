@@ -80,13 +80,12 @@ See also here for (new?) tool:
 https://github.com/wowchemy/hugo-academic-cli
 
 # To build site
-run blogdown::build_site()
-run blogdown::serve_site() for live preview
+blogdown::build_site(build_rmd = 'timestamp')
+blogdown::check_site()
+blogdown::serve_site() 
 
 # To deploy site
-1. Connect to UGA VPN
-2. Mount network drive to \\128.192.39.205\ahgroup, connect with myid\ahandel
-3. Copy everything in public/ to the main directory on the server
+See the Google doc with instructions
 
  
 

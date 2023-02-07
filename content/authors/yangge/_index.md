@@ -15,7 +15,7 @@ role: PhD Student
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Current Members
+- Former Members
 
 social:
 - icon: globe
@@ -31,5 +31,5 @@ social:
 ---
 
 
-* Time in group: 2018 - present
+* Time in group: 2018 - 2022
 * Research Projects: Role of inoculum dose for Influenza and Norovirus infections and vaccines

@@ -5,12 +5,23 @@
     <link>https://handelgroup.uga.edu/category/publications/</link>
       <atom:link href="https://handelgroup.uga.edu/category/publications/index.xml" rel="self" type="application/rss+xml" />
     <description>publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2021 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2023 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Fri, 29 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
       <title>publications</title>
       <link>https://handelgroup.uga.edu/category/publications/</link>
     </image>
+    
+    <item>
+      <title>Group Updates Summer 2022</title>
+      <link>https://handelgroup.uga.edu/news/updates-summer-2022/</link>
+      <pubDate>Fri, 29 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://handelgroup.uga.edu/news/updates-summer-2022/</guid>
+      <description>&lt;p&gt;We had another great REU student join us this summer, &lt;a href=&#34;https://handelgroup.uga.edu/author/annika-cleven/&#34;&gt;Annika Cleven&lt;/a&gt;. Together with Zane, she continued work on a project that &lt;a href=&#34;https://handelgroup.uga.edu/author/jacqueline-dworaczyk/&#34;&gt;Jacqueline&lt;/a&gt; started in the prior year. The paper should be done soon.&lt;/p&gt;
+&lt;p&gt;We also published a few more papers this year, links with locations where you ca find the papers are in the &lt;a href=&#34;https://handelgroup.uga.edu/publications/&#34;&gt;publications&lt;/a&gt; section of the website.&lt;/p&gt;
+&lt;p&gt;And again, this time for year number 14, Dr. Handel, together with his colleague &lt;a href=&#34;https://www.stjude.org/directory/t/paul-thomas.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paul Thomas&lt;/a&gt;, taught within-host modeling and immunology at &lt;a href=&#34;https://andreashandel.github.io/SISMID2022/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SISMID 2022&lt;/a&gt;. This was another online year, and  all materials used in and produced for this workshop can be found on our &lt;a href=&#34;https://andreashandel.github.io/SMIcourse/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Simulation Modeling and Immunology website&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Group Updates Summer 2021</title>

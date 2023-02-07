@@ -31,12 +31,8 @@ As an example, check out [this paper from our group](https://royalsocietypublish
 
 ### Opportunities for Postdocs
 
-I am currently not actively recruiting. But I am always interested to hear from qualified candidates. Positions often 
-come available without much warning. So if you are close to finishing your PhD and you are interested in the work we 
-do, don't hesitate to contact me. Also contact me if you are interested in joining the group and you can bring our 
-own funding, or you want to develop a proposal for funding based on possible work in our group. Finally, I am open to 
-joint Postdoc arrangements between my group and others, for instance colleagues from [CEID](http://ceid.uga.edu/) 
-or anywhere else at UGA and beyond.
+I might have funding available, though I don't have an official position posted. But I am always interested to hear from qualified candidates. Reach out, and if I think you might be a good fit, I'll get back to you and we can talk. Also reach out if you are interested in joining the group and you have your own funding, or you want to develop a proposal for funding based on possible work in our group. Finally, I am open to 
+joint Postdoc arrangements between my group and others, for instance colleagues from [CEID](http://ceid.uga.edu/) or anywhere else at UGA and beyond.
 
 
 ### Opportunities for Graduate Students

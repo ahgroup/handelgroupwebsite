@@ -1,0 +1,26 @@
+---
+title: Group Updates Summer 2022
+author: Andreas Handel
+date: '2022-07-29'
+slug: updates-summer-2022
+categories:
+  - publications
+tags: []
+summary: ''
+draft: false
+featured: no
+disable_jquery: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+We had another great REU student join us this summer, [Annika Cleven](/author/annika-cleven/). Together with Zane, she continued work on a project that [Jacqueline](/author/jacqueline-dworaczyk/) started in the prior year. The paper should be done soon.
+
+We also published a few more papers this year, links with locations where you ca find the papers are in the [publications](/publications/) section of the website. 
+
+And again, this time for year number 14, Dr. Handel, together with his colleague [Paul Thomas](https://www.stjude.org/directory/t/paul-thomas.html), taught within-host modeling and immunology at [SISMID 2022](https://andreashandel.github.io/SISMID2022/). This was another online year, and  all materials used in and produced for this workshop can be found on our [Simulation Modeling and Immunology website](https://andreashandel.github.io/SMIcourse/).
+

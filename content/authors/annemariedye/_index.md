@@ -15,9 +15,9 @@ role: Undergraduate Researcher
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Current Members
+- Former Members
 
 ---
 
-* Time in group: 2021 - present
+* Time in group: 2021 - 2022
 * Research projects: Norovirus infection studies

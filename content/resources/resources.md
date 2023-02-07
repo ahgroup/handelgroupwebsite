@@ -65,7 +65,7 @@ them independently from any of my courses.
 
 #### Online Course Materials
 
-[__Modern Applied Data Analysis (MADA)__]((https://andreashandel.github.io/MADAcourse/) is a course I regularly teach online. All course materials are available online and can be used by anyone for self-learning. 
+[__Modern Applied Data Analysis (MADA)__](https://andreashandel.github.io/MADAcourse/) is a course I regularly teach online. All course materials are available online and can be used by anyone for self-learning. 
 
 [__Simulation Modeling in Immunology (SMI)__](https://andreashandel.github.io/SMIcourse/) is a website with course materials covering within-host modeling and immunology. It is, among other things, used as part of an an annual workshop that I co-teach with my colleague Paul Thomas. 
 
