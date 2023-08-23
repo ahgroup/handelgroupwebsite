@@ -3,15 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://handelgroup.uga.edu/categories/</loc>
-    <lastmod>2022-07-29T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://handelgroup.uga.edu/news/updates-summer-2022/</loc>
-    <lastmod>2022-07-29T00:00:00+00:00</lastmod>
+    <loc>https://handelgroup.uga.edu/news/updates-summer-2023/</loc>
+    <lastmod>2023-08-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://handelgroup.uga.edu/</loc>
-    <lastmod>2022-07-29T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://handelgroup.uga.edu/category/news/</loc>
+    <lastmod>2023-08-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://handelgroup.uga.edu/news/</loc>
+    <lastmod>2023-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://handelgroup.uga.edu/news/updates-summer-2022/</loc>
     <lastmod>2022-07-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://handelgroup.uga.edu/category/publications/</loc>
@@ -20,37 +26,28 @@
     <loc>https://handelgroup.uga.edu/news/updates-spring-2022/</loc>
     <lastmod>2022-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://handelgroup.uga.edu/category/news/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://handelgroup.uga.edu/news/updates-summer-2021/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://handelgroup.uga.edu/allprojects/</loc>
-    <lastmod>2021-04-17T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>https://handelgroup.uga.edu/tag/influenza/</loc>
-    <lastmod>2021-04-17T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>https://handelgroup.uga.edu/tag/research/</loc>
-    <lastmod>2021-04-17T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>https://handelgroup.uga.edu/allprojects/covidvaccines/</loc>
-    <lastmod>2021-04-17T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>https://handelgroup.uga.edu/tags/</loc>
-    <lastmod>2021-04-17T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>https://handelgroup.uga.edu/tag/vaccine/</loc>
-    <lastmod>2021-04-17T00:00:00-04:00</lastmod>
+    <lastmod>2021-02-07T00:00:00-05:00</lastmod>
   </url><url>
     <loc>https://handelgroup.uga.edu/allprojects/influenzavaccines/</loc>
+    <lastmod>2021-02-07T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://handelgroup.uga.edu/tag/influenza/</loc>
     <lastmod>2021-02-07T00:00:00-05:00</lastmod>
   </url><url>
     <loc>https://handelgroup.uga.edu/allprojects/norovirusvaccines/</loc>
     <lastmod>2021-02-07T00:00:00-05:00</lastmod>
   </url><url>
     <loc>https://handelgroup.uga.edu/tag/norovirus/</loc>
+    <lastmod>2021-02-07T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://handelgroup.uga.edu/tag/research/</loc>
+    <lastmod>2021-02-07T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://handelgroup.uga.edu/tags/</loc>
     <lastmod>2021-02-07T00:00:00-05:00</lastmod>
   </url><url>
     <loc>https://handelgroup.uga.edu/tag/vaccines/</loc>
@@ -112,6 +109,8 @@
     <loc>https://handelgroup.uga.edu/authors/</loc>
   </url><url>
     <loc>https://handelgroup.uga.edu/author/brian-mckay/</loc>
+  </url><url>
+    <loc>https://handelgroup.uga.edu/author/hayley-hemme/</loc>
   </url><url>
     <loc>https://handelgroup.uga.edu/author/isaac-fung/</loc>
   </url><url>

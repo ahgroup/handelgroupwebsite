@@ -5,21 +5,12 @@
     <link>https://handelgroup.uga.edu/tag/research/</link>
       <atom:link href="https://handelgroup.uga.edu/tag/research/index.xml" rel="self" type="application/rss+xml" />
     <description>research</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2023 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Sat, 17 Apr 2021 00:00:00 -0400</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2023 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Sun, 07 Feb 2021 00:00:00 -0500</lastBuildDate>
     <image>
       <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
       <title>research</title>
       <link>https://handelgroup.uga.edu/tag/research/</link>
     </image>
-    
-    <item>
-      <title>SARS-CoV-2 vaccination modeling</title>
-      <link>https://handelgroup.uga.edu/allprojects/covidvaccines/</link>
-      <pubDate>Sat, 17 Apr 2021 00:00:00 -0400</pubDate>
-      <guid>https://handelgroup.uga.edu/allprojects/covidvaccines/</guid>
-      <description>&lt;p&gt;Building on our &lt;a href=&#34;https://handelgroup.uga.edu/allprojects/norovirusvaccines/&#34;&gt;norovirus vaccine work&lt;/a&gt;, we are working with the same group of collaborators to better understand the impact of different SARS-CoV-2 vaccination strategies.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Designing better influenza vaccines</title>

@@ -5,12 +5,23 @@
     <link>https://handelgroup.uga.edu/news/</link>
       <atom:link href="https://handelgroup.uga.edu/news/index.xml" rel="self" type="application/rss+xml" />
     <description>News from our group</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2023 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Fri, 29 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©  Andreas Handel 2023 - information on this site does not reflect opinions of the University of Georgia</copyright><lastBuildDate>Wed, 23 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://handelgroup.uga.edu/media/logo_hu5b753f44bbcc83398b978a15c08b2b08_90381_300x300_fit_lanczos_3.png</url>
       <title>News from our group</title>
       <link>https://handelgroup.uga.edu/news/</link>
     </image>
+    
+    <item>
+      <title>Group Updates Summer 2023</title>
+      <link>https://handelgroup.uga.edu/news/updates-summer-2023/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://handelgroup.uga.edu/news/updates-summer-2023/</guid>
+      <description>&lt;p&gt;Nobody from the group graduated last year, but &lt;a href=&#34;https://handelgroup.uga.edu/author/hayley-hemme/&#34;&gt;Hayley Hemme&lt;/a&gt; joined our group as a new PhD student!&lt;/p&gt;
+&lt;p&gt;As usual, we kept publishing a few papers, which you can learn more about in the &lt;a href=&#34;https://handelgroup.uga.edu/publications/&#34;&gt;publications&lt;/a&gt; section of the website.&lt;/p&gt;
+&lt;p&gt;And again, this time for year number 15, Dr. Handel, together with his colleague &lt;a href=&#34;https://www.stjude.org/directory/t/paul-thomas.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paul Thomas&lt;/a&gt;, taught within-host modeling and immunology at &lt;a href=&#34;https://andreashandel.github.io/SISMID2023/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SISMID 2023&lt;/a&gt;. After 3 years online, this one was in person in Seattle (likely for the last time at this location). We didn&amp;rsquo;t record the presentations, but slides and other materials are on the link just mentioned, or can be reached from there.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Group Updates Summer 2022</title>

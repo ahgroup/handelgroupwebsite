@@ -62,6 +62,11 @@ them independently from any of my courses.
 
 [__modelbuilder__](https://ahgroup.github.io/modelbuilder/) - Our latest R package, still in development, that allows users to build their own compartmental simulation models and analyze them without having to write any code.
 
+[__flowdiagramr__](https://andreashandel.github.io/flowdiagramr/) - Is an - under development - R package that allows users to use R code to make hopefully nice flow diagrams.
+
+[__quizgrader__](https://andreashandel.github.io/quizgrader/) - Is an R package that can be used to deploy a grading app to a Shiny server and auto-grade student quizzes. I use it in my teaching since I don't like our university's LMS.
+
+
 
 #### Online Course Materials
 
