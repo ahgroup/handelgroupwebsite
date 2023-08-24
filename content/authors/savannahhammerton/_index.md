@@ -29,5 +29,5 @@ social:
 
 
 * Time in group: 2022-2022 as MS student, 2022 - present as PhD student
-* Research projects: Norovirus correlates of protection, Influenza vaccination and infection
+* Research projects: Norovirus and Influenza vaccines and correlates of protection
 
