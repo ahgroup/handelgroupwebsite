@@ -1,4 +1,5 @@
 # Log of changes
+* 8/2023 - minor updates
 * 8/2021 - removed publication section
 * 7/23/2021 - complete rebuild of website with current wowchemy theme
 * 1/27/2021: switched to wowchemy
@@ -6,6 +7,7 @@
 
 # To-do
 * good for now, keep updating somewhat regularly
+* at some point, switch it over to Quarto
 
 
 # Website structure
