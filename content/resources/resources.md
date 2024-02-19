@@ -39,7 +39,7 @@ You can get the publications from the publication section of this webpage. Some 
 
 [Avian flu](/files/software/AIVstudy.zip) - a collection of R scripts and accompanying data to do the various analyses described in _Handel et al. (2013) PLoS Comp Bio_.
 
-[resimmcode.m](/files/software/resimmcode.zip) - A short Matlab program that simulates the dynamics of bacteria and drugs during emergence of resistance. A version of this code was used in _Handel et al. (2009) JTB_.
+[resimmcode.m](/files/software/resimmcode.zip) - A short Matlab program that simulates the dynamics of bacteria and drugs during emergence of resistance. A version of this code was used in our paper [_Exploring the role of the immune response in preventing antibiotic resistance_](https://doi.org/10.1016/j.jtbi.2008.10.025).
 
 [Gapjunction ABM](/files/software/gapjunction.zip) - An agent-based simulation, written for the freely available [Netlogo platform](http://ccl.northwestern.edu/netlogo/). The code simulates gap junction mediated antigen transport during the local spread of virus and clearance by CTL. The simulation is described and used in 
 _Handel et al. 2009 JRSI_.
